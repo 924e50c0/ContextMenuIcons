@@ -149,9 +149,9 @@
 .menu_d90b3d .item_d90b3d::before {
   content: "";
   flex: 0 0 auto;
-  width: var(--si-size);
-  height: var(--si-size);
-  margin-right: calc(var(--si-size) / 1.5);
+  width: var(--size);
+  height: var(--size);
+  margin-right: calc(var(--size) / 1.5);
   background: currentColor;
   z-index: 2;
   mask: var(--si-default) center/contain no-repeat;
