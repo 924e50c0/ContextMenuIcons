@@ -51,6 +51,7 @@
   --si-markasread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mark_as_read.svg);
   --si-markasunread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mark_as_unread.svg);
   --si-mention: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mention.svg);
+  --si-move: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/move.svg);
   --si-modview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person.svg);
   --si-mutechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
   --si-mutemic: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic.svg);
@@ -437,7 +438,23 @@
   }
 
   & .item_d90b3d[id="user-context-user-volume"]::before {
-    mask: var(--si-mutemic) center/contain no-repeat;
+    mask: var(--si-mutechannel) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="user-context-user-volume"]:has(
+      .slider_e13f88[aria-valuenow="0"]
+    )::before {
+    mask: var(--si-unmutechannel) center/contain no-repeat !important;
+  }
+
+  &
+    div[role="group"]:has(
+      ~ div[role="group"]
+        .item_d90b3d[id="user-context-mute"][aria-checked="true"]
+    )
+    .item_d90b3d[id="user-context-user-volume"]::before {
+    mask: var(--si-unmutechannel) center/contain no-repeat;
   }
 
   & .item_d90b3d[id|="user-context-spotify-play"]::before {
@@ -502,6 +519,18 @@
   & .item_d90b3d[id="user-context-apps"]::before {
     mask: var(--si-apps) center/contain no-repeat;
   }
+  & .item_d90b3d[id="user-context-voice-mute"][aria-checked="false"]::before {
+    mask: var(--si-mutemic) center/contain no-repeat;
+  }
+  & .item_d90b3d[id="user-context-voice-deafen"][aria-checked="false"]::before {
+    mask: var(--si-deafen) center/contain no-repeat;
+  }
+  & .item_d90b3d[id="user-context-voice-mute"][aria-checked="true"]::before {
+    mask: var(--si-unmutemic) center/contain no-repeat;
+  }
+  & .item_d90b3d[id="user-context-voice-deafen"][aria-checked="true"]::before {
+    mask: var(--si-undeafen) center/contain no-repeat;
+  }
 
   & .item_d90b3d[id="user-context-invite-to-server"]::before {
     mask: var(--si-invitepeople) center/contain no-repeat;
@@ -537,6 +566,9 @@
 
   & .item_d90b3d[id="user-context-roles"]::before {
     mask: var(--si-permissions) center/contain no-repeat;
+  }
+  & .item_d90b3d[id="user-context-voice-move"]::before {
+    mask: var(--si-move) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-perm-viewer-permissions"]::before {
@@ -734,6 +766,12 @@
 
   & .item_d90b3d[id$="---1"]::before {
     mask: var(--si-forever) center/contain no-repeat;
+  }
+}
+
+.submenu_d90b3d[aria-activedescendant|="user-context-voice-move"] {
+  & .item_d90b3d[id|="user-context-voice-move"]::before {
+    mask: var(--si-mutechannel) center/contain no-repeat;
   }
 }
 
