@@ -2,9 +2,9 @@
 
 Adds icons to context menus for Vencord.
 
-| ![alt text](preview/user_actions.png) | ![alt text](preview/server_actions.png)    | ![alt text](preview/channel_actions.png)   | ![alt text](preview/message_actions.png)   |
-| --------------------------------------- | ---------------------------------------- | ------------------------------------------ | ------------------------------------------ |
-| User actions                            | Server actions                             | Channel actions                            | Message actions                            |
+| ![alt text](preview/user_actions.png) | ![alt text](preview/server_actions.png) | ![alt text](preview/channel_actions.png) | ![alt text](preview/message_actions.png) |
+| ------------------------------------- | --------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| User actions                          | Server actions                          | Channel actions                          | Message actions                          |
 
 ## Installation
 
