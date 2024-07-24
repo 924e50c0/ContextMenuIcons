@@ -2,9 +2,9 @@
 
 Adds icons to context menus for Vencord.
 
-| ![alt text](preview/server_actions.png) | ![alt text](preview/user_actions.png)    | ![alt text](preview/channel_actions.png)   |
-| --------------------------------------- | ---------------------------------------- | ------------------------------------------ |
-| Server actions                          | User actions                             | Channel actions                            |
+| ![alt text](preview/server_actions.png) | ![alt text](preview/user_actions.png)    | ![alt text](preview/channel_actions.png)   | ![alt text](preview/message_actions.png)   |
+| --------------------------------------- | ---------------------------------------- | ------------------------------------------ | ------------------------------------------ |
+| Server actions                          | User actions                             | Channel actions                            | Message actions                            |
 
 ## Installation
 
@@ -18,9 +18,9 @@ Adds icons to context menus for Vencord.
 
 - `Settings` > `Vencord` > `Themes` > `Local Themes` > `Open Themes Folder`
 
-3. Click `Load missing themes` and toggle on the theme card.
+3. Click `Load missing Themes` and toggle on the theme card.
 
 ### Online
 
-1. Paste the following link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
+1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
    `https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/ContextMenuIcons.theme.css`
