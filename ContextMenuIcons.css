@@ -1,62 +1,88 @@
 :root {
   --si-size: 18px;
-  --si-markasread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mark_as_read.svg);
-  --si-serverboost: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/boost.svg);
-  --si-invitepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/invite.svg);
-  --si-leave: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/leave_thread.svg);
-  --si-close: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/close_thread.svg);
-  --si-lock: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/lock_thread.svg);
-  --si-copy: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/copy.svg);
-  --si-openchat: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_chat.svg);
-  --si-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
-  --si-activethreads: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/thread.svg);
+  --si-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_friend.svg);
+  --si-addnickname: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_add.svg);
+  --si-addnote: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_note.svg);
+  --si-addreaction: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_reaction.svg);
+  --si-applynewguildsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/apply_new_guild_settings.svg);
+  --si-apps: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/apps.svg);
+  --si-ban: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/ban.svg);
+  --si-block: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/block.svg);
+  --si-call: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/call.svg);
+  --si-changenickname: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_edit.svg);
+  --si-clockmin: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_10.svg);
+  --si-clockmidmin: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_20.svg);
+  --si-clockmid: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_40.svg);
+  --si-clockmidmax: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_60.svg);
+  --si-clockmax: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_90.svg);
+  --si-close: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/close.svg);
+  --si-code: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/code.svg);
+  --si-codeoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/code_off.svg);
   --si-collapsecategories: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/collapse.svg);
   --si-collapseallcategories: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/collapse_all.svg);
-  --si-profile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/profile.svg);
-  --si-mention: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mention.svg);
-  --si-call: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/call.svg);
-  --si-addnote: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_note.svg);
-  --si-spotify: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spotify.svg);
-  --si-listenalong: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/listen_2.svg);
-  --si-mute: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
-  --si-unmute: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
-  --si-soundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound.svg);
-  --si-mutesoundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
-  --si-video: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/video.svg);
+  --si-copy: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/copy.svg);
+  --si-createcategory: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/new_category.svg);
+  --si-createchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_square.svg);
+  --si-createevent: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_event.svg);
+  --si-createserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_diamond.svg);
+  --si-createtextchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_text_channel.svg);
+  --si-createvoicechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_voice_channel.svg);
+  --si-deafen: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output.svg);
+  --si-deletechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/delete.svg);
   --si-disablevideo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/disable_video.svg);
-  --si-addnickname: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_add.svg);
-  --si-changenickname: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_edit.svg);
-  --si-apps: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/apps.svg);
-  --si-invitetoserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/invite.svg);
-  --si-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_friend.svg);
-  --si-removefriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/remove_friend.svg);
-  --si-block: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/block.svg);
-  --si-modview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/block.svg);
-  --si-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/block.svg);
-  --si-kick: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/block.svg);
-  --si-ban: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/ban.svg);
-  --si-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings.svg);
-  --si-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications.svg);
+  --si-duplicate: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add.svg);
+  --si-editchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit.svg);
+  --si-editprofile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_profile.svg);
+  --si-edittext: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_text.svg);
+  --si-eventoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_off.svg);
+  --si-favorite: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/favorite.svg);
+  --si-favorited: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/favorite_filled.svg);
+  --si-favoriteadd: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_plus.svg);
+  --si-favoriteremove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_broken.svg);
+  --si-forever: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/all_inclusive.svg);
+  --si-hidemutedchannels: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_muted_channels.svg);
+  --si-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
+  --si-invitepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_add_fix.svg);
+  --si-joinaserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/join.svg);
+  --si-kick: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_remove.svg);
+  --si-leave: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/leave.svg);
+  --si-listenalong: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/listen.svg);
+  --si-lock: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/lock.svg);
+  --si-markasread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mark_as_read.svg);
+  --si-markasunread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mark_as_unread.svg);
+  --si-mention: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mention.svg);
+  --si-modview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person.svg);
+  --si-mutechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
+  --si-mutemic: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic.svg);
+  --si-mutesoundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
   --si-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_all.svg);
+  --si-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications.svg);
+  --si-notificationsimportant: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_important.svg);
   --si-notificationsmentions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_at.svg);
   --si-notificationsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_off.svg);
-  --si-hidemutedchannels: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_muted_channels.svg);
-  --si-serversettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings.svg);
-  --si-privacysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/privacy.svg);
-  --si-editserverprofile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_profile.svg);
-  --si-applynewguildsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/apply_new_guild_settings.svg);
+  --si-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings.svg);
+  --si-openchat: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_chat.svg);
   --si-permissions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/permissions.svg);
+  --si-pinmessage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pin.svg);
+  --si-phone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/phone.svg);
+  --si-privacysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/privacy.svg);
+  --si-profile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/profile.svg);
+  --si-refresh: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/refresh.svg);
+  --si-removefriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/remove_friend.svg);
+  --si-reply: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reply.svg);
+  --si-report: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/report.svg);
+  --si-serverboost: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/boost.svg);
   --si-serverinfo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/info.svg);
-  --si-createchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add.svg);
-  --si-createcategory: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/new_category.svg);
-  --si-createevent: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_event.svg);
-  --si-joinaserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/join.svg);
-  --si-createaserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_diamond.svg);
-  --si-editchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit.svg);
-  --si-duplicatechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/duplicate.svg);
-  --si-createvoicechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_voice_channel.svg);
-  --si-createtextchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_text_channel.svg);
-  --si-deletechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/delete.svg);
+  --si-serversettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings.svg);
+  --si-soundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound.svg);
+  --si-spotify: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spotify.svg);
+  --si-texttospeech: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/text_to_speech.svg);
+  --si-thread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/thread.svg);
+  --si-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hourglass_disabled.svg);
+  --si-undeafen: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output_off.svg);
+  --si-unmutechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
+  --si-unmutemic: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic_off.svg);
+  --si-video: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/video.svg);
   --si-viewicon: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/icon.svg);
   --si-viewreviews: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reviews.svg);
 }
@@ -75,7 +101,9 @@
   .item_d90b3d:is(
     [id="message-add-reaction"],
     [id="user-context-apps"],
-    [id="user-context-invite-to-server"]
+    [id="user-context-invite-to-server"],
+    [id="user-context-roles"],
+    [id="message-apps"]
   )
   ~ .layer_cd0de5
   .item_d90b3d::before {
@@ -129,12 +157,36 @@
   mask: var(--si-default) center/contain no-repeat;
 }
 
+.menu_d90b3d[id="vc-toolbox"] {
+  & .item_d90b3d[id="vc-toolbox-vc-toolbox-notifications"]::before {
+    mask: var(--si-notificationsimportant) center/contain no-repeat !important;
+  }
+
+  &
+    .item_d90b3d[id="vc-toolbox-vc-toolbox-quickcss-toggle"][aria-checked="true"]::before {
+    mask: var(--si-code) center/contain no-repeat !important;
+  }
+
+  &
+    .item_d90b3d[id="vc-toolbox-vc-toolbox-quickcss-toggle"][aria-checked="false"]::before {
+    mask: var(--si-codeoff) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id="vc-toolbox-vc-toolbox-quickcss"]::before {
+    mask: var(--si-edittext) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id="vc-toolbox-vc-toolbox-BadgeAPI-Refetch Badges"]::before {
+    mask: var(--si-refresh) center/contain no-repeat !important;
+  }
+}
+
 .menu_d90b3d[aria-label="Server Actions"] {
   & .item_d90b3d[id$="read"]::before {
     mask: var(--si-markasread) center/contain no-repeat !important;
   }
 
-  & .item_d90b3d#guild-header-popout-premium-subscribe::before {
+  & .item_d90b3d[id="guild-header-popout-premium-subscribe"]::before {
     mask: var(--si-serverboost) center/contain no-repeat !important;
   }
 
@@ -143,15 +195,19 @@
   }
 
   & .item_d90b3d[id$="active-threads"]::before {
-    mask: var(--si-activethreads) center/contain no-repeat !important;
+    mask: var(--si-thread) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id$="application-directory"]::before {
+    mask: var(--si-apps) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id$="mute-guild"]::before {
-    mask: var(--si-mute) center/contain no-repeat !important;
+    mask: var(--si-mutechannel) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id$="unmute-guild"]::before {
-    mask: var(--si-unmute) center/contain no-repeat !important;
+    mask: var(--si-unmutechannel) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id$="notifications"]::before {
@@ -171,7 +227,7 @@
   }
 
   & .item_d90b3d[id$="change-nickname"]::before {
-    mask: var(--si-editserverprofile) center/contain no-repeat !important;
+    mask: var(--si-editprofile) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id$="vc-newguildsettings-apply"]::before {
@@ -219,72 +275,92 @@
   }
 
   & .item_d90b3d[id="guild-context-create"]::before {
-    mask: var(--si-createaserver) center/contain no-repeat;
+    mask: var(--si-createserver) center/contain no-repeat;
   }
 }
 
 .menu_d90b3d[aria-label="Channel Actions"] {
-  & .item_d90b3d#channel-context-mark-channel-read::before {
+  & .item_d90b3d[id="channel-context-mark-channel-read"]::before {
     mask: var(--si-markasread) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-invite-people::before {
+  & .item_d90b3d[id="channel-context-invite-people"]::before {
     mask: var(--si-invitepeople) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-channel-copy-link::before {
+  & .item_d90b3d[id="channel-context-channel-copy-link"]::before {
     mask: var(--si-copy) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-open-chat::before {
+  & .item_d90b3d[id="channel-context-open-chat"]::before {
     mask: var(--si-openchat) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-hide-voice-names::before {
+  & .item_d90b3d[id="channel-context-hide-voice-names"]::before {
     mask: var(--si-hidenames) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-collapse-category::before {
+  & .item_d90b3d[id="channel-context-collapse-category"]::before {
     mask: var(--si-collapsecategories) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-collapse-all-categories::before {
+  & .item_d90b3d[id="channel-context-collapse-all-categories"]::before {
     mask: var(--si-collapseallcategories) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-mute-channel::before {
-    mask: var(--si-mute) center/contain no-repeat;
+  & .item_d90b3d[id="channel-context-mute-channel"]::before {
+    mask: var(--si-mutechannel) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-unmute-channel::before {
-    mask: var(--si-unmute) center/contain no-repeat;
+  & .item_d90b3d[id="channel-context-unmute-channel"]::before {
+    mask: var(--si-unmutechannel) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-channel-notifications::before {
+  & .item_d90b3d[id="channel-context-channel-notifications"]::before {
     mask: var(--si-notificationsettings) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-perm-viewer-permissions::before {
+  & .item_d90b3d[id="channel-context-3"]::before {
+    mask: var(--si-notificationsdefault) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="channel-context-0"]::before {
+    mask: var(--si-notificationsall) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="channel-context-1"]::before {
+    mask: var(--si-notificationsmentions) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="channel-context-2"]::before {
+    mask: var(--si-notificationsoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="channel-context-perm-viewer-permissions"]::before {
     mask: var(--si-permissions) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-edit-channel::before {
+  & .item_d90b3d[id="channel-context-copy-channel-topic"]::before {
+    mask: var(--si-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="channel-context-edit-channel"]::before {
     mask: var(--si-editchannel) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-clone-channel::before {
-    mask: var(--si-duplicatechannel) center/contain no-repeat;
+  & .item_d90b3d[id="channel-context-clone-channel"]::before {
+    mask: var(--si-duplicate) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-create-text-channel::before {
+  & .item_d90b3d[id="channel-context-create-text-channel"]::before {
     mask: var(--si-createtextchannel) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-create-voice-channel::before {
+  & .item_d90b3d[id="channel-context-create-voice-channel"]::before {
     mask: var(--si-createvoicechannel) center/contain no-repeat;
   }
 
-  & .item_d90b3d#channel-context-delete-channel::before {
+  & .item_d90b3d[id="channel-context-delete-channel"]::before {
     mask: var(--si-deletechannel) center/contain no-repeat;
   }
 
@@ -294,39 +370,39 @@
 }
 
 .menu_d90b3d[aria-label="Thread Actions"] {
-  & .item_d90b3d#thread-context-mark-channel-read::before {
+  & .item_d90b3d[id="thread-context-mark-channel-read"]::before {
     mask: var(--si-markasread) center/contain no-repeat;
   }
 
-  & .item_d90b3d#thread-context-leave-thread::before {
+  & .item_d90b3d[id="thread-context-leave-thread"]::before {
     mask: var(--si-leave) center/contain no-repeat;
   }
 
-  & .item_d90b3d#thread-context-archive-thread::before {
+  & .item_d90b3d[id="thread-context-archive-thread"]::before {
     mask: var(--si-close) center/contain no-repeat;
   }
 
-  & .item_d90b3d#thread-context-lock-thread::before {
+  & .item_d90b3d[id="thread-context-lock-thread"]::before {
     mask: var(--si-lock) center/contain no-repeat;
   }
 
-  & .item_d90b3d#thread-context-edit-thread::before {
+  & .item_d90b3d[id="thread-context-edit-thread"]::before {
     mask: var(--si-editchannel) center/contain no-repeat;
   }
 
-  & .item_d90b3d#thread-context-channel-copy-link::before {
+  & .item_d90b3d[id="thread-context-channel-copy-link"]::before {
     mask: var(--si-copy) center/contain no-repeat;
   }
 
-  & .item_d90b3d#thread-context-mute-channel::before {
-    mask: var(--si-mute) center/contain no-repeat;
+  & .item_d90b3d[id="thread-context-mute-channel"]::before {
+    mask: var(--si-mutechannel) center/contain no-repeat;
   }
 
-  & .item_d90b3d#thread-context-thread-notifications::before {
+  & .item_d90b3d[id="thread-context-thread-notifications"]::before {
     mask: var(--si-notificationsettings) center/contain no-repeat;
   }
 
-  & .item_d90b3d#thread-context-delete-channel::before {
+  & .item_d90b3d[id="thread-context-delete-channel"]::before {
     mask: var(--si-deletechannel) center/contain no-repeat;
   }
 
@@ -343,107 +419,254 @@
   & .item_d90b3d[id="user-context-user-profile"]::before {
     mask: var(--si-profile) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-mention"]::before {
     mask: var(--si-mention) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-message-user"]::before {
     mask: var(--si-openchat) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-call"]::before {
     mask: var(--si-call) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-note"]::before {
     mask: var(--si-addnote) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-user-volume"]::before {
-    mask: var(--si-mute) center/contain no-repeat;
+    mask: var(--si-mutemic) center/contain no-repeat;
   }
+
   & .item_d90b3d[id|="user-context-spotify-play"]::before {
     mask: var(--si-spotify) center/contain no-repeat;
   }
+
   & .item_d90b3d[id|="user-context-spotify-sync"]::before {
     mask: var(--si-listenalong) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-mute"][aria-checked="true"]::before {
-    mask: var(--si-unmute) center/contain no-repeat;
+    mask: var(--si-unmutemic) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-mute"][aria-checked="false"]::before {
-    mask: var(--si-mute) center/contain no-repeat;
+    mask: var(--si-mutemic) center/contain no-repeat;
   }
+
+  & .item_d90b3d[id="user-context-deafen"][aria-checked="true"]::before {
+    mask: var(--si-undeafen) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-deafen"][aria-checked="false"]::before {
+    mask: var(--si-deafen) center/contain no-repeat;
+  }
+
   &
     .item_d90b3d[id="user-context-soundboard-sound-mute"][aria-checked="true"]::before {
     mask: var(--si-mutesoundboard) center/contain no-repeat;
   }
+
   &
     .item_d90b3d[id="user-context-soundboard-sound-mute"][aria-checked="false"]::before {
     mask: var(--si-soundboard) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-disable-video"][aria-checked="true"]::before {
     mask: var(--si-disablevideo) center/contain no-repeat;
   }
+
   &
     .item_d90b3d[id="user-context-disable-video"][aria-checked="false"]::before {
     mask: var(--si-video) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-add-friend-nickname"]::before {
     mask: var(--si-addnickname) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-edit-friend-nickname"]::before {
     mask: var(--si-changenickname) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-change-nickname"]::before {
     mask: var(--si-changenickname) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-close-dm"]::before {
     mask: var(--si-close) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-apps"]::before {
     mask: var(--si-apps) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-invite-to-server"]::before {
-    mask: var(--si-invitetoserver) center/contain no-repeat;
+    mask: var(--si-invitepeople) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-add-friend"]::before {
     mask: var(--si-addfriend) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-remove-friend"]::before {
     mask: var(--si-removefriend) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-block"]::before {
     mask: var(--si-block) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-mod-view"]::before {
     mask: var(--si-modview) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-timeout"]::before {
     mask: var(--si-timeout) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-kick"]::before {
     mask: var(--si-kick) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-ban"]::before {
     mask: var(--si-ban) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-roles"]::before {
     mask: var(--si-permissions) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-perm-viewer-permissions"]::before {
     mask: var(--si-permissions) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-mute-channel"]::before {
-    mask: var(--si-mute) center/contain no-repeat;
+    mask: var(--si-mutemic) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-unmute-channel"]::before {
-    mask: var(--si-unmute) center/contain no-repeat;
+    mask: var(--si-unmutemic) center/contain no-repeat;
   }
+
   & .item_d90b3d[id*="devmode-copy-id"]::before {
     mask: var(--si-copy) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-view-avatar"]::before {
     mask: var(--si-viewicon) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-vc-rdb-user-reviews"]::before {
     mask: var(--si-viewreviews) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[aria-label="Profile actions"] {
+  & .item_d90b3d[id="user-profile-overflow-menu-view-main-profile"]::before,
+  .item_d90b3d[id="user-profile-overflow-menu-view-server-profile"]::before,
+  .item_d90b3d[id="user-profile-overflow-menu-view-profile"]::before {
+    mask: var(--si-profile) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="edit-profile-popout-edit-server-profile"]::before,
+  .item_d90b3d[id="edit-profile-popout-edit-main-profile"]::before {
+    mask: var(--si-editprofile) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="user-profile-overflow-menu-invite-to-server"]::before {
+    mask: var(--si-invitepeople) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="user-profile-overflow-menu-block"]::before {
+    mask: var(--si-block) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="user-profile-overflow-menu-report-user"]::before {
+    mask: var(--si-report) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="user-profile-overflow-menu-devmode-copy-id"]::before {
+    mask: var(--si-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-profile-overflow-menu-vc-rdb-user-reviews"]::before {
+    mask: var(--si-viewreviews) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[aria-label="Message Actions"] {
+  & .item_d90b3d[id$="add-reaction"]::before {
+    mask: var(--si-addreaction) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-pin"]::before {
+    mask: var(--si-pinmessage) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-reply"]::before {
+    mask: var(--si-reply) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-thread"]::before {
+    mask: var(--si-thread) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-copy-text"]::before {
+    mask: var(--si-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-apps"]::before {
+    mask: var(--si-apps) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-mark-unread"]::before {
+    mask: var(--si-markasunread) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-copy-link"]::before {
+    mask: var(--si-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-tts"]::before {
+    mask: var(--si-texttospeech) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-delete"]::before {
+    mask: var(--si-deletechannel) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-report"]::before {
+    mask: var(--si-report) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="message-devmode-copy-id"]::before {
+    mask: var(--si-copy) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[aria-label="Expression Picker Actions"] {
+  & .item_d90b3d[id="expression-picker-favorite"]::before {
+    mask: var(--si-favoriteadd) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="expression-picker-unfavorite"]::before {
+    mask: var(--si-favorited) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="expression-picker-unfavorite"]:hover::before {
+    mask: var(--si-favoriteremove) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="expression-picker-copy"]::before,
+  .item_d90b3d[id|="expression-picker-devmode-copy-id"]::before {
+    mask: var(--si-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="expression-picker-emote-cloner"]::before {
+    mask: var(--si-duplicate) center/contain no-repeat;
   }
 }
 
@@ -452,21 +675,163 @@
     mask: var(--si-notificationsdefault) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id$="notifications--0"]::before {
-    mask: var(--si-notificationsall) center/contain no-repeat;
+  & .item_d90b3d[id$="notifications--0"]::before,
+  .item_d90b3d[id$="thread-notifications--2"]::before {
+    mask: var(--si-notificationsall) center/contain no-repeat !important;
   }
 
-  & .item_d90b3d[id$="notifications--1"]::before {
+  & .item_d90b3d[id$="notifications--1"]::before,
+  .item_d90b3d[id$="thread-notifications--4"]::before {
     mask: var(--si-notificationsmentions) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id$="notifications--2"]::before {
+  & .item_d90b3d[id$="notifications--2"]::before,
+  .item_d90b3d[id$="thread-notifications--8"]::before {
     mask: var(--si-notificationsoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="suppress-everyone"]::before {
+    mask: var(--si-notificationsoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="suppress-roles"]::before {
+    mask: var(--si-notificationsoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="suppress-highlights"]::before {
+    mask: var(--si-notificationsoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="mute-events"]::before {
+    mask: var(--si-eventoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="mobile-push"]::before {
+    mask: var(--si-phone) center/contain no-repeat;
+  }
+}
+
+.submenu_d90b3d[aria-activedescendant*="mute"] {
+  & .item_d90b3d[id$="--900"]::before {
+    mask: var(--si-clockmin) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--3600"]::before {
+    mask: var(--si-clockmidmin) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--10800"]::before {
+    mask: var(--si-clockmid) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--28800"]::before {
+    mask: var(--si-clockmidmax) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--86400"]::before {
+    mask: var(--si-clockmax) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="---1"]::before {
+    mask: var(--si-forever) center/contain no-repeat;
   }
 }
 
 .menu_d90b3d[aria-label="Actions"] {
   & .item_d90b3d[id|="guild-discovery-context-menu-devmode-copy-id"]::before {
     mask: var(--si-copy) center/contain no-repeat;
+  }
+}
+
+.submenu_d90b3d[aria-activedescendant|="guild-context-guild-settings"] {
+  /*https://github.com/MiniDiscordThemes/SettingsIcons*/
+  & .item_d90b3d[id$="OVERVIEW"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/overview.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--ROLES"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/roles.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--EMOJI"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/emoji.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--STICKERS"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/stickers.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--SOUNDBOARD"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/soundboard.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--WIDGET"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/widget.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--GUILD_TEMPLATES"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildtemplates.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--VANITY_URL"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vanityurl.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--INTEGRATIONS"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/integrations.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--APP_DIRECTORY"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/appdirectory.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--MODERATION"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/moderation.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--GUILD_AUTOMOD"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildautomod.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--AUDIT_LOG"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/auditlog.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--BANS"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/bans.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--COMMUNITY"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/community.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--GUILD_PREMIUM"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildpremium.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--MEMBERS"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/members.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--INSTANT_INVITES"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/instantinvites.svg)
+      center/contain no-repeat;
   }
 }
