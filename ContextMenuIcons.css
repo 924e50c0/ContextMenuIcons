@@ -1,6 +1,7 @@
 :root {
+  --cmi-size: 18px;
   --cmi-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_friend.svg);
-  --cmi-addnickname: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_add.svg);
+  --cmi-addlabel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_add.svg);
   --cmi-addnote: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_note.svg);
   --cmi-addreaction: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_reaction.svg);
   --cmi-applynewguildsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/apply_new_guild_settings.svg);
@@ -8,12 +9,11 @@
   --cmi-ban: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/ban.svg);
   --cmi-block: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/block.svg);
   --cmi-call: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/call.svg);
-  --cmi-changenickname: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_edit.svg);
-  --cmi-clockmin: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_10.svg);
-  --cmi-clockmidmin: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_20.svg);
-  --cmi-clockmid: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_40.svg);
-  --cmi-clockmidmax: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_60.svg);
-  --cmi-clockmax: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_90.svg);
+  --cmi-clock1: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_10.svg);
+  --cmi-clock2: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_20.svg);
+  --cmi-clock3: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_40.svg);
+  --cmi-clock4: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_60.svg);
+  --cmi-clock5: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_90.svg);
   --cmi-close: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/close.svg);
   --cmi-code: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/code.svg);
   --cmi-codeoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/code_off.svg);
@@ -26,12 +26,13 @@
   --cmi-createserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_diamond.svg);
   --cmi-createtextchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_text_channel.svg);
   --cmi-createvoicechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_voice_channel.svg);
-  --cmi-default: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/help.svg);
   --cmi-deafen: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output.svg);
-  --cmi-deletechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/delete.svg);
+  --cmi-default: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/help.svg);
+  --cmi-delete: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/delete.svg);
   --cmi-disablevideo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/disable_video.svg);
   --cmi-duplicate: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add.svg);
-  --cmi-editchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit.svg);
+  --cmi-edit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit.svg);
+  --cmi-editchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_box.svg);
   --cmi-editprofile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_profile.svg);
   --cmi-edittext: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_text.svg);
   --cmi-eventoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_off.svg);
@@ -40,11 +41,13 @@
   --cmi-favoriteadd: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_plus.svg);
   --cmi-favoriteremove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_broken.svg);
   --cmi-forever: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/all_inclusive.svg);
+  --cmi-hideimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_image.svg);
   --cmi-hidemutedchannels: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_muted_channels.svg);
   --cmi-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
-  --cmi-invitepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_add_fix.svg);
+  --cmi-invitepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_add.svg);
   --cmi-joinaserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/join.svg);
   --cmi-kick: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_remove.svg);
+  --cmi-labeledit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_edit.svg);
   --cmi-leave: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/leave.svg);
   --cmi-listenalong: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/listen.svg);
   --cmi-lock: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/lock.svg);
@@ -53,7 +56,7 @@
   --cmi-mention: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mention.svg);
   --cmi-move: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/move.svg);
   --cmi-modview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person.svg);
-  --cmi-mutechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
+  --cmi-mutesound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
   --cmi-mutemic: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic.svg);
   --cmi-mutesoundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
   --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_all.svg);
@@ -63,12 +66,15 @@
   --cmi-notificationsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_off.svg);
   --cmi-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings.svg);
   --cmi-openchat: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_chat.svg);
+  --cmi-openinnew: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_in_new.svg);
   --cmi-permissions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/permissions.svg);
   --cmi-pinmessage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pin.svg);
   --cmi-phone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/phone.svg);
   --cmi-privacysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/privacy.svg);
   --cmi-profile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/profile.svg);
+  --cmi-reaction: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reaction.svg);
   --cmi-refresh: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/refresh.svg);
+  --cmi-remove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/remove.svg);
   --cmi-removefriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/remove_friend.svg);
   --cmi-reply: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reply.svg);
   --cmi-report: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/report.svg);
@@ -81,10 +87,10 @@
   --cmi-thread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/thread.svg);
   --cmi-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hourglass_disabled.svg);
   --cmi-undeafen: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output_off.svg);
-  --cmi-unmutechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
+  --cmi-unmutesound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
   --cmi-unmutemic: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic_off.svg);
   --cmi-video: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/video.svg);
-  --cmi-viewicon: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/icon.svg);
+  --cmi-image: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/icon.svg);
   --cmi-viewreviews: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reviews.svg);
 }
 
@@ -104,7 +110,8 @@
     [id="user-context-apps"],
     [id="user-context-invite-to-server"],
     [id="user-context-roles"],
-    [id="message-apps"]
+    [id="message-apps"],
+    [id="message-remove-emoji-reactions"]
   )
   ~ .layer_cd0de5
   .item_d90b3d::before {
@@ -204,11 +211,11 @@
   }
 
   & .item_d90b3d[id$="mute-guild"]::before {
-    mask: var(--cmi-mutechannel) center/contain no-repeat !important;
+    mask: var(--cmi-mutesound) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id$="unmute-guild"]::before {
-    mask: var(--cmi-unmutechannel) center/contain no-repeat !important;
+    mask: var(--cmi-unmutesound) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id$="notifications"]::before {
@@ -264,7 +271,7 @@
   }
 
   & .item_d90b3d[id$="view-icon"]::before {
-    mask: var(--cmi-viewicon) center/contain no-repeat !important;
+    mask: var(--cmi-image) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id$="vc-rdb-server-reviews"]::before {
@@ -310,11 +317,11 @@
   }
 
   & .item_d90b3d[id="channel-context-mute-channel"]::before {
-    mask: var(--cmi-mutechannel) center/contain no-repeat;
+    mask: var(--cmi-mutesound) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="channel-context-unmute-channel"]::before {
-    mask: var(--cmi-unmutechannel) center/contain no-repeat;
+    mask: var(--cmi-unmutesound) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="channel-context-channel-notifications"]::before {
@@ -362,7 +369,7 @@
   }
 
   & .item_d90b3d[id="channel-context-delete-channel"]::before {
-    mask: var(--cmi-deletechannel) center/contain no-repeat;
+    mask: var(--cmi-delete) center/contain no-repeat;
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
@@ -396,7 +403,7 @@
   }
 
   & .item_d90b3d[id="thread-context-mute-channel"]::before {
-    mask: var(--cmi-mutechannel) center/contain no-repeat;
+    mask: var(--cmi-mutesound) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="thread-context-thread-notifications"]::before {
@@ -404,7 +411,7 @@
   }
 
   & .item_d90b3d[id="thread-context-delete-channel"]::before {
-    mask: var(--cmi-deletechannel) center/contain no-repeat;
+    mask: var(--cmi-delete) center/contain no-repeat;
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
@@ -438,14 +445,14 @@
   }
 
   & .item_d90b3d[id="user-context-user-volume"]::before {
-    mask: var(--cmi-mutechannel) center/contain no-repeat;
+    mask: var(--cmi-mutesound) center/contain no-repeat;
   }
 
   &
     .item_d90b3d[id="user-context-user-volume"]:has(
       .slider_e13f88[aria-valuenow="0"]
     )::before {
-    mask: var(--cmi-unmutechannel) center/contain no-repeat !important;
+    mask: var(--cmi-unmutesound) center/contain no-repeat !important;
   }
 
   &
@@ -454,7 +461,7 @@
         .item_d90b3d[id="user-context-mute"][aria-checked="true"]
     )
     .item_d90b3d[id="user-context-user-volume"]::before {
-    mask: var(--cmi-unmutechannel) center/contain no-repeat;
+    mask: var(--cmi-unmutesound) center/contain no-repeat;
   }
 
   & .item_d90b3d[id|="user-context-spotify-play"]::before {
@@ -501,15 +508,15 @@
   }
 
   & .item_d90b3d[id="user-context-add-friend-nickname"]::before {
-    mask: var(--cmi-addnickname) center/contain no-repeat;
+    mask: var(--cmi-addlabel) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-edit-friend-nickname"]::before {
-    mask: var(--cmi-changenickname) center/contain no-repeat;
+    mask: var(--cmi-labeledit) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-change-nickname"]::before {
-    mask: var(--cmi-changenickname) center/contain no-repeat;
+    mask: var(--cmi-labeledit) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-close-dm"]::before {
@@ -519,15 +526,19 @@
   & .item_d90b3d[id="user-context-apps"]::before {
     mask: var(--cmi-apps) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-voice-mute"][aria-checked="false"]::before {
     mask: var(--cmi-mutemic) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-voice-deafen"][aria-checked="false"]::before {
     mask: var(--cmi-deafen) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-voice-mute"][aria-checked="true"]::before {
     mask: var(--cmi-unmutemic) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-voice-deafen"][aria-checked="true"]::before {
     mask: var(--cmi-undeafen) center/contain no-repeat;
   }
@@ -567,6 +578,7 @@
   & .item_d90b3d[id="user-context-roles"]::before {
     mask: var(--cmi-permissions) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="user-context-voice-move"]::before {
     mask: var(--cmi-move) center/contain no-repeat;
   }
@@ -588,7 +600,7 @@
   }
 
   & .item_d90b3d[id="user-context-view-avatar"]::before {
-    mask: var(--cmi-viewicon) center/contain no-repeat;
+    mask: var(--cmi-image) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-vc-rdb-user-reviews"]::before {
@@ -634,6 +646,14 @@
     mask: var(--cmi-addreaction) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id$="-reactions"]::before {
+    mask: var(--cmi-reaction) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-edit"]::before {
+    mask: var(--cmi-edit) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id$="-pin"]::before {
     mask: var(--cmi-pinmessage) center/contain no-repeat;
   }
@@ -666,12 +686,42 @@
     mask: var(--cmi-texttospeech) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id$="-remove-emoji-reactions"]::before {
+    mask: var(--cmi-remove) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-remove-reactions"]::before {
+    mask: var(--cmi-remove) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id$="-unsuppress-embeds"]:has(
+      path[d="m21 18.15-2-2V5H7.85l-2-2H19q.825 0 1.413.587Q21 4.175 21 5Zm-1.2 4.45L18.2 21H5q-.825 0-1.413-.587Q3 19.825 3 19V5.8L1.4 4.2l1.4-1.4 18.4 18.4ZM6 17l3-4 2.25 3 .825-1.1L5 7.825V19h11.175l-2-2Zm7.425-6.425ZM10.6 13.4Z"]
+    )::before {
+    mask: var(--cmi-hideimage) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id$="-unsuppress-embeds"]:has(
+      path[d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h14q.825 0 1.413.587Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14Zm1-2h12l-3.75-5-3 4L9 13Zm-1 2V5v14Z"]
+    )::before {
+    mask: var(--cmi-image) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id$="-delete"]::before {
-    mask: var(--cmi-deletechannel) center/contain no-repeat;
+    mask: var(--cmi-delete) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="-report"]::before {
     mask: var(--cmi-report) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-copy-native-link"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-open-native-link"]::before {
+    mask: var(--cmi-openinnew) center/contain no-repeat;
   }
 
   & .item_d90b3d[id|="message-devmode-copy-id"]::before {
@@ -745,23 +795,23 @@
 
 .submenu_d90b3d[aria-activedescendant*="mute"] {
   & .item_d90b3d[id$="--900"]::before {
-    mask: var(--cmi-clockmin) center/contain no-repeat;
+    mask: var(--cmi-clock1) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="--3600"]::before {
-    mask: var(--cmi-clockmidmin) center/contain no-repeat;
+    mask: var(--cmi-clock2) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="--10800"]::before {
-    mask: var(--cmi-clockmid) center/contain no-repeat;
+    mask: var(--cmi-clock3) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="--28800"]::before {
-    mask: var(--cmi-clockmidmax) center/contain no-repeat;
+    mask: var(--cmi-clock4) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="--86400"]::before {
-    mask: var(--cmi-clockmax) center/contain no-repeat;
+    mask: var(--cmi-clock5) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="---1"]::before {
@@ -771,7 +821,7 @@
 
 .submenu_d90b3d[aria-activedescendant|="user-context-voice-move"] {
   & .item_d90b3d[id|="user-context-voice-move"]::before {
-    mask: var(--cmi-mutechannel) center/contain no-repeat;
+    mask: var(--cmi-mutesound) center/contain no-repeat;
   }
 }
 
