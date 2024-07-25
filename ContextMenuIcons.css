@@ -1,6 +1,7 @@
 :root {
   --cmi-size: 18px;
   --cmi-activity: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity.svg);
+  --cmi-activitysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity_alt.svg);
   --cmi-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_friend.svg);
   --cmi-addimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_image.svg);
   --cmi-addlabel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_add.svg);
@@ -37,7 +38,7 @@
   --cmi-edit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit.svg);
   --cmi-editchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_box.svg);
   --cmi-editprofile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_profile.svg);
-  --cmi-edittext: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_text.svg);
+  --cmi-editquickcss: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_edit_quickcss.svg);
   --cmi-eventoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_off.svg);
   --cmi-favorite: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/favorite.svg);
   --cmi-favorited: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/favorite_filled.svg);
@@ -66,7 +67,7 @@
   --cmi-microphone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic.svg);
   --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_all.svg);
   --cmi-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications.svg);
-  --cmi-notificationsimportant: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_important.svg);
+  --cmi-notificationslog: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_notifications_log.svg);
   --cmi-notificationsmentions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_at.svg);
   --cmi-notificationsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_off.svg);
   --cmi-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings.svg);
@@ -74,6 +75,7 @@
   --cmi-openinnew: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_in_new.svg);
   --cmi-owner: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person_alt.svg);
   --cmi-permissions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/permissions.svg);
+  --cmi-paymentsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/credit_card_gear.svg);
   --cmi-pinmessage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pin.svg);
   --cmi-phone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/phone.svg);
   --cmi-poll: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/poll.svg);
@@ -89,6 +91,8 @@
   --cmi-serverboost: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/boost.svg);
   --cmi-serverinfo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/info.svg);
   --cmi-serversettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings.svg);
+  --cmi-settingsbox: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/app_settings.svg);
+  --cmi-settingsnext: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings_next.svg);
   --cmi-soundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound.svg);
   --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/no_sound.svg);
   --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
@@ -97,6 +101,7 @@
   --cmi-thread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/thread.svg);
   --cmi-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hourglass_disabled.svg);
   --cmi-uploadfile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/upload_file.svg);
+  --cmi-usersettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/user_settings.svg);
   --cmi-video: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/video.svg);
   --cmi-viewreviews: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reviews.svg);
   --cmi-voice: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/voice.svg);
@@ -195,7 +200,7 @@
 
 .menu_d90b3d[id="vc-toolbox"] {
   & .item_d90b3d[id="vc-toolbox-vc-toolbox-notifications"]::before {
-    mask: var(--cmi-notificationsimportant) center/contain no-repeat !important;
+    mask: var(--cmi-notificationslog) center/contain no-repeat !important;
   }
 
   &
@@ -209,7 +214,7 @@
   }
 
   & .item_d90b3d[id="vc-toolbox-vc-toolbox-quickcss"]::before {
-    mask: var(--cmi-edittext) center/contain no-repeat !important;
+    mask: var(--cmi-editquickcss) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id="vc-toolbox-vc-toolbox-BadgeAPI-Refetch Badges"]::before {
@@ -688,6 +693,47 @@
   & .item_d90b3d[id="user-context-vc-rdb-user-reviews"]::before {
     mask: var(--cmi-viewreviews) center/contain no-repeat;
   }
+
+  /* quick settings */
+
+  & .item_d90b3d[id="user-settings-cog-User_Settings"]::before {
+    mask: var(--cmi-usersettings) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-settings-cog-Payment_Settings"]::before {
+    mask: var(--cmi-paymentsettings) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-settings-cog-App_Settings"]::before {
+    mask: var(--cmi-settingsbox) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-settings-cog-Vencord"]::before {
+    mask: url(https://vencord.dev/assets/favicon.png) center/contain no-repeat;
+  }
+
+  /* Oneko vencord settings */
+  /*
+  & .item_d90b3d[id="user-settings-cog-Vencord"]::before {
+      background-color: transparent;
+      background-image: url(https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif);
+      image-rendering: pixelated;
+      background-position-x: calc(var(--cmi-size) * -2.19);
+      background-size: calc(var(--cmi-size) * 8.5);
+      mask: none;
+  }
+
+  & .item_d90b3d[id="user-settings-cog-Vencord"]:hover::before {
+      background-position: calc(var(--cmi-size) * -3.19) calc(var(--cmi-size) * 1.1);
+  }*/
+
+  & .item_d90b3d[id="user-settings-cog-Activity_Settings"]::before {
+    mask: var(--cmi-activitysettings) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-settings-cog-Other_options"]::before {
+    mask: var(--cmi-settingsnext) center/contain no-repeat;
+  }
 }
 
 .menu_d90b3d[aria-label="Profile actions"] {
@@ -949,7 +995,10 @@
   }
 }
 
-.submenu_d90b3d[aria-activedescendant|="guild-context-guild-settings"] {
+.submenu_d90b3d:is(
+    [aria-activedescendant|="guild-context-guild-settings"],
+    [aria-activedescendant|="user-settings-cog"]
+  ) {
   /*https://github.com/MiniDiscordThemes/SettingsIcons*/
   & .item_d90b3d[id$="OVERVIEW"]::before {
     mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/overview.svg)
@@ -1026,7 +1075,7 @@
       center/contain no-repeat;
   }
 
-  & .item_d90b3d[id$="--GUILD_PREMIUM"]::before {
+  & .item_d90b3d:is([id$="--GUILD_PREMIUM"])::before {
     mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildpremium.svg)
       center/contain no-repeat;
   }
@@ -1038,6 +1087,230 @@
 
   & .item_d90b3d[id$="--INSTANT_INVITES"]::before {
     mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/instantinvites.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--My_Account"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/myaccount.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Profile_Customization"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/profilecustomization.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Privacy___Safety"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/privacysafety.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Family_Center"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/familycenter.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Authorized_Apps"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/authorizedapps.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Sessions"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/sessions.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Connections"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/connections.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Settings_Clips"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/settingsclips.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Friend_Requests"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/friendrequests.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Discord_Nitro"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/discordnitro.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Nitro_Server_Boost"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/nitroserverboost.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Subscriptions"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/subscriptions.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Library_Inventory"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/libraryinventory.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Billing"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/billing.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Appearance"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/appearance.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Accessibility"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/accessibility.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Voice___Video"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/voicevideo.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Text___Images"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textimages.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Notifications"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/notifications.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Keybinds"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/keybinds.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Language"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/language.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Streamer_Mode"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/streamermode.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Advanced"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/advanced.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--VencordSettings"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordsettings.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--VencordPlugins"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordplugins.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--VencordThemes"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordthemes.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--VencordUpdater"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordupdater.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--VencordCloud"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordcloud.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--VencordSettingsSync"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordsettingssync.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Vesktop"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vesktop.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Activity_Privacy"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/activityprivacy.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--changelog"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/changelog.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--merchandise"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/merchandise.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Hypesquad_Online"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/hypesquadonline.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Experiments"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/experiments.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Developer_Options"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/developeroptions.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Hotspot_Options"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/hotspotoptions.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Dismissible_Content_Options"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/dismissiblecontentoptions.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Payment_Flow_Modals"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/paymentflowmodals.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Design_System"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/designsystem.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Text_Playground"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textplayground.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Text_Component"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textcomponent.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Intl_Testing"]::before {
+    mask: var(--cmi-default) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--Profile_Effects_Preview_Tool"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/profileeffectspreviewtool.svg)
+      center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--StartupTimings"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/startuptimings.svg)
       center/contain no-repeat;
   }
 }
