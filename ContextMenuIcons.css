@@ -64,7 +64,6 @@
   --cmi-modview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person.svg);
   --cmi-mutesound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
   --cmi-microphone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic.svg);
-  --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
   --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_all.svg);
   --cmi-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications.svg);
   --cmi-notificationsimportant: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_important.svg);
@@ -91,6 +90,7 @@
   --cmi-serverinfo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/info.svg);
   --cmi-serversettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings.svg);
   --cmi-soundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound.svg);
+  --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/no_sound.svg);
   --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
   --cmi-spotify: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spotify.svg);
   --cmi-texttospeech: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/text_to_speech.svg);
@@ -554,11 +554,11 @@
     mask: var(--cmi-microphone) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="user-context-mediaoutput"][aria-checked="true"]::before {
+  & .item_d90b3d[id="user-context-deafen"][aria-checked="true"]::before {
     mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="user-context-mediaoutput"][aria-checked="false"]::before {
+  & .item_d90b3d[id="user-context-deafen"][aria-checked="false"]::before {
     mask: var(--cmi-mediaoutput) center/contain no-repeat;
   }
 
@@ -597,10 +597,6 @@
     mask: var(--cmi-close) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="user-context-remove"]::before {
-    mask: var(--cmi-removepeople) center/contain no-repeat;
-  }
-
   & .item_d90b3d[id="user-context-make-dm-owner"]::before {
     mask: var(--cmi-owner) center/contain no-repeat;
   }
@@ -613,8 +609,7 @@
     mask: var(--cmi-microphone) center/contain no-repeat;
   }
 
-  &
-    .item_d90b3d[id="user-context-voice-mediaoutput"][aria-checked="false"]::before {
+  & .item_d90b3d[id="user-context-voice-deafen"][aria-checked="false"]::before {
     mask: var(--cmi-mediaoutput) center/contain no-repeat;
   }
 
@@ -622,8 +617,7 @@
     mask: var(--cmi-microphoneoff) center/contain no-repeat;
   }
 
-  &
-    .item_d90b3d[id="user-context-voice-mediaoutput"][aria-checked="true"]::before {
+  & .item_d90b3d[id="user-context-voice-deafen"][aria-checked="true"]::before {
     mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
   }
 
@@ -651,7 +645,11 @@
     mask: var(--cmi-timeout) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="user-context-removepeople"]::before {
+  & .item_d90b3d[id="user-context-remove"]::before {
+    mask: var(--cmi-removepeople) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-kick"]::before {
     mask: var(--cmi-removepeople) center/contain no-repeat;
   }
 
