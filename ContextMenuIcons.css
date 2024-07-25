@@ -142,7 +142,8 @@
     [id="message-remove-emoji-reactions"],
     [id="status-status-picker"],
     [id="account-switch-account"],
-    [id="user-settings-cog-Other_options--Experiments"]
+    [id="user-settings-cog-Other_options--Experiments"],
+    [id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"]
   )
   ~ .layer_cd0de5
   .item_d90b3d::before,
@@ -1015,12 +1016,6 @@
       .item_d90b3d[id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"]::before {
       mask: var(--cmi-language) center/contain no-repeat;
     }
-    /*
-      & .submenu_d90b3d[aria-activedescendant="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"] {
-          & .item_d90b3d[id*="af"]::before {
-
-          }
-      }*/
   }
 }
 
