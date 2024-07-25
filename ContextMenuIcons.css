@@ -1,6 +1,7 @@
 :root {
   --cmi-size: 18px;
   --cmi-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_friend.svg);
+  --cmi-addimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_image.svg);
   --cmi-addlabel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_add.svg);
   --cmi-addnote: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_note.svg);
   --cmi-addreaction: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_reaction.svg);
@@ -46,7 +47,7 @@
   --cmi-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
   --cmi-invitepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_add.svg);
   --cmi-joinaserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/join.svg);
-  --cmi-kick: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_remove.svg);
+  --cmi-removepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_remove.svg);
   --cmi-labeledit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_edit.svg);
   --cmi-leave: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/leave.svg);
   --cmi-listenalong: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/listen.svg);
@@ -67,6 +68,7 @@
   --cmi-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings.svg);
   --cmi-openchat: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_chat.svg);
   --cmi-openinnew: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_in_new.svg);
+  --cmi-owner: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person_alt.svg);
   --cmi-permissions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/permissions.svg);
   --cmi-pinmessage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pin.svg);
   --cmi-phone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/phone.svg);
@@ -137,7 +139,8 @@
   .item_d90b3d:is(
     [id="user-context-user-volume"],
     [id="audio-device-context-output"],
-    [id="audio-device-context-input"]
+    [id="audio-device-context-input"],
+    [id="gdm-context-change-icon"]
   )
   .labelContainer_d90b3d {
   padding: 0;
@@ -152,6 +155,14 @@
   .sliderContainer_e13f88 {
   width: 100%;
   padding: 0;
+}
+
+.menu_d90b3d .item_d90b3d[id="gdm-context-change-icon"] {
+  padding: 6px 8px;
+  min-height: 32px;
+}
+.menu_d90b3d .item_d90b3d[id="gdm-context-change-icon"] .labelContainer_d90b3d {
+  min-height: 0;
 }
 
 .menu_d90b3d .item_d90b3d::before {
@@ -288,8 +299,20 @@
 }
 
 .menu_d90b3d[aria-label="Channel Actions"] {
-  & .item_d90b3d[id="channel-context-mark-channel-read"]::before {
+  & .item_d90b3d[id$="-context-mark-channel-read"]::before {
     mask: var(--cmi-markasread) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-context-instant-invites"]::before {
+    mask: var(--cmi-invitepeople) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-context-change-icon"]::before {
+    mask: var(--cmi-addimage) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-context-remove-icon"]::before {
+    mask: var(--cmi-hideimage) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="channel-context-invite-people"]::before {
@@ -316,11 +339,11 @@
     mask: var(--cmi-collapseallcategories) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="channel-context-mute-channel"]::before {
+  & .item_d90b3d[id$="-context-mute-channel"]::before {
     mask: var(--cmi-mutesound) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="channel-context-unmute-channel"]::before {
+  & .item_d90b3d[id$="context-unmute-channel"]::before {
     mask: var(--cmi-unmutesound) center/contain no-repeat;
   }
 
@@ -370,6 +393,14 @@
 
   & .item_d90b3d[id="channel-context-delete-channel"]::before {
     mask: var(--cmi-delete) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-context-leave-channel"]::before {
+    mask: var(--cmi-leave) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-context-view-group-channel-icon"]::before {
+    mask: var(--cmi-image) center/contain no-repeat;
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
@@ -523,6 +554,14 @@
     mask: var(--cmi-close) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id="user-context-remove"]::before {
+    mask: var(--cmi-removepeople) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-make-dm-owner"]::before {
+    mask: var(--cmi-owner) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id="user-context-apps"]::before {
     mask: var(--cmi-apps) center/contain no-repeat;
   }
@@ -567,8 +606,8 @@
     mask: var(--cmi-timeout) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="user-context-kick"]::before {
-    mask: var(--cmi-kick) center/contain no-repeat;
+  & .item_d90b3d[id="user-context-removepeople"]::before {
+    mask: var(--cmi-removepeople) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-ban"]::before {
