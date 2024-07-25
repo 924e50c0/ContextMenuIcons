@@ -12,7 +12,7 @@ Adds icons to context menus for Vencord.
 
 1. Download `ContextMenuIcons.theme.css`:
 
-   - [GitHub](https://github.com/924e50c0/ContextMenuIcons/releases/download/v0.1.0-alpha/ContextMenuIcons.theme.css)
+   - [GitHub](https://github.com/924e50c0/ContextMenuIcons/releases/download/v1.0.0/ContextMenuIcons.theme.css)
 
 2. Place the file in the themes folder:
 
