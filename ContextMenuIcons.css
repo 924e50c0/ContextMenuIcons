@@ -792,7 +792,7 @@
   }
 
   & .item_d90b3d[id$="-thread"]::before {
-    mask: var(--cmi-thread) center/contain no-repeat;
+    mask: var(--cmi-createthread) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="-copy-text"]::before {
