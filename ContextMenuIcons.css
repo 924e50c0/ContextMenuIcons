@@ -7,6 +7,7 @@
   --cmi-addlabel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_add.svg);
   --cmi-addnote: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_note.svg);
   --cmi-addreaction: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_reaction.svg);
+  --cmi-animation: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/animation.svg);
   --cmi-applynewguildsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/apply_new_guild_settings.svg);
   --cmi-apps: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/apps.svg);
   --cmi-ban: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/ban.svg);
@@ -22,7 +23,9 @@
   --cmi-codeoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/code_off.svg);
   --cmi-collapsecategories: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/collapse.svg);
   --cmi-collapseallcategories: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/collapse_all.svg);
+  --cmi-compactmode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view_compact.svg);
   --cmi-copy: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/copy.svg);
+  --cmi-cosymode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view_cosy.svg);
   --cmi-createcategory: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/new_category.svg);
   --cmi-createchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_square.svg);
   --cmi-createevent: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_event.svg);
@@ -30,7 +33,7 @@
   --cmi-createtextchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_text_channel.svg);
   --cmi-createthread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_thread.svg);
   --cmi-createvoicechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_voice_channel.svg);
-  --cmi-mediaoutput: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output.svg);
+  --cmi-darkmode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/dark_mode.svg);
   --cmi-default: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/help.svg);
   --cmi-delete: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/delete.svg);
   --cmi-disablevideo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/disable_video.svg);
@@ -54,17 +57,20 @@
   --cmi-removepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_remove.svg);
   --cmi-labeledit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_edit.svg);
   --cmi-leave: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/leave.svg);
+  --cmi-lightmode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/light_mode.svg);
   --cmi-listenalong: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/listen.svg);
   --cmi-lock: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/lock.svg);
   --cmi-markasread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mark_as_read.svg);
   --cmi-markasunread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mark_as_unread.svg);
+  --cmi-markdown: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/markdown.svg);
+  --cmi-mediaoutput: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output.svg);
   --cmi-mediaoutputoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output_off.svg);
   --cmi-mention: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mention.svg);
+  --cmi-microphone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic.svg);
   --cmi-microphoneoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic_off.svg);
   --cmi-move: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/move.svg);
   --cmi-modview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person.svg);
   --cmi-mutesound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
-  --cmi-microphone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic.svg);
   --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_all.svg);
   --cmi-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications.svg);
   --cmi-notificationslog: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_notifications_log.svg);
@@ -88,6 +94,7 @@
   --cmi-removefriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/remove_friend.svg);
   --cmi-reply: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reply.svg);
   --cmi-report: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/report.svg);
+  --cmi-saturation: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/saturation.svg);
   --cmi-serverboost: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/boost.svg);
   --cmi-serverinfo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/info.svg);
   --cmi-serversettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings.svg);
@@ -97,6 +104,7 @@
   --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/no_sound.svg);
   --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
   --cmi-spotify: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spotify.svg);
+  --cmi-syncdesktop: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sync_desktop.svg);
   --cmi-texttospeech: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/text_to_speech.svg);
   --cmi-thread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/thread.svg);
   --cmi-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hourglass_disabled.svg);
@@ -127,13 +135,15 @@
     [id="message-apps"],
     [id="message-remove-emoji-reactions"],
     [id="status-status-picker"],
-    [id="account-switch-account"]
+    [id="account-switch-account"],
+    [id="user-settings-cog-Other_options--Experiments"]
   )
   ~ .layer_cd0de5
   .item_d90b3d::before,
 .menu_d90b3d:is([aria-label="Status Actions"], [aria-label="Account Actions"])
   .item_d90b3d::before,
-.menu_d90b3d[id="channel-attach"] .optionIcon_ec5137 {
+.menu_d90b3d[id="channel-attach"] .optionIcon_ec5137,
+.submenu_d90b3d .item_d90b3d[id*="role"] ~ .layer_cd0de5 .item_d90b3d::before {
   display: none;
 }
 
@@ -146,11 +156,13 @@
   margin: 0;
 }
 
+/* sliders */
 .menu_d90b3d
   .item_d90b3d:is(
     [id="user-context-user-volume"],
     [id="audio-device-context-output"],
-    [id="audio-device-context-input"]
+    [id="audio-device-context-input"],
+    [id$="Accessibility--input"]
   ) {
   flex-wrap: wrap;
   padding: 6px 8px;
@@ -161,7 +173,8 @@
     [id="user-context-user-volume"],
     [id="audio-device-context-output"],
     [id="audio-device-context-input"],
-    [id="gdm-context-change-icon"]
+    [id="gdm-context-change-icon"],
+    [id$="Accessibility--input"]
   )
   .labelContainer_d90b3d {
   padding: 0;
@@ -171,7 +184,36 @@
   .item_d90b3d:is(
     [id="user-context-user-volume"],
     [id="audio-device-context-output"],
-    [id="audio-device-context-input"]
+    [id="audio-device-context-input"],
+    [id$="Accessibility--input"]
+  )
+  .sliderContainer_e13f88 {
+  width: 100%;
+  padding: 0;
+}
+
+.submenu_d90b3d
+  .item_d90b3d:is(
+    [id="user-settings-cog-App_Settings--Voice___Video--input"],
+    [id="user-settings-cog-App_Settings--Voice___Video--output"]
+  ) {
+  flex-wrap: wrap;
+  padding: 6px 8px;
+}
+
+.submenu_d90b3d
+  .item_d90b3d:is(
+    [id="user-settings-cog-App_Settings--Voice___Video--input"],
+    [id="user-settings-cog-App_Settings--Voice___Video--output"]
+  )
+  .labelContainer_d90b3d {
+  padding: 0;
+}
+
+.submenu_d90b3d
+  .item_d90b3d:is(
+    [id="user-settings-cog-App_Settings--Voice___Video--input"],
+    [id="user-settings-cog-App_Settings--Voice___Video--output"]
   )
   .sliderContainer_e13f88 {
   width: 100%;
@@ -714,18 +756,18 @@
 
   /* Oneko vencord settings */
   /*
-  & .item_d90b3d[id="user-settings-cog-Vencord"]::before {
-      background-color: transparent;
-      background-image: url(https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif);
-      image-rendering: pixelated;
-      background-position-x: calc(var(--cmi-size) * -2.19);
-      background-size: calc(var(--cmi-size) * 8.5);
-      mask: none;
-  }
+& .item_d90b3d[id="user-settings-cog-Vencord"]::before {
+    background-color: transparent;
+    background-image: url(https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif);
+    image-rendering: pixelated;
+    background-position-x: calc(var(--cmi-size) * -2.19);
+    background-size: calc(var(--cmi-size) * 8.5);
+    mask: none;
+}
 
-  & .item_d90b3d[id="user-settings-cog-Vencord"]:hover::before {
-      background-position: calc(var(--cmi-size) * -3.19) calc(var(--cmi-size) * 1.1);
-  }*/
+& .item_d90b3d[id="user-settings-cog-Vencord"]:hover::before {
+    background-position: calc(var(--cmi-size) * -3.19) calc(var(--cmi-size) * 1.1);
+}*/
 
   & .item_d90b3d[id="user-settings-cog-Activity_Settings"]::before {
     mask: var(--cmi-activitysettings) center/contain no-repeat;
@@ -916,6 +958,14 @@
   }
 }
 
+.menu_d90b3d[aria-label="Actions"] {
+  & .item_d90b3d[id|="guild-discovery-context-menu-devmode-copy-id"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+}
+
+/* submenus */
+
 .submenu_d90b3d[aria-activedescendant*="notifications"] {
   & .item_d90b3d[id$="notifications--3"]::before {
     mask: var(--cmi-notificationsdefault) center/contain no-repeat;
@@ -989,9 +1039,81 @@
   }
 }
 
-.menu_d90b3d[aria-label="Actions"] {
-  & .item_d90b3d[id|="guild-discovery-context-menu-devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+.submenu_d90b3d[aria-activedescendant|="user-settings-cog-App_Settings--Appearance"] {
+  & .item_d90b3d[id$="dark"]::before {
+    mask: var(--cmi-darkmode) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="light"]::before {
+    mask: var(--cmi-lightmode) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="system"]::before {
+    mask: var(--cmi-syncdesktop) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="compact-mode"]::before {
+    mask: var(--cmi-cosymode) center/contain no-repeat;
+  }
+
+  /*& .item_d90b3d[id$="cosy-mode"]::before {
+      mask: var(--cmi-cosymode) center/contain no-repeat;
+  }*/
+}
+
+.submenu_d90b3d[aria-activedescendant|="user-settings-cog-App_Settings--Accessibility"] {
+  & .item_d90b3d[id$="motion"]::before {
+    mask: var(--cmi-animation) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id*="Accessibility--input"]::before {
+    mask: var(--cmi-saturation) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id*="role"]::before {
+    mask: var(--cmi-permissions) center/contain no-repeat;
+  }
+}
+
+.submenu_d90b3d[aria-activedescendant|="user-settings-cog-App_Settings--Voice___Video"] {
+  & .item_d90b3d[id$="--VOICE_ACTIVITY"]::before {
+    mask: var(--cmi-voice) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id*="--PUSH_TO_TALK"]::before {
+    mask: var(--cmi-pushtotalk) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id*="--input"]::before {
+    mask: var(--cmi-microphone) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id*="--input"]:has(.slider_e13f88[aria-valuenow="0"])::before {
+    mask: var(--cmi-microphoneoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="--output"]::before {
+    mask: var(--cmi-mediaoutput) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id$="--output"]:has(
+      .slider_e13f88[aria-valuenow="0"]
+    )::before {
+    mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
+  }
+}
+
+.submenu_d90b3d[aria-activedescendant|="user-settings-cog-App_Settings--Text___Images"] {
+  & .item_d90b3d[id$="--preview-markdown-toggle"]::before {
+    mask: var(--cmi-markdown) center/contain no-repeat;
+  }
+}
+
+.submenu_d90b3d[aria-activedescendant|="user-settings-cog-App_Settings--Streamer_Mode"] {
+  & .item_d90b3d[id$="--streamer-mode-toggle"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/streamermode.svg)
+      center/contain no-repeat;
   }
 }
 
