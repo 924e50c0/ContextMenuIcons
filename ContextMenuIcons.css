@@ -48,14 +48,18 @@
   --cmi-favoriteadd: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_plus.svg);
   --cmi-favoriteremove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_broken.svg);
   --cmi-forever: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/all_inclusive.svg);
+  --cmi-help: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/help.svg);
   --cmi-hideimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_image.svg);
   --cmi-hidemutedchannels: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_muted_channels.svg);
   --cmi-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
   --cmi-image: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/icon.svg);
   --cmi-invitepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_add.svg);
   --cmi-joinaserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/join.svg);
+  --cmi-keyboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/keyboard.svg);
+  --cmi-keyboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/keyboard_off.svg);
   --cmi-removepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_remove.svg);
   --cmi-labeledit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_edit.svg);
+  --cmi-language: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/language.svg);
   --cmi-leave: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/leave.svg);
   --cmi-lightmode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/light_mode.svg);
   --cmi-listenalong: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/listen.svg);
@@ -95,6 +99,7 @@
   --cmi-reply: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reply.svg);
   --cmi-report: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/report.svg);
   --cmi-saturation: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/saturation.svg);
+  --cmi-send: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/send.svg);
   --cmi-serverboost: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/boost.svg);
   --cmi-serverinfo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/info.svg);
   --cmi-serversettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings.svg);
@@ -103,6 +108,7 @@
   --cmi-soundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound.svg);
   --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/no_sound.svg);
   --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
+  --cmi-spellcheck: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spellcheck.svg);
   --cmi-spotify: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spotify.svg);
   --cmi-syncdesktop: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sync_desktop.svg);
   --cmi-texttospeech: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/text_to_speech.svg);
@@ -757,16 +763,16 @@
   /* Oneko vencord settings */
   /*
 & .item_d90b3d[id="user-settings-cog-Vencord"]::before {
-    background-color: transparent;
-    background-image: url(https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif);
-    image-rendering: pixelated;
-    background-position-x: calc(var(--cmi-size) * -2.19);
-    background-size: calc(var(--cmi-size) * 8.5);
-    mask: none;
+  background-color: transparent;
+  background-image: url(https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif);
+  image-rendering: pixelated;
+  background-position-x: calc(var(--cmi-size) * -2.19);
+  background-size: calc(var(--cmi-size) * 8.5);
+  mask: none;
 }
 
 & .item_d90b3d[id="user-settings-cog-Vencord"]:hover::before {
-    background-position: calc(var(--cmi-size) * -3.19) calc(var(--cmi-size) * 1.1);
+  background-position: calc(var(--cmi-size) * -3.19) calc(var(--cmi-size) * 1.1);
 }*/
 
   & .item_d90b3d[id="user-settings-cog-Activity_Settings"]::before {
@@ -958,6 +964,66 @@
   }
 }
 
+.menu_d90b3d[aria-label="Text Area Actions"] {
+  & .item_d90b3d[id="textarea-context-suggestions"]::before {
+    mask: var(--cmi-help) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="textarea-context-submit-button"]::before {
+    mask: var(--cmi-send) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="textarea-context-vc-silent-typing"][aria-checked="false"]::before {
+    mask: var(--cmi-keyboard) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="textarea-context-vc-silent-typing"][aria-checked="true"]::before {
+    mask: var(--cmi-keyboardoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="textarea-context-vcd-spellcheck-settings"]::before {
+    mask: var(--cmi-spellcheck) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="textarea-context-paste"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .submenu_d90b3d[aria-activedescendant|="textarea-context-suggestions"] {
+    &
+      .item_d90b3d[id="textarea-context-suggestions--sticker-suggestions"]::before {
+      mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/stickers.svg)
+        center/contain no-repeat;
+    }
+
+    &
+      .item_d90b3d[id="textarea-context-suggestions--command-suggestions"]::before {
+      mask: var(--cmi-widgets) center/contain no-repeat;
+    }
+  }
+
+  &
+    .submenu_d90b3d[aria-activedescendant|="textarea-context-vcd-spellcheck-settings"] {
+    &
+      .item_d90b3d[id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-enabled"]::before {
+      mask: var(--cmi-spellcheck) center/contain no-repeat;
+    }
+
+    &
+      .item_d90b3d[id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"]::before {
+      mask: var(--cmi-language) center/contain no-repeat;
+    }
+    /*
+      & .submenu_d90b3d[aria-activedescendant="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"] {
+          & .item_d90b3d[id*="af"]::before {
+
+          }
+      }*/
+  }
+}
+
 .menu_d90b3d[aria-label="Actions"] {
   & .item_d90b3d[id|="guild-discovery-context-menu-devmode-copy-id"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
@@ -1057,8 +1123,8 @@
   }
 
   /*& .item_d90b3d[id$="cosy-mode"]::before {
-      mask: var(--cmi-cosymode) center/contain no-repeat;
-  }*/
+    mask: var(--cmi-cosymode) center/contain no-repeat;
+}*/
 }
 
 .submenu_d90b3d[aria-activedescendant|="user-settings-cog-App_Settings--Accessibility"] {
