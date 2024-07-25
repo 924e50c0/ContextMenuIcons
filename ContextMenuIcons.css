@@ -710,6 +710,7 @@
 
   & .item_d90b3d[id="user-settings-cog-Vencord"]::before {
     mask: url(https://vencord.dev/assets/favicon.png) center/contain no-repeat;
+    image-rendering: pixelated;
   }
 
   /* Oneko vencord settings */
