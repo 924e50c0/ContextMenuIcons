@@ -48,7 +48,6 @@
   --cmi-favoriteadd: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_plus.svg);
   --cmi-favoriteremove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_broken.svg);
   --cmi-forever: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/all_inclusive.svg);
-  --cmi-help: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/help.svg);
   --cmi-hideimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_image.svg);
   --cmi-hidemutedchannels: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_muted_channels.svg);
   --cmi-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
@@ -109,6 +108,7 @@
   --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/no_sound.svg);
   --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
   --cmi-spellcheck: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spellcheck.svg);
+  --cmi-suggestion: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/suggestion.svg);
   --cmi-spotify: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spotify.svg);
   --cmi-syncdesktop: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sync_desktop.svg);
   --cmi-texttospeech: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/text_to_speech.svg);
@@ -967,7 +967,7 @@
 
 .menu_d90b3d[aria-label="Text Area Actions"] {
   & .item_d90b3d[id="textarea-context-suggestions"]::before {
-    mask: var(--cmi-help) center/contain no-repeat;
+    mask: var(--cmi-suggestion) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="textarea-context-submit-button"]::before {
