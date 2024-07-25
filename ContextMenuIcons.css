@@ -27,7 +27,7 @@
   --cmi-createserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_diamond.svg);
   --cmi-createtextchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_text_channel.svg);
   --cmi-createvoicechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_voice_channel.svg);
-  --cmi-deafen: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output.svg);
+  --cmi-mediaoutput: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output.svg);
   --cmi-default: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/help.svg);
   --cmi-delete: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/delete.svg);
   --cmi-disablevideo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/disable_video.svg);
@@ -58,7 +58,7 @@
   --cmi-move: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/move.svg);
   --cmi-modview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person.svg);
   --cmi-mutesound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
-  --cmi-mutemic: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic.svg);
+  --cmi-microphone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic.svg);
   --cmi-mutesoundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
   --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_all.svg);
   --cmi-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications.svg);
@@ -74,6 +74,7 @@
   --cmi-phone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/phone.svg);
   --cmi-privacysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/privacy.svg);
   --cmi-profile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/profile.svg);
+  --cmi-pushtotalk: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/select_to_speak.svg);
   --cmi-reaction: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reaction.svg);
   --cmi-refresh: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/refresh.svg);
   --cmi-remove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/remove.svg);
@@ -88,12 +89,14 @@
   --cmi-texttospeech: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/text_to_speech.svg);
   --cmi-thread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/thread.svg);
   --cmi-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hourglass_disabled.svg);
-  --cmi-undeafen: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output_off.svg);
+  --cmi-mediaoutputoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/media_output_off.svg);
   --cmi-unmutesound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
-  --cmi-unmutemic: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic_off.svg);
+  --cmi-microphoneoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic_off.svg);
   --cmi-video: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/video.svg);
   --cmi-image: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/icon.svg);
   --cmi-viewreviews: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reviews.svg);
+  --cmi-voice: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/voice.svg);
+  --cmi-voicesettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings_voice.svg);
 }
 
 .menu_d90b3d:is(
@@ -110,12 +113,15 @@
   .item_d90b3d:is(
     [id="message-add-reaction"],
     [id="user-context-apps"],
-    [id="user-context-invite-to-server"],
     [id="user-context-roles"],
     [id="message-apps"],
-    [id="message-remove-emoji-reactions"]
+    [id="message-remove-emoji-reactions"],
+    [id="status-status-picker"],
+    [id="account-switch-account"]
   )
   ~ .layer_cd0de5
+  .item_d90b3d::before,
+.menu_d90b3d:is([aria-label="Status Actions"], [aria-label="Account Actions"])
   .item_d90b3d::before {
   display: none;
 }
@@ -161,6 +167,7 @@
   padding: 6px 8px;
   min-height: 32px;
 }
+
 .menu_d90b3d .item_d90b3d[id="gdm-context-change-icon"] .labelContainer_d90b3d {
   min-height: 0;
 }
@@ -504,19 +511,19 @@
   }
 
   & .item_d90b3d[id="user-context-mute"][aria-checked="true"]::before {
-    mask: var(--cmi-unmutemic) center/contain no-repeat;
+    mask: var(--cmi-microphoneoff) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-mute"][aria-checked="false"]::before {
-    mask: var(--cmi-mutemic) center/contain no-repeat;
+    mask: var(--cmi-microphone) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="user-context-deafen"][aria-checked="true"]::before {
-    mask: var(--cmi-undeafen) center/contain no-repeat;
+  & .item_d90b3d[id="user-context-mediaoutput"][aria-checked="true"]::before {
+    mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="user-context-deafen"][aria-checked="false"]::before {
-    mask: var(--cmi-deafen) center/contain no-repeat;
+  & .item_d90b3d[id="user-context-mediaoutput"][aria-checked="false"]::before {
+    mask: var(--cmi-mediaoutput) center/contain no-repeat;
   }
 
   &
@@ -567,22 +574,24 @@
   }
 
   & .item_d90b3d[id="user-context-voice-mute"][aria-checked="false"]::before {
-    mask: var(--cmi-mutemic) center/contain no-repeat;
+    mask: var(--cmi-microphone) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="user-context-voice-deafen"][aria-checked="false"]::before {
-    mask: var(--cmi-deafen) center/contain no-repeat;
+  &
+    .item_d90b3d[id="user-context-voice-mediaoutput"][aria-checked="false"]::before {
+    mask: var(--cmi-mediaoutput) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-voice-mute"][aria-checked="true"]::before {
-    mask: var(--cmi-unmutemic) center/contain no-repeat;
+    mask: var(--cmi-microphoneoff) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="user-context-voice-deafen"][aria-checked="true"]::before {
-    mask: var(--cmi-undeafen) center/contain no-repeat;
+  &
+    .item_d90b3d[id="user-context-voice-mediaoutput"][aria-checked="true"]::before {
+    mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="user-context-invite-to-server"]::before {
+  & .item_d90b3d[id*="user-context-invite-to-server"]::before {
     mask: var(--cmi-invitepeople) center/contain no-repeat;
   }
 
@@ -627,11 +636,11 @@
   }
 
   & .item_d90b3d[id="user-context-mute-channel"]::before {
-    mask: var(--cmi-mutemic) center/contain no-repeat;
+    mask: var(--cmi-microphone) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-unmute-channel"]::before {
-    mask: var(--cmi-unmutemic) center/contain no-repeat;
+    mask: var(--cmi-microphoneoff) center/contain no-repeat;
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
@@ -765,6 +774,42 @@
 
   & .item_d90b3d[id|="message-devmode-copy-id"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[aria-label="Audio Device Actions"] {
+  & .item_d90b3d[id|="audio-device-context-input"]::before {
+    mask: var(--cmi-microphone) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id|="audio-device-context-input"]:has(
+      .slider_e13f88[aria-valuenow="0"]
+    )::before {
+    mask: var(--cmi-microphoneoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="audio-device-context-output"]::before {
+    mask: var(--cmi-mediaoutput) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id|="audio-device-context-output"]:has(
+      .slider_e13f88[aria-valuenow="0"]
+    )::before {
+    mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="audio-device-context-VOICE_ACTIVITY"]::before {
+    mask: var(--cmi-voice) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="audio-device-context-PUSH_TO_TALK"]::before {
+    mask: var(--cmi-pushtotalk) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="audio-device-context-voice-settings"]::before {
+    mask: var(--cmi-voicesettings) center/contain no-repeat;
   }
 }
 
