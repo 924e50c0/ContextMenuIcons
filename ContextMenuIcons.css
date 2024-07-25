@@ -344,6 +344,10 @@
     mask: var(--cmi-openchat) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id="channel-context-set-status"]::before {
+    mask: var(--cmi-labeledit) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id="channel-context-hide-voice-names"]::before {
     mask: var(--cmi-hidenames) center/contain no-repeat;
   }
