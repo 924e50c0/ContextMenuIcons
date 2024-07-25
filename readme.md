@@ -6,6 +6,26 @@ Adds icons to context menus for Vencord.
 | ------------------------------------- | --------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | User actions                          | Server actions                          | Channel actions                          | Message actions                          |
 
+## Plugin support
+
+### Current
+
+- [BetterSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterSettings)
+- [NewGuildSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/newGuildSettings)
+- [PermissionsViewer](https://github.com/Vendicated/Vencord/tree/main/src/plugins/permissionsViewer)
+- [ReviewDB](https://github.com/Vendicated/Vencord/tree/main/src/plugins/reviewDB)
+- [ServerInfo](https://github.com/Vendicated/Vencord/tree/main/src/plugins/serverInfo)
+- [UnsuppressEmbeds](https://github.com/Vendicated/Vencord/tree/main/src/plugins/unsuppressEmbeds)
+- [VencordToolbox](https://github.com/Vendicated/Vencord/tree/main/src/plugins/vencordToolbox)
+- [ViewIcons](https://github.com/Vendicated/Vencord/tree/main/src/plugins/viewIcons)
+- [VoiceMessages](https://github.com/Vendicated/Vencord/tree/main/src/plugins/voiceMessages)
+
+
+### Planned
+
+- [BetterRoleContext](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterRoleContext)
+- [ImageZoom](https://github.com/Vendicated/Vencord/tree/main/src/plugins/imageZoom)
+
 ## Installation
 
 ### Local
