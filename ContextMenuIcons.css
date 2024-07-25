@@ -500,6 +500,9 @@
   & .item_d90b3d[id="channel-attach-activity"]::before {
     mask: var(--cmi-activity) center/contain no-repeat;
   }
+  & .item_d90b3d[id="channel-attach-vc-send-vmsg"]::before {
+    mask: var(--cmi-microphone) center/contain no-repeat;
+  }
 }
 
 .menu_d90b3d[aria-label="Thread Actions"] {
