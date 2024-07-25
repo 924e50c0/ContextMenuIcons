@@ -1,15 +1,15 @@
 /**
  * @name ContextMenuIcons
- * @author 924e50c0
- * @authorLink https://github.com/924e50c0
  * @description Adds icons to context menus.
- * @version 1.0
- * @source https://github.com/924e50c0/ContextMenuIcons
-*/
+ * @author 924e50c0
+ * @version 1.0.0
+ * @authorLink https://github.com/924e50c0
+ * @website https://github.com/924e50c0/ContextMenuIcons
+ * @source https://github.com/924e50c0/ContextMenuIcons/blob/main/ContextMenuIcons.theme.css
+**/
 
 @import url("https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/ContextMenuIcons.css");
 
-
 :root {
-    --cmi-size: 18px;
-  }
+  --cmi-size: 18px;
+}
