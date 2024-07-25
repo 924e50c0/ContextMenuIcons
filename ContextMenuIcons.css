@@ -194,7 +194,6 @@
   height: var(--cmi-size);
   margin-right: calc(var(--cmi-size) / 1.5);
   background: currentColor;
-  z-index: 2;
   mask: var(--cmi-default) center/contain no-repeat;
 }
 
