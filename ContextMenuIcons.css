@@ -785,6 +785,10 @@
     mask: var(--cmi-calldisconnect) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id="user-context-leave-thread"]::before {
+    mask: var(--cmi-leave) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id*="user-context-invite-to-server"]::before {
     mask: var(--cmi-invitepeople) center/contain no-repeat;
   }
