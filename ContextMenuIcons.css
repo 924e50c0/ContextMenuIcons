@@ -156,9 +156,19 @@
   )
   ~ .layer_cd0de5
   .item_d90b3d::before,
-.menu_d90b3d:is([aria-label="Status Actions"], [aria-label="Account Actions"])
+.menu_d90b3d:is(
+    [aria-label="Status Actions"],
+    [aria-label="Account Actions"],
+    [id="member-safety-flags"],
+    [aria-label="Member Safety Flags"]:has(
+        [id$="member-joined-date-custom-option}"],
+        [id$="member-account-age-custom-option}"]
+      ),
+    [id="members-table-join-method-menu"]:has([id$="other-join-methods"])
+  )
   .item_d90b3d::before,
 .menu_d90b3d[id="channel-attach"] .optionIcon_ec5137,
+.item_d90b3d:is([id|="guild-moderation-roles"])::before,
 .submenu_d90b3d .item_d90b3d[id*="role"] ~ .layer_cd0de5 .item_d90b3d::before {
   display: none;
 }
