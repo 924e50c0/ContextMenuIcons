@@ -61,6 +61,7 @@
   --cmi-hideimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_image.svg);
   --cmi-hidemutedchannels: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_muted_channels.svg);
   --cmi-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
+  --cmi-id: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/ID.svg);
   --cmi-image: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/icon.svg);
   --cmi-imagescale: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/image_scale.svg);
   --cmi-invitepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_add.svg);
@@ -913,10 +914,12 @@
   & .item_d90b3d[id="user-context-Mark as Interested"]::before {
     mask: var(--cmi-eventavailable) center/contain no-repeat;
   }
+
   &
     .item_d90b3d[id="user-context-Mark as Interested--Only this event"]::before {
     mask: var(--cmi-check) center/contain no-repeat;
   }
+
   &
     .item_d90b3d[id="user-context-Mark as Interested--All events in this series"]::before {
     mask: var(--cmi-eventavailable) center/contain no-repeat;
@@ -1250,6 +1253,22 @@
   &
     .item_d90b3d[id$="members-table-join-method-menu-join-source-type-option-7"]::before {
     mask: var(--cmi-verifiedperson) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[aria-label="Role Options"] {
+  & .item_d90b3d[id|="vc-permviewer-role-context-menu"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="vc-permviewer-role-context-menu"]::after {
+    mask: var(--cmi-id) center/contain no-repeat;
+    content: "";
+    flex: 0 0 auto;
+    width: var(--cmi-size);
+    height: var(--cmi-size);
+    margin-left: calc(var(--cmi-size) / 1.5);
+    background: currentColor;
   }
 }
 
