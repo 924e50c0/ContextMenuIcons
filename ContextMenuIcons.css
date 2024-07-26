@@ -57,6 +57,7 @@
   --cmi-favorited: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/favorite_filled.svg);
   --cmi-favoriteadd: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_plus.svg);
   --cmi-favoriteremove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_broken.svg);
+  --cmi-flag: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/flag.svg);
   --cmi-forever: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/all_inclusive.svg);
   --cmi-googlecalendar: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/googlecalendar.svg);
   --cmi-hideimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_image.svg);
@@ -821,7 +822,7 @@
   }
 
   & .item_d90b3d[id="user-context-roles"]::before {
-    mask: var(--cmi-permissions) center/contain no-repeat;
+    mask: var(--cmi-flag) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-voice-move"]::before {
@@ -1523,7 +1524,7 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
   }
 
   & .item_d90b3d[id*="role"]::before {
-    mask: var(--cmi-permissions) center/contain no-repeat;
+    mask: var(--cmi-flag) center/contain no-repeat;
   }
 }
 
