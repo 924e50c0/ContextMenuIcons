@@ -8,8 +8,8 @@ Adds icons to context menus for Vencord.
 
 ## Plugin support
 
-- [BetterSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterSettings)
 - [BetterRoleContext](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterRoleContext)
+- [BetterSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterSettings)
 - [ImageZoom](https://github.com/Vendicated/Vencord/tree/main/src/plugins/imageZoom)
 - [NewGuildSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/newGuildSettings)
 - [PermissionsViewer](https://github.com/Vendicated/Vencord/tree/main/src/plugins/permissionsViewer)
