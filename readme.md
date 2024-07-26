@@ -8,9 +8,9 @@ Adds icons to context menus for Vencord.
 
 ## Plugin support
 
-### Current
-
 - [BetterSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterSettings)
+- [BetterRoleContext](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterRoleContext)
+- [ImageZoom](https://github.com/Vendicated/Vencord/tree/main/src/plugins/imageZoom)
 - [NewGuildSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/newGuildSettings)
 - [PermissionsViewer](https://github.com/Vendicated/Vencord/tree/main/src/plugins/permissionsViewer)
 - [ReviewDB](https://github.com/Vendicated/Vencord/tree/main/src/plugins/reviewDB)
@@ -20,11 +20,6 @@ Adds icons to context menus for Vencord.
 - [ViewIcons](https://github.com/Vendicated/Vencord/tree/main/src/plugins/viewIcons)
 - [VoiceMessages](https://github.com/Vendicated/Vencord/tree/main/src/plugins/voiceMessages)
 
-
-### Planned
-
-- [BetterRoleContext](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterRoleContext)
-- [ImageZoom](https://github.com/Vendicated/Vencord/tree/main/src/plugins/imageZoom)
 
 ## Installation
 
@@ -55,6 +50,7 @@ Adds icons to context menus for Vencord.
   - [Thread icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/thread.svg)
   - [Create thread icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/create_thread.svg)
   - [Poll icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/poll.svg)
+  - [Edit icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/edit_alt.svg)
 
 - [Vencord](https://github.com/Vendicated/Vencord) by [Vendicated]()
   - [Notification log icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/vencord_notifications_log.svg)
