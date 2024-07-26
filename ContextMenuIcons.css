@@ -15,6 +15,7 @@
   --cmi-bot: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/bot.svg);
   --cmi-call: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/call.svg);
   --cmi-camera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/camera.svg);
+  --cmi-check: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/check.svg);
   --cmi-clock1: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_10.svg);
   --cmi-clock2: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_20.svg);
   --cmi-clock3: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_40.svg);
@@ -46,12 +47,17 @@
   --cmi-editchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_box.svg);
   --cmi-editprofile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_profile.svg);
   --cmi-editquickcss: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_edit_quickcss.svg);
+  --cmi-event: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar.svg);
+  --cmi-eventavailable: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/event_available.svg);
+  --cmi-eventedit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_calendar.svg);
   --cmi-eventoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_off.svg);
+  --cmi-eventstart: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/event_start.svg);
   --cmi-favorite: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/favorite.svg);
   --cmi-favorited: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/favorite_filled.svg);
   --cmi-favoriteadd: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_plus.svg);
   --cmi-favoriteremove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_broken.svg);
   --cmi-forever: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/all_inclusive.svg);
+  --cmi-googlecalendar: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/googlecalendar.svg);
   --cmi-hideimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_image.svg);
   --cmi-hidemutedchannels: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_muted_channels.svg);
   --cmi-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
@@ -89,6 +95,7 @@
   --cmi-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings.svg);
   --cmi-openchat: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_chat.svg);
   --cmi-openinnew: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_in_new.svg);
+  --cmi-outlook: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/outlook.svg);
   --cmi-owner: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person_alt.svg);
   --cmi-permissions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/permissions.svg);
   --cmi-paymentsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/credit_card_gear.svg);
@@ -107,6 +114,7 @@
   --cmi-resize: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/resize.svg);
   --cmi-saturation: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/saturation.svg);
   --cmi-save: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/save.svg);
+  --cmi-savefile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/file_save.svg);
   --cmi-send: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/send.svg);
   --cmi-serverboost: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/boost.svg);
   --cmi-serverinfo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/info.svg);
@@ -135,6 +143,7 @@
   --cmi-voice: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/voice.svg);
   --cmi-voicesettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings_voice.svg);
   --cmi-widgets: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/widgets.svg);
+  --cmi-yahoo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/yahoo.svg);
 }
 
 .menu_d90b3d:is(
@@ -409,10 +418,12 @@
   & .item_d90b3d[id|="guild-settings-role-context-devmode-copy-id"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
   }
+
   & .item_d90b3d[id|="guild-settings-role-context-delete-role"] {
     &::before {
       mask: var(--cmi-delete) center/contain no-repeat;
     }
+
     & .iconContainer_d90b3d {
       display: none;
     }
@@ -602,7 +613,7 @@
 }
 
 .menu_d90b3d[aria-label="User Settings Actions"] {
-  & .item_d90b3d[id="user-context-mark-channel-read"]::before {
+  & .item_d90b3d[id$="-read"]::before {
     mask: var(--cmi-markasread) center/contain no-repeat;
   }
 
@@ -822,6 +833,97 @@
 
   & .item_d90b3d[id="user-settings-cog-Other_options"]::before {
     mask: var(--cmi-settingsnext) center/contain no-repeat;
+  }
+
+  /* events */
+
+  & .item_d90b3d[id="user-context-mute-events"][aria-checked="false"]::before {
+    mask: var(--cmi-event) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-mute-events"][aria-checked="true"]::before {
+    mask: var(--cmi-eventoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Add to Calendar"]::before {
+    mask: var(--cmi-createevent) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="user-context-Add to Calendar--Add to Google Calendar"]::before {
+    mask: var(--cmi-googlecalendar) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Add to Calendar--Download ICS file"]::before {
+    mask: var(--cmi-savefile) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Add to Calendar--Add to Yahoo"]::before {
+    mask: var(--cmi-yahoo) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Add to Calendar--Add to Outlook"]::before {
+    mask: var(--cmi-outlook) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Start Event"]::before {
+    mask: var(--cmi-eventstart) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Edit Event"]::before {
+    mask: var(--cmi-eventedit) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Edit Event--Edit this Event"]::before {
+    mask: var(--cmi-edit) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="user-context-Edit Event--Edit all Events in this Series"]::before {
+    mask: var(--cmi-eventedit) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Cancel Event"]::before {
+    mask: var(--cmi-eventoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Cancel Event--Cancel this Event"]::before {
+    mask: var(--cmi-close) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="user-context-Cancel Event--Cancel all Events in this Series"]::before {
+    mask: var(--cmi-eventoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Copy Event Link"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="user-context-Copy Event Link--Copy Link for Only this Event"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="user-context-Copy Event Link--Copy Link for All Events"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-Mark as Interested"]::before {
+    mask: var(--cmi-eventavailable) center/contain no-repeat;
+  }
+  &
+    .item_d90b3d[id="user-context-Mark as Interested--Only this event"]::before {
+    mask: var(--cmi-check) center/contain no-repeat;
+  }
+  &
+    .item_d90b3d[id="user-context-Mark as Interested--All events in this series"]::before {
+    mask: var(--cmi-eventavailable) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-report-event"]::before {
+    mask: var(--cmi-report) center/contain no-repeat;
   }
 }
 
@@ -1118,6 +1220,7 @@
   & .item_d90b3d[id$="after-date-menu-item"]::before {
     mask: var(--cmi-daterange) center/contain no-repeat;
   }
+
   & .item_d90b3d[id$="before-date-menu-item"]::before {
     mask: var(--cmi-daterange) center/contain no-repeat;
   }
@@ -1128,18 +1231,22 @@
     .item_d90b3d[id$="members-table-join-method-menu-join-source-type-option-3"]::before {
     mask: var(--cmi-discovery) center/contain no-repeat;
   }
+
   &
     .item_d90b3d[id$="members-table-join-method-menu-join-source-type-option-6"]::before {
     mask: var(--cmi-link) center/contain no-repeat;
   }
+
   &
     .item_d90b3d[id$="members-table-join-method-menu-join-source-type-option-1"]::before {
     mask: var(--cmi-bot) center/contain no-repeat;
   }
+
   &
     .item_d90b3d[id$="members-table-join-method-menu-join-source-type-option-4"]::before {
     mask: var(--cmi-studenthubs) center/contain no-repeat;
   }
+
   &
     .item_d90b3d[id$="members-table-join-method-menu-join-source-type-option-7"]::before {
     mask: var(--cmi-verifiedperson) center/contain no-repeat;
