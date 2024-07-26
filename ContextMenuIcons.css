@@ -14,6 +14,7 @@
   --cmi-block: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/block.svg);
   --cmi-bot: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/bot.svg);
   --cmi-call: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/call.svg);
+  --cmi-calldisconnect: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/call_end.svg);
   --cmi-camera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/camera.svg);
   --cmi-check: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/check.svg);
   --cmi-clock1: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_10.svg);
@@ -87,13 +88,16 @@
   --cmi-microphoneoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mic_off.svg);
   --cmi-move: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/move.svg);
   --cmi-modview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person.svg);
-  --cmi-mutesound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
+  --cmi-nonvideoparticipants: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_mic.svg);
+  --cmi-nonvideoparticipantsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_mic_off.svg);
+  --cmi-sound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
   --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_all.svg);
   --cmi-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications.svg);
   --cmi-notificationslog: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_notifications_log.svg);
   --cmi-notificationsmentions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_at.svg);
   --cmi-notificationsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_off.svg);
   --cmi-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings.svg);
+  --cmi-obsvirtualcamera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/obsstudio.svg);
   --cmi-openchat: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_chat.svg);
   --cmi-openinnew: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_in_new.svg);
   --cmi-outlook: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/outlook.svg);
@@ -103,6 +107,7 @@
   --cmi-pinmessage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pin.svg);
   --cmi-phone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/phone.svg);
   --cmi-poll: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/poll.svg);
+  --cmi-previewcamera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/camera_preview.svg);
   --cmi-privacysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/privacy.svg);
   --cmi-profile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/profile.svg);
   --cmi-pushtotalk: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/select_to_speak.svg);
@@ -143,6 +148,7 @@
   --cmi-viewreviews: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reviews.svg);
   --cmi-voice: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/voice.svg);
   --cmi-voicesettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings_voice.svg);
+  --cmi-integratedcamera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/webcam.svg);
   --cmi-widgets: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/widgets.svg);
   --cmi-yahoo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/yahoo.svg);
 }
@@ -331,7 +337,7 @@
   }
 
   & .item_d90b3d[id$="mute-guild"]::before {
-    mask: var(--cmi-mutesound) center/contain no-repeat !important;
+    mask: var(--cmi-sound) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id$="unmute-guild"]::before {
@@ -477,7 +483,7 @@
   }
 
   & .item_d90b3d[id$="-context-mute-channel"]::before {
-    mask: var(--cmi-mutesound) center/contain no-repeat;
+    mask: var(--cmi-sound) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="context-unmute-channel"]::before {
@@ -597,7 +603,7 @@
   }
 
   & .item_d90b3d[id="thread-context-mute-channel"]::before {
-    mask: var(--cmi-mutesound) center/contain no-repeat;
+    mask: var(--cmi-sound) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="thread-context-thread-notifications"]::before {
@@ -639,7 +645,7 @@
   }
 
   & .item_d90b3d[id="user-context-user-volume"]::before {
-    mask: var(--cmi-mutesound) center/contain no-repeat;
+    mask: var(--cmi-sound) center/contain no-repeat;
   }
 
   &
@@ -741,6 +747,10 @@
     mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id="user-context-voice-disconnect"]::before {
+    mask: var(--cmi-calldisconnect) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id*="user-context-invite-to-server"]::before {
     mask: var(--cmi-invitepeople) center/contain no-repeat;
   }
@@ -790,11 +800,11 @@
   }
 
   & .item_d90b3d[id="user-context-mute-channel"]::before {
-    mask: var(--cmi-microphone) center/contain no-repeat;
+    mask: var(--cmi-sound) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-unmute-channel"]::before {
-    mask: var(--cmi-microphoneoff) center/contain no-repeat;
+    mask: var(--cmi-soundoff) center/contain no-repeat;
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
@@ -1219,6 +1229,75 @@
   }
 }
 
+.menu_d90b3d[aria-label="Channel Call Actions"] {
+  &
+    .item_d90b3d[id="channel-call-overflow-popout-no-video-hide"][aria-checked="true"]::before {
+    mask: var(--cmi-nonvideoparticipants) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="channel-call-overflow-popout-no-video-hide"][aria-checked="false"]::before {
+    mask: var(--cmi-nonvideoparticipantsoff) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="channel-call-overflow-popout-show-call-chat-toasts"][aria-checked="true"]::before {
+    mask: var(--cmi-view) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="channel-call-overflow-popout-show-call-chat-toasts"][aria-checked="false"]::before {
+    mask: var(--cmi-viewoff) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[aria-label="Camera"] {
+  & .item_d90b3d[id|="video-device-context-video-device"]::before {
+    mask: var(--cmi-integratedcamera) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="video-device-context-video-device-OBS Virtual Camera"]::before {
+    mask: var(--cmi-obsvirtualcamera) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="video-device-context-change-video-background"]::before {
+    mask: var(--cmi-previewcamera) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[aria-label="Notification Actions"] {
+  & .item_d90b3d[id="notification-actions-delete"] {
+    &::before {
+      mask: var(--cmi-delete) center/contain no-repeat;
+    }
+
+    & .iconContainer_d90b3d {
+      display: none;
+    }
+  }
+}
+
+.menu_d90b3d[aria-label="Filter"] {
+  & .item_d90b3d[id="mentions-filter-Everyone"]::before {
+    mask: var(--cmi-notificationsmentions) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="mentions-filter-Roles"]::before {
+    mask: var(--cmi-notificationsmentions) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="mentions-filter-All Servers"]::before {
+    mask: var(--cmi-notificationsall) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[aria-label="Activity Shelf Item Actions"] {
+  & .item_d90b3d[id|="activity-shelf-item-context-devmode-copy-id"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+}
+
 .menu_d90b3d[aria-label="Member Safety Flags"] {
   & .item_d90b3d[id$="after-date-menu-item"]::before {
     mask: var(--cmi-daterange) center/contain no-repeat;
@@ -1367,7 +1446,7 @@
 
 .submenu_d90b3d[aria-activedescendant|="user-context-voice-move"] {
   & .item_d90b3d[id|="user-context-voice-move"]::before {
-    mask: var(--cmi-mutesound) center/contain no-repeat;
+    mask: var(--cmi-sound) center/contain no-repeat;
   }
 }
 
