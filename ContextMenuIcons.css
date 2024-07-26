@@ -39,7 +39,7 @@
   --cmi-delete: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/delete.svg);
   --cmi-disablevideo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/disable_video.svg);
   --cmi-duplicate: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add.svg);
-  --cmi-edit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit.svg);
+  --cmi-edit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_alt.svg);
   --cmi-editchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_box.svg);
   --cmi-editprofile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_profile.svg);
   --cmi-editquickcss: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_edit_quickcss.svg);
@@ -123,6 +123,8 @@
   --cmi-uploadfile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/upload_file.svg);
   --cmi-usersettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/user_settings.svg);
   --cmi-video: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/video.svg);
+  --cmi-view: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/visibility.svg);
+  --cmi-viewoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/visibility_off.svg);
   --cmi-viewreviews: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reviews.svg);
   --cmi-voice: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/voice.svg);
   --cmi-voicesettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings_voice.svg);
@@ -379,6 +381,24 @@
 
   & .item_d90b3d[id="guild-context-create"]::before {
     mask: var(--cmi-createserver) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[aria-label="Server Role Actions"] {
+  & .item_d90b3d[id|="guild-settings-role-context-view-as-role"]::before {
+    mask: var(--cmi-view) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="guild-settings-role-context-devmode-copy-id"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+  & .item_d90b3d[id|="guild-settings-role-context-delete-role"] {
+    &::before {
+      mask: var(--cmi-delete) center/contain no-repeat;
+    }
+    & .iconContainer_d90b3d {
+      display: none;
+    }
   }
 }
 
@@ -1080,6 +1100,24 @@
 .menu_d90b3d[aria-label="Actions"] {
   & .item_d90b3d[id|="guild-discovery-context-menu-devmode-copy-id"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="dev-context-devmode-copy-id"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="dev-context-vc-copy-role-color"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="dev-context-vc-edit-role"] {
+    &::before {
+      mask: var(--cmi-edit) center/contain no-repeat;
+    }
+
+    & .iconContainer_d90b3d {
+      display: none;
+    }
   }
 }
 
