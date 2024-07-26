@@ -132,6 +132,7 @@
   --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
   --cmi-speed: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/speed.svg);
   --cmi-spellcheck: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spellcheck.svg);
+  --cmi-splitview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/splitview.svg);
   --cmi-studenthubs: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/student_hubs_alt.svg);
   --cmi-suggestion: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/lightbulb.svg);
   --cmi-spotify: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spotify.svg);
@@ -210,7 +211,9 @@
   .item_d90b3d:is(
     [id="user-context-user-volume"],
     [id="audio-device-context-output"],
+    [id="rtc-channel-output"],
     [id="audio-device-context-input"],
+    [id="rtc-channel-input"],
     [id$="Accessibility--input"],
     [id$="image-context-vc-zoom"],
     [id$="image-context-vc-size"],
@@ -224,7 +227,9 @@
   .item_d90b3d:is(
     [id="user-context-user-volume"],
     [id="audio-device-context-output"],
+    [id="rtc-channel-output"],
     [id="audio-device-context-input"],
+    [id="rtc-channel-input"],
     [id="gdm-context-change-icon"],
     [id$="Accessibility--input"],
     [id$="image-context-vc-zoom"],
@@ -239,7 +244,9 @@
   .item_d90b3d:is(
     [id="user-context-user-volume"],
     [id="audio-device-context-output"],
+    [id="rtc-channel-output"],
     [id="audio-device-context-input"],
+    [id="rtc-channel-input"],
     [id$="Accessibility--input"],
     [id$="image-context-vc-zoom"],
     [id$="image-context-vc-size"],
@@ -598,6 +605,18 @@
     mask: var(--cmi-editchannel) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id="thread-context-open"]::before {
+    mask: var(--cmi-splitview) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="thread-context-search"]::before {
+    mask: var(--cmi-magnifyingglass) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="thread-context-pins"]::before {
+    mask: var(--cmi-pinmessage) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id="thread-context-channel-copy-link"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
   }
@@ -606,8 +625,22 @@
     mask: var(--cmi-sound) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id="thread-context-unmute-channel"]::before {
+    mask: var(--cmi-soundoff) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id="thread-context-thread-notifications"]::before {
     mask: var(--cmi-notificationsettings) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="thread-context-2"]::before {
+    mask: var(--cmi-notificationsall) center/contain no-repeat;
+  }
+  & .item_d90b3d[id="thread-context-4"]::before {
+    mask: var(--cmi-notificationsmentions) center/contain no-repeat;
+  }
+  & .item_d90b3d[id="thread-context-8"]::before {
+    mask: var(--cmi-notificationsoff) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="thread-context-delete-channel"]::before {
@@ -1111,35 +1144,41 @@
   }
 }
 
-.menu_d90b3d[aria-label="Audio Device Actions"] {
-  & .item_d90b3d[id|="audio-device-context-input"]::before {
+.menu_d90b3d:is([aria-label="Audio Device Actions"], [aria-label="Actions"]) {
+  & .item_d90b3d[id*="-input"]::before {
     mask: var(--cmi-microphone) center/contain no-repeat;
   }
 
-  &
-    .item_d90b3d[id|="audio-device-context-input"]:has(
-      .slider_e13f88[aria-valuenow="0"]
-    )::before {
+  & .item_d90b3d[id*="-input"]:has(.slider_e13f88[aria-valuenow="0"])::before {
     mask: var(--cmi-microphoneoff) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id|="audio-device-context-output"]::before {
+  & .item_d90b3d[id*="-output"]::before {
     mask: var(--cmi-mediaoutput) center/contain no-repeat;
   }
 
-  &
-    .item_d90b3d[id|="audio-device-context-output"]:has(
-      .slider_e13f88[aria-valuenow="0"]
-    )::before {
+  & .item_d90b3d[id*="-output"]:has(.slider_e13f88[aria-valuenow="0"])::before {
     mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="audio-device-context-VOICE_ACTIVITY"]::before {
+  & .item_d90b3d[id$="-VOICE_ACTIVITY"]::before {
     mask: var(--cmi-voice) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="audio-device-context-PUSH_TO_TALK"]::before {
+  & .item_d90b3d[id$="-PUSH_TO_TALK"]::before {
     mask: var(--cmi-pushtotalk) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-show-voice-states"][aria-checked="false"]::before {
+    mask: var(--cmi-nonvideoparticipantsoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-show-voice-states"][aria-checked="true"]::before {
+    mask: var(--cmi-nonvideoparticipants) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-popout-call"]::before {
+    mask: var(--cmi-openinnew) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="audio-device-context-voice-settings"]::before {
