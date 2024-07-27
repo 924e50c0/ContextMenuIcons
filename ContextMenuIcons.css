@@ -105,7 +105,8 @@
   --cmi-owner: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person_alt.svg);
   --cmi-permissions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/permissions.svg);
   --cmi-paymentsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/credit_card_gear.svg);
-  --cmi-pinmessage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pin.svg);
+  --cmi-pin: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pin.svg);
+  --cmi-pinoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pinoff.svg);
   --cmi-phone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/phone.svg);
   --cmi-poll: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/poll.svg);
   --cmi-previewcamera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/camera_preview.svg);
@@ -615,7 +616,7 @@
   }
 
   & .item_d90b3d[id="thread-context-pins"]::before {
-    mask: var(--cmi-pinmessage) center/contain no-repeat;
+    mask: var(--cmi-pin) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="thread-context-channel-copy-link"]::before {
@@ -637,9 +638,11 @@
   & .item_d90b3d[id="thread-context-2"]::before {
     mask: var(--cmi-notificationsall) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="thread-context-4"]::before {
     mask: var(--cmi-notificationsmentions) center/contain no-repeat;
   }
+
   & .item_d90b3d[id="thread-context-8"]::before {
     mask: var(--cmi-notificationsoff) center/contain no-repeat;
   }
@@ -687,6 +690,10 @@
       .slider_e13f88[aria-valuenow="0"]
     )::before {
     mask: var(--cmi-soundoff) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id="user-context-Server Settings"]::before {
+    mask: var(--cmi-settings) center/contain no-repeat;
   }
 
   &
@@ -763,6 +770,10 @@
 
   & .item_d90b3d[id="user-context-apps"]::before {
     mask: var(--cmi-apps) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-change-video-background"]::before {
+    mask: var(--cmi-previewcamera) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-voice-mute"][aria-checked="false"]::before {
@@ -845,7 +856,19 @@
     mask: var(--cmi-soundoff) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id="user-context-no-video-hide"][aria-checked="true"]::before {
+    mask: var(--cmi-nonvideoparticipants) center/contain no-repeat;
+  }
+  &
+    .item_d90b3d[id="user-context-no-video-hide"][aria-checked="false"]::before {
+    mask: var(--cmi-nonvideoparticipantsoff) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id*="devmode-copy-id"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id*="user-context-vc-copy-user-url"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
   }
 
@@ -1025,7 +1048,11 @@
   }
 
   & .item_d90b3d[id$="-pin"]::before {
-    mask: var(--cmi-pinmessage) center/contain no-repeat;
+    mask: var(--cmi-pin) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-unpin"]::before {
+    mask: var(--cmi-pinoff) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="-reply"]::before {
@@ -1106,7 +1133,7 @@
     mask: var(--cmi-openinnew) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id|="message-devmode-copy-id"]::before {
+  & .item_d90b3d[id*="devmode-copy-id"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
   }
 }
@@ -1398,6 +1425,15 @@
 .menu_d90b3d[aria-label="Rule Context Menu"] {
   & .item_d90b3d[id$="edit-automod-rule"]::before {
     mask: var(--cmi-edit) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[aria-label="Link Options"] {
+  & .item_d90b3d[id$="link-copy-link"]::before {
+    mask: var(--cmi-link) center/contain no-repeat;
+  }
+  & .item_d90b3d[id$="link-copy-name"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
   }
 }
 
