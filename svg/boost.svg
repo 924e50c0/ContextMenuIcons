@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="15.083333"
      inkscape:cx="12"
-     inkscape:cy="12"
+     inkscape:cy="11.933702"
      inkscape:window-width="1920"
      inkscape:window-height="969"
      inkscape:window-x="-9"
@@ -35,5 +35,5 @@
      fill="red"
      d="M 12 0 L 4 8 L 4 16 L 12 24 L 20 16 L 20 8 L 12 0 z M 12 2.8203125 L 18 8.8203125 L 18 15.179688 L 12 21.179688 L 6 15.179688 L 6 8.8203125 L 12 2.8203125 z M 12 5.6601562 L 8 9.6601562 L 8 14.339844 L 12 18.339844 L 16 14.339844 L 16 9.6601562 L 12 5.6601562 z"
      id="path1"
-     style="fill:#000000;fill-opacity:1" />
+     style="fill:#e8eaed;fill-opacity:1" />
 </svg>
