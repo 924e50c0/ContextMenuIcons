@@ -1395,6 +1395,12 @@
   }
 }
 
+.menu_d90b3d[aria-label="Rule Context Menu"] {
+  & .item_d90b3d[id$="edit-automod-rule"]::before {
+    mask: var(--cmi-edit) center/contain no-repeat;
+  }
+}
+
 .menu_d90b3d[aria-label="Actions"] {
   & .item_d90b3d[id|="guild-discovery-context-menu-devmode-copy-id"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
