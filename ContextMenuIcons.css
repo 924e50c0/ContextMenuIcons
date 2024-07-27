@@ -4,7 +4,7 @@
   initial-value: show;
 }
 
-@property --language-english {
+@property --language-is-english {
   syntax: "yes | no";
   inherits: false;
   initial-value: no;
@@ -920,7 +920,7 @@
   }
 }
 
-@container root style(--language-english: yes) {
+@container root style(--language-is-english: yes) {
   .menu_d90b3d[id="user-context"] {
     & .item_d90b3d[id="user-context-Add to Calendar"]::before {
       mask: var(--cmi-createevent) center/contain no-repeat;
@@ -1004,7 +1004,7 @@
   }
 }
 
-@container root style(--language-english: no) {
+@container root style(--language-is-english: no) {
   .menu_d90b3d[id="user-context"]:has(
       .item_d90b3d[id="user-context-report-event"]
     ) {
