@@ -56,7 +56,7 @@ Adds icons to context menus for Vencord.
   - [Poll icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/poll.svg)
   - [Edit icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/edit_alt.svg)
 
-- [Vencord](https://github.com/Vendicated/Vencord) by [Vendicated]()
+- [Vencord](https://github.com/Vendicated/Vencord) by [Vendicated](https://github.com/Vendicated)
   - [Notification log icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/vencord_notifications_log.svg)
   - [Edit quick css icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/vencord_edit_quickcss.svg)
 
