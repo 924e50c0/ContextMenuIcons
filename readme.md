@@ -17,9 +17,11 @@ Adds icons to context menus for Vencord.
 - [PermissionsViewer](https://github.com/Vendicated/Vencord/tree/main/src/plugins/permissionsViewer)
 - [ReviewDB](https://github.com/Vendicated/Vencord/tree/main/src/plugins/reviewDB)
 - [ServerInfo](https://github.com/Vendicated/Vencord/tree/main/src/plugins/serverInfo)
+- [Translate](https://github.com/Vendicated/Vencord/tree/main/src/plugins/translate)
 - [UnsuppressEmbeds](https://github.com/Vendicated/Vencord/tree/main/src/plugins/unsuppressEmbeds)
 - [VencordToolbox](https://github.com/Vendicated/Vencord/tree/main/src/plugins/vencordToolbox)
 - [ViewIcons](https://github.com/Vendicated/Vencord/tree/main/src/plugins/viewIcons)
+- [ViewRaw](https://github.com/Vendicated/Vencord/tree/main/src/plugins/viewRaw)
 - [VoiceMessages](https://github.com/Vendicated/Vencord/tree/main/src/plugins/voiceMessages)
 
 
