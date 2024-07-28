@@ -467,7 +467,7 @@
   }
 }
 
-.menu_d90b3d[id="channel-context"] {
+.menu_d90b3d:is([id="channel-context"], [id="channel-attach"]) {
   & .item_d90b3d[id$="-context-mark-channel-read"]::before {
     mask: var(--cmi-markasread) center/contain no-repeat;
   }
