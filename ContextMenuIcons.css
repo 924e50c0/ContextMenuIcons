@@ -158,6 +158,7 @@
   --cmi-texttospeech: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/text_to_speech.svg);
   --cmi-thread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/thread.svg);
   --cmi-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hourglass_disabled.svg);
+  --cmi-translate: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/translate.svg);
   --cmi-uploadfile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/upload_file.svg);
   --cmi-usersettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/user_settings.svg);
   --cmi-verifiedperson: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/person_verified.svg);
@@ -174,6 +175,7 @@
 
 .menu_d90b3d:is(
     [id="message"],
+    [id="message-actions"],
     :has(.item_d90b3d:is([id^="guild-header-popout"]))
   )
   .item_d90b3d:not(
@@ -185,10 +187,13 @@
 .menu_d90b3d
   .item_d90b3d:is(
     [id="message-add-reaction"],
+    [id="message-actions-add-reaction"],
+    [id="message-apps"],
+    [id="message-actions-apps"],
+    [id="message-remove-emoji-reactions"],
+    [id="message-actions-remove-emoji-reactions"],
     [id="user-context-apps"],
     [id="user-context-roles"],
-    [id="message-apps"],
-    [id="message-remove-emoji-reactions"],
     [id="status-status-picker"],
     [id="account-switch-account"],
     [id="user-settings-cog-Other_options--Experiments"],
@@ -1047,7 +1052,7 @@
   }
 }
 
-.menu_d90b3d[id="message"] {
+.menu_d90b3d:is([id="message"], [id="message-actions"]) {
   & .item_d90b3d[id$="add-reaction"]::before {
     mask: var(--cmi-addreaction) center/contain no-repeat;
   }
@@ -1078,6 +1083,10 @@
 
   & .item_d90b3d[id$="-copy-text"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-vc-trans"]::before {
+    mask: var(--cmi-translate) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="-apps"]::before {
@@ -1681,6 +1690,10 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
       mask: var(--cmi-flag) center/contain no-repeat;
     }
   }
+}
+
+.item_d90b3d[id*="raw"]::before {
+  mask: var(--cmi-view) center/contain no-repeat;
 }
 
 .submenu_d90b3d:is(
