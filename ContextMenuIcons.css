@@ -157,7 +157,7 @@
   --cmi-syncdesktop: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sync_desktop.svg);
   --cmi-texttospeech: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/text_to_speech.svg);
   --cmi-thread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/thread.svg);
-  --cmi-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hourglass_disabled.svg);
+  --cmi-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/timeout.svg);
   --cmi-translate: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/translate.svg);
   --cmi-uploadfile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/upload_file.svg);
   --cmi-usersettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/user_settings.svg);
@@ -850,6 +850,10 @@
   }
 
   & .item_d90b3d[id="user-context-timeout"]::before {
+    mask: var(--cmi-timeout) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-context-removetimeout"]::before {
     mask: var(--cmi-timeout) center/contain no-repeat;
   }
 
