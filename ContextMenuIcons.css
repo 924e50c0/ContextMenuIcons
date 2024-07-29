@@ -35,6 +35,8 @@
   --cmi-calldisconnect: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/call_end.svg);
   --cmi-camera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/camera.svg);
   --cmi-check: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/check.svg);
+  --cmi-chat: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/chat.svg);
+  --cmi-chatoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/chat_off.svg);
   --cmi-clock1: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_10.svg);
   --cmi-clock2: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_20.svg);
   --cmi-clock3: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/clock_loader_40.svg);
@@ -64,7 +66,7 @@
   --cmi-duplicate: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/duplicate.svg);
   --cmi-edit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_alt.svg);
   --cmi-editchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_box.svg);
-  --cmi-editprofile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_profile.svg);
+  --cmi-editprofile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/person_edit.svg);
   --cmi-editquickcss: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_edit_quickcss.svg);
   --cmi-event: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar.svg);
   --cmi-eventavailable: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/event_available.svg);
@@ -79,11 +81,11 @@
   --cmi-forever: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/all_inclusive.svg);
   --cmi-googlecalendar: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/googlecalendar.svg);
   --cmi-hideimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_image.svg);
-  --cmi-hidemutedchannels: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_muted_channels.svg);
   --cmi-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
   --cmi-id: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/ID.svg);
   --cmi-image: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/icon.svg);
   --cmi-imagescale: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/image_scale.svg);
+  --cmi-insight: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/insight.svg);
   --cmi-invitepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_add.svg);
   --cmi-join: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/join.svg);
   --cmi-keyboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/keyboard.svg);
@@ -118,6 +120,7 @@
   --cmi-notificationsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_off.svg);
   --cmi-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings.svg);
   --cmi-obsvirtualcamera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/obsstudio.svg);
+  --cmi-onboarding: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/onboarding.svg);
   --cmi-openchat: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_chat.svg);
   --cmi-openinnew: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_in_new.svg);
   --cmi-outlook: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/outlook.svg);
@@ -129,7 +132,6 @@
   --cmi-phone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/phone.svg);
   --cmi-poll: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/poll.svg);
   --cmi-previewcamera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/camera_preview.svg);
-  --cmi-privacysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/privacy.svg);
   --cmi-profile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/profile.svg);
   --cmi-pushtotalk: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/select_to_speak.svg);
   --cmi-reaction: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reaction.svg);
@@ -148,6 +150,7 @@
   --cmi-serversettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings.svg);
   --cmi-settings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings.svg);
   --cmi-settingsnext: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings_next.svg);
+  --cmi-shield: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/privacy.svg);
   --cmi-soundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound.svg);
   --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/no_sound.svg);
   --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
@@ -214,7 +217,8 @@
         [id$="member-account-age-custom-option}"]
       ),
     [id="members-table-join-method-menu"]:has([id$="other-join-methods"]),
-    [id="members-table-sort-menu"]
+    [id="members-table-sort-menu"],
+    [id="progress-bar-context"]
   )
   .item_d90b3d::before,
 .menu_d90b3d[id="channel-attach"] .optionIcon_ec5137,
@@ -361,6 +365,10 @@
     mask: var(--cmi-invitepeople) center/contain no-repeat !important;
   }
 
+  & .item_d90b3d[id$="guild-header-popout-insights"]::before {
+    mask: var(--cmi-insight) center/contain no-repeat !important;
+  }
+
   & .item_d90b3d[id$="active-threads"]::before {
     mask: var(--cmi-thread) center/contain no-repeat !important;
   }
@@ -382,7 +390,15 @@
   }
 
   & .item_d90b3d[id$="hide-muted-channels"]::before {
-    mask: var(--cmi-hidemutedchannels) center/contain no-repeat !important;
+    mask: var(--cmi-chatoff) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id$="hide-muted-channels"][aria-checked="true"]::before {
+    mask: var(--cmi-chatoff) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id$="hide-muted-channels"][aria-checked="false"]::before {
+    mask: var(--cmi-chat) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id$="opt-in"]::before {
@@ -406,7 +422,7 @@
   }
 
   & .item_d90b3d[id$="privacy"]::before {
-    mask: var(--cmi-privacysettings) center/contain no-repeat !important;
+    mask: var(--cmi-shield) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id$="change-nickname"]::before {
@@ -443,6 +459,10 @@
 
   & .item_d90b3d[id*="server-lockdown"]::before {
     mask: var(--cmi-lock) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id*="report-raid"]::before {
+    mask: var(--cmi-shield) center/contain no-repeat !important;
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
@@ -487,6 +507,21 @@
     & .iconContainer_d90b3d {
       display: none;
     }
+  }
+}
+
+.menu_d90b3d:is([id="guild-browse-channels-context-menu"]) {
+  &
+    .item_d90b3d[id="guild-browse-channels-context-menu-go-to-settings"]::before {
+    mask: var(--cmi-onboarding) center/contain no-repeat;
+  }
+  &
+    .item_d90b3d[id="guild-browse-channels-context-menu-opt-in"][aria-checked="true"]::before {
+    mask: var(--cmi-view) center/contain no-repeat;
+  }
+  &
+    .item_d90b3d[id="guild-browse-channels-context-menu-opt-in"][aria-checked="false"]::before {
+    mask: var(--cmi-viewoff) center/contain no-repeat;
   }
 }
 
@@ -1800,6 +1835,11 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
       center/contain no-repeat !important;
   }
 
+  & .item_d90b3d[id$="--SAFETY"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/safety.svg)
+      center/contain no-repeat !important;
+  }
+
   & .item_d90b3d[id$="--MODERATION"]::before {
     mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/moderation.svg)
       center/contain no-repeat !important;
@@ -1822,6 +1862,26 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
 
   & .item_d90b3d[id$="--COMMUNITY"]::before {
     mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/community.svg)
+      center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id$="--ONBOARDING"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/onboarding.svg)
+      center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id$="--ANALYTICS"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/analytics.svg)
+      center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id$="--DISCOVERY"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/discovery.svg)
+      center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id$="--ROLE_SUBSCRIPTIONS"]::before {
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/rolesubscriptions.svg)
       center/contain no-repeat !important;
   }
 
