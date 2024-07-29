@@ -441,6 +441,10 @@
     mask: var(--cmi-leave) center/contain no-repeat !important;
   }
 
+  & .item_d90b3d[id*="server-lockdown"]::before {
+    mask: var(--cmi-lock) center/contain no-repeat !important;
+  }
+
   & .item_d90b3d[id*="devmode-copy-id"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
   }
