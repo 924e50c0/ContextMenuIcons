@@ -1354,8 +1354,19 @@
     mask: var(--cmi-copy) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="expression-picker-vc-copy-emoji-markdown"]::before {
-    mask: var(--cmi-markdown) center/contain no-repeat;
+  & .item_d90b3d[id="expression-picker-vc-copy-emoji-markdown"] {
+    &::before {
+      mask: var(--cmi-markdown) center/contain no-repeat;
+    }
+    &::after {
+      mask: var(--cmi-markdown) center/contain no-repeat;
+      content: "";
+      flex: 0 0 auto;
+      width: var(--cmi-size);
+      height: var(--cmi-size);
+      margin-left: calc(var(--cmi-size) / 1.5);
+      background: currentColor;
+    }
   }
 
   & .item_d90b3d[id="expression-picker-emote-cloner"]::before {
