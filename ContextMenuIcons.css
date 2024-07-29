@@ -1356,7 +1356,7 @@
 
   & .item_d90b3d[id="expression-picker-vc-copy-emoji-markdown"] {
     &::before {
-      mask: var(--cmi-markdown) center/contain no-repeat;
+      mask: var(--cmi-copy) center/contain no-repeat;
     }
     &::after {
       mask: var(--cmi-markdown) center/contain no-repeat;
