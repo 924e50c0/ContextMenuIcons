@@ -19,6 +19,7 @@
   --cmi-activity: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity.svg);
   --cmi-activitysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity_alt.svg);
   --cmi-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_friend.svg);
+  --cmi-add: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add.svg);
   --cmi-addimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_image.svg);
   --cmi-addlabel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_add.svg);
   --cmi-addnote: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_note.svg);
@@ -27,6 +28,7 @@
   --cmi-applynewguildsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/apply_new_guild_settings.svg);
   --cmi-apps: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/apps.svg);
   --cmi-ban: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/ban.svg);
+  --cmi-banner: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/panorama_alt.svg);
   --cmi-block: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/block.svg);
   --cmi-bot: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/bot.svg);
   --cmi-call: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/call.svg);
@@ -59,7 +61,7 @@
   --cmi-delete: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/delete.svg);
   --cmi-disablevideo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/disable_video.svg);
   --cmi-discovery: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/discovery.svg);
-  --cmi-duplicate: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add.svg);
+  --cmi-duplicate: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/duplicate.svg);
   --cmi-edit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_alt.svg);
   --cmi-editchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_box.svg);
   --cmi-editprofile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_profile.svg);
@@ -69,8 +71,8 @@
   --cmi-eventedit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_calendar.svg);
   --cmi-eventoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_off.svg);
   --cmi-eventstart: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/event_start.svg);
-  --cmi-favorite: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/favorite.svg);
-  --cmi-favorited: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/favorite_filled.svg);
+  --cmi-favorite: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart.svg);
+  --cmi-favorited: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_filled.svg);
   --cmi-favoriteadd: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_plus.svg);
   --cmi-favoriteremove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_broken.svg);
   --cmi-flag: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/flag.svg);
@@ -92,6 +94,7 @@
   --cmi-leave: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/leave.svg);
   --cmi-lightmode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/light_mode.svg);
   --cmi-link: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/link_alt.svg);
+  --cmi-list: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/list.svg);
   --cmi-listenalong: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/listen.svg);
   --cmi-lock: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/lock.svg);
   --cmi-magnifyingglass: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/magnifying_glass.svg);
@@ -382,6 +385,18 @@
     mask: var(--cmi-hidemutedchannels) center/contain no-repeat !important;
   }
 
+  & .item_d90b3d[id$="opt-in"]::before {
+    mask: var(--cmi-view) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id$="opt-in"][aria-checked="true"]::before {
+    mask: var(--cmi-view) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id$="opt-in"][aria-checked="false"]::before {
+    mask: var(--cmi-viewoff) center/contain no-repeat !important;
+  }
+
   & .item_d90b3d[id$="settings"]::before {
     mask: var(--cmi-serversettings) center/contain no-repeat !important;
   }
@@ -434,6 +449,10 @@
     mask: var(--cmi-image) center/contain no-repeat !important;
   }
 
+  & .item_d90b3d[id$="view-banner"]::before {
+    mask: var(--cmi-banner) center/contain no-repeat !important;
+  }
+
   & .item_d90b3d[id$="vc-rdb-server-reviews"]::before {
     mask: var(--cmi-viewreviews) center/contain no-repeat !important;
   }
@@ -476,6 +495,18 @@
     mask: var(--cmi-invitepeople) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id="channel-context-opt-in-favorite-channel"]::before {
+    mask: var(--cmi-favorite) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id="channel-context-opt-out-category"]::before {
+    mask: var(--cmi-remove) center/contain no-repeat !important;
+  }
+
+  & .item_d90b3d[id="channel-context-opt-into-channel"]::before {
+    mask: var(--cmi-close) center/contain no-repeat !important;
+  }
+
   & .item_d90b3d[id$="-context-change-icon"]::before {
     mask: var(--cmi-addimage) center/contain no-repeat;
   }
@@ -502,6 +533,10 @@
 
   & .item_d90b3d[id="channel-context-hide-voice-names"]::before {
     mask: var(--cmi-hidenames) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="channel-context-opt-into-category"]::before {
+    mask: var(--cmi-list) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="channel-context-collapse-category"]::before {
