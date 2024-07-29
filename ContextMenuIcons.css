@@ -945,6 +945,10 @@
     mask: var(--cmi-image) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id="user-context-view-server-avatar"]::before {
+    mask: var(--cmi-image) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id="user-context-vc-rdb-user-reviews"]::before {
     mask: var(--cmi-viewreviews) center/contain no-repeat;
   }
