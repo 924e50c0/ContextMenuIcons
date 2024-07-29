@@ -163,7 +163,7 @@
   --cmi-syncdesktop: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sync_desktop.svg);
   --cmi-texttospeech: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/text_to_speech.svg);
   --cmi-thread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/thread.svg);
-  --cmi-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/timeout.svg);
+  --cmi-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hourglass_disabled.svg);
   --cmi-translate: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/translate.svg);
   --cmi-uploadfile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/upload_file.svg);
   --cmi-usersettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/user_settings.svg);
@@ -515,10 +515,12 @@
     .item_d90b3d[id="guild-browse-channels-context-menu-go-to-settings"]::before {
     mask: var(--cmi-onboarding) center/contain no-repeat;
   }
+
   &
     .item_d90b3d[id="guild-browse-channels-context-menu-opt-in"][aria-checked="true"]::before {
     mask: var(--cmi-view) center/contain no-repeat;
   }
+
   &
     .item_d90b3d[id="guild-browse-channels-context-menu-opt-in"][aria-checked="false"]::before {
     mask: var(--cmi-viewoff) center/contain no-repeat;
@@ -1155,6 +1157,18 @@
     mask: var(--cmi-pinoff) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id$="-unfavorite"]::before {
+    mask: var(--cmi-favorited) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-unfavorite"]:hover::before {
+    mask: var(--cmi-favoriteremove) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="-favorite"]::before {
+    mask: var(--cmi-favoriteadd) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id$="-reply"]::before {
     mask: var(--cmi-reply) center/contain no-repeat;
   }
@@ -1217,8 +1231,8 @@
     mask: var(--cmi-report) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id$="-report"]::before {
-    mask: var(--cmi-report) center/contain no-repeat;
+  & .item_d90b3d[id$="-emote-cloner"]::before {
+    mask: var(--cmi-duplicate) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="-copy-image"]::before {
@@ -1338,6 +1352,10 @@
   & .item_d90b3d[id="expression-picker-copy"]::before,
   .item_d90b3d[id|="expression-picker-devmode-copy-id"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="expression-picker-vc-copy-emoji-markdown"]::before {
+    mask: var(--cmi-markdown) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="expression-picker-emote-cloner"]::before {
