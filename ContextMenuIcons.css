@@ -77,6 +77,7 @@
   --cmi-favorited: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_filled.svg);
   --cmi-favoriteadd: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_plus.svg);
   --cmi-favoriteremove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_broken.svg);
+  --cmi-filter: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/filter.svg);
   --cmi-flag: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/flag.svg);
   --cmi-forever: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/all_inclusive.svg);
   --cmi-googlecalendar: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/googlecalendar.svg);
@@ -1136,7 +1137,16 @@
   }
 }
 
-.menu_d90b3d:is([id="message"], [id="message-actions"]) {
+.menu_d90b3d:is([id="message"], [id="message-actions"]),
+[id="channel-mention-context"] {
+  & .item_d90b3d[id$="copy"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id$="search-google"]::before {
+    mask: var(--cmi-magnifyingglass) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id$="add-reaction"]::before {
     mask: var(--cmi-addreaction) center/contain no-repeat;
   }
@@ -1251,6 +1261,18 @@
     mask: var(--cmi-openinnew) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id$="automod-add-selection"] {
+    &::before {
+      mask: var(--cmi-filter) center/contain no-repeat;
+    }
+
+    ~ .layer_cd0de5
+      .item_d90b3d[id="message-guild-automod-add-selection--add-first-rule"]::before {
+      mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildautomod.svg)
+        center/contain no-repeat;
+    }
+  }
+
   & .item_d90b3d[id*="devmode-copy-id"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
   }
@@ -1358,6 +1380,7 @@
     &::before {
       mask: var(--cmi-copy) center/contain no-repeat;
     }
+
     &::after {
       mask: var(--cmi-markdown) center/contain no-repeat;
       content: "";
