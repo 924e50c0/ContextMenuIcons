@@ -248,7 +248,8 @@
     [id$="Accessibility--input"],
     [id$="image-context-vc-zoom"],
     [id$="image-context-vc-size"],
-    [id$="image-context-vc-zoom-speed"]
+    [id$="image-context-vc-zoom-speed"],
+    [id$="stream-context-user-volume"]
   ) {
   flex-wrap: wrap;
   padding: 0px 8px;
@@ -265,7 +266,8 @@
     [id$="Accessibility--input"],
     [id$="image-context-vc-zoom"],
     [id$="image-context-vc-size"],
-    [id$="image-context-vc-zoom-speed"]
+    [id$="image-context-vc-zoom-speed"],
+    [id$="stream-context-user-volume"]
   )
   .labelContainer_d90b3d {
   padding: 0;
@@ -281,7 +283,8 @@
     [id$="Accessibility--input"],
     [id$="image-context-vc-zoom"],
     [id$="image-context-vc-size"],
-    [id$="image-context-vc-zoom-speed"]
+    [id$="image-context-vc-zoom-speed"],
+    [id$="stream-context-user-volume"]
   )
   .sliderContainer_e13f88 {
   width: 100%;
@@ -1453,6 +1456,36 @@
       .item_d90b3d[id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"]::before {
       mask: var(--cmi-language) center/contain no-repeat;
     }
+  }
+}
+
+.menu_d90b3d[id="stream-context"] {
+  & .item_d90b3d[id="stream-context-watch"]::before {
+    mask: var(--cmi-close) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="stream-context-mute"][aria-checked="false"]::before {
+    mask: var(--cmi-sound) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="stream-context-mute"][aria-checked="true"]::before {
+    mask: var(--cmi-soundoff) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="stream-context-user-volume"]::before {
+    mask: var(--cmi-sound) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d[id="stream-context-no-video-hide"][aria-checked="false"]::before {
+    mask: var(--cmi-nonvideoparticipantsoff) center/contain no-repeat;
+  }
+  &
+    .item_d90b3d[id="stream-context-no-video-hide"][aria-checked="true"]::before {
+    mask: var(--cmi-nonvideoparticipants) center/contain no-repeat;
+  }
+  & .item_d90b3d[id="stream-context-report-stream-problem"]::before {
+    mask: var(--cmi-report) center/contain no-repeat;
   }
 }
 
