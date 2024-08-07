@@ -126,6 +126,7 @@
   --cmi-openinnew: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_in_new.svg);
   --cmi-outlook: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/outlook.svg);
   --cmi-owner: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person_alt.svg);
+  --cmi-paste: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/paste.svg);
   --cmi-permissions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/permissions.svg);
   --cmi-paymentsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/credit_card_gear.svg);
   --cmi-pin: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pin.svg);
@@ -1430,7 +1431,7 @@
   }
 
   & .item_d90b3d[id="textarea-context-paste"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-paste) center/contain no-repeat;
   }
 
   & .submenu_d90b3d[aria-activedescendant|="textarea-context-suggestions"] {
