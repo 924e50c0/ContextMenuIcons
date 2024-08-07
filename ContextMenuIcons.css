@@ -1476,19 +1476,23 @@
     mask: var(--cmi-sound) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="stream-context-no-video-hide"][aria-checked="false"]::before {
+  &
+    .item_d90b3d[id="stream-context-no-video-hide"][aria-checked="false"]::before {
     mask: var(--cmi-nonvideoparticipantsoff) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="stream-context-no-video-hide"][aria-checked="true"]::before {
+  &
+    .item_d90b3d[id="stream-context-no-video-hide"][aria-checked="true"]::before {
     mask: var(--cmi-nonvideoparticipants) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="stream-context-self-stream-hide"][aria-checked="false"]::before {
+  &
+    .item_d90b3d[id="stream-context-self-stream-hide"][aria-checked="false"]::before {
     mask: var(--cmi-viewoff) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="stream-context-self-stream-hide"][aria-checked="true"]::before {
+  &
+    .item_d90b3d[id="stream-context-self-stream-hide"][aria-checked="true"]::before {
     mask: var(--cmi-view) center/contain no-repeat;
   }
 
