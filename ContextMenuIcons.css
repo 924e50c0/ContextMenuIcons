@@ -205,7 +205,8 @@
     [id="account-switch-account"],
     [id="user-settings-cog-Other_options--Experiments"],
     [id="user-settings-cog-Experiments"],
-    [id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"]
+    [id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"],
+    [id="manage-streams-stream-settings"]
   )
   ~ .layer_cd0de5
   .item_d90b3d::before,
@@ -1502,6 +1503,36 @@
 
   & .item_d90b3d[id="stream-context-view-stream-preview"]::before {
     mask: var(--cmi-image) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[id="manage-streams"] {
+  & .item_d90b3d[id="manage-streams-stream-settings"]::before {
+    mask: var(--cmi-settings) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="manage-streams-report-stream-problem"]::before {
+    mask: var(--cmi-report) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="manage-streams-stop-streaming"]::before,
+  .item_d90b3d[id="manage-streams-change-windows"]::before {
+    display: none;
+  }
+
+  & .item_d90b3d[id="manage-streams-stop-streaming"],
+  .item_d90b3d[id="manage-streams-change-windows"] {
+    & {
+      flex-direction: row-reverse;
+    }
+
+    & .iconContainer_d90b3d {
+      flex: 0 0 auto;
+      width: var(--cmi-size);
+      height: var(--cmi-size);
+      margin-right: calc(var(--cmi-size) / 1.5);
+      margin-left: 0;
+    }
   }
 }
 
