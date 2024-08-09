@@ -9,7 +9,7 @@ Adds icons to context menus for Vencord.
 ## Plugin support
 
 - [BetterRoleContext](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterRoleContext)
-- [BetterSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterSettings) (partial)
+- [BetterSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterSettings)
 - [CopyEmojiMarkdown](https://github.com/Vendicated/Vencord/tree/main/src/plugins/copyEmojiMarkdown)
 - [CopyUserURLs](https://github.com/Vendicated/Vencord/tree/main/src/plugins/copyUserURLs)
 - [EmoteCloner](https://github.com/Vendicated/Vencord/tree/main/src/plugins/emoteCloner)
@@ -32,7 +32,7 @@ Adds icons to context menus for Vencord.
 
 1. Download `ContextMenuIcons.theme.css`:
 
-   - [GitHub](https://github.com/924e50c0/ContextMenuIcons/releases/download/v1.0.1/ContextMenuIcons.theme.css)
+   - [GitHub](https://github.com/924e50c0/ContextMenuIcons/releases/download/v1.0.2/ContextMenuIcons.theme.css)
 
 2. Place the file in the themes folder:
 

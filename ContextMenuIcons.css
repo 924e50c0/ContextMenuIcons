@@ -1,9 +1,3 @@
-@property --bettersettingsicons {
-  syntax: "show | hide";
-  inherits: false;
-  initial-value: show;
-}
-
 @property --language-is-english {
   syntax: "yes | no";
   inherits: false;
@@ -1774,48 +1768,186 @@
   }
 }
 
-@container root style(--bettersettingsicons: show) {
-  .menu_d90b3d:is([id="user-settings-cog"]) .scroller_d90b3d div {
-    & .item_d90b3d[id|="user-settings-cog"]::before {
-      mask: var(--cmi-settings) center/contain no-repeat;
-    }
-
-    &:nth-child(1) .item_d90b3d[id|="user-settings-cog"]::before {
-      mask: var(--cmi-usersettings) center/contain no-repeat;
-    }
-
-    &:nth-child(2) .item_d90b3d[id|="user-settings-cog"]::before {
-      mask: var(--cmi-paymentsettings) center/contain no-repeat;
-    }
-
-    &:nth-child(3) .item_d90b3d[id|="user-settings-cog"]::before {
-      mask: var(--cmi-settings) center/contain no-repeat;
-    }
-
-    &:nth-child(4) .item_d90b3d[id|="user-settings-cog"]::before {
-      mask: var(--cmi-activitysettings) center/contain no-repeat;
-    }
-
-    &:nth-child(5) .item_d90b3d[id|="user-settings-cog"]::before {
-      mask: var(--cmi-settingsnext) center/contain no-repeat;
-    }
-
-    & .item_d90b3d[id="user-settings-cog-Vencord"]::before {
-      mask: url(https://vencord.dev/assets/favicon.png) center/contain no-repeat;
-      image-rendering: pixelated;
-    }
+.menu_d90b3d:is([id="user-settings-cog"]) .scroller_d90b3d div {
+  &
+    .item_d90b3d:is(
+      [id$="User_Settings"],
+      [id$="Brugerindstillinger"],
+      [id$="Benutzereinstellungen"],
+      [id$="Ajustes_de usuario"],
+      [id$="Param_tres utilisateur"],
+      [id$="Korisni_ke postavke"],
+      [id$="Impostazioni_utente"],
+      [id$="Naudotojo_Nustatymai"],
+      [id$="Felhaszn_lói beállítások"],
+      [id$="Gebruikersinstellingen"],
+      [id$="Brukerinnstillinger"],
+      [id$="Ustawienia_użytkownika"],
+      [id$="Configura_ões de usuário"],
+      [id$="Set_ri utilizator"],
+      [id$="K_yttäjäasetukset"],
+      [id$="Anv_ndarinställningar"],
+      [id$="C_i đặt người dùng"],
+      [id$="Kullan_cı Ayarları"],
+      [id$="U_ivatelská nastavení"],
+      [id$="χρήστη"],
+      [id$="_отребителски настройки"],
+      [id$="_астройки пользователя"],
+      [id$="_ористувацькі налаштування"],
+      [id$="_ूज़र सेटिंग"],
+      [id$="_ั้งค่าผู้ใช้"],
+      [id$="_户设置"],
+      [id$="_ーザー設定"],
+      [id$="_用者設定"],
+      [id$="_용자 설정"]
+    )::before {
+    mask: var(--cmi-usersettings) center/contain no-repeat;
   }
-}
 
-@container root style(--bettersettingsicons: hide) {
-  .flexible_d90b3d[id="user-settings-cog"]
-    > .scroller_d90b3d:not(
-      :has(.item_d90b3d[id="user-settings-cog-My_Account"])
-    )
-    > div {
-    & > .item_d90b3d[id|="user-settings-cog"]::before {
-      display: none;
-    }
+  &
+    .item_d90b3d:is(
+      [id$="Payment_Settings"],
+      [id$="Billing_Settings"],
+      [id$="Faktureringsindstillinger"],
+      [id$="Rechnungseinstellungen"],
+      [id$="Ajustes_de facturación"],
+      [id$="Param_tres de facturation"],
+      [id$="Postavke_naplate"],
+      [id$="Impostazioni_di fatturazione"],
+      [id$="Atsiskaitymo_nustatymai"],
+      [id$="Sz_mlázási beállítások"],
+      [id$="Factuurinstellingen"],
+      [id$="Faktureringsinnstillinger"],
+      [id$="Ustawienia_rozliczeń"],
+      [id$="Configura_ões de cobrança"],
+      [id$="Set_ri facturare"],
+      [id$="Laskutusasetukset"],
+      [id$="Faktureringsinst_llningar"],
+      [id$="C_i Đặt Thanh Toán"],
+      [id$="Faturaland_rma Ayarları"],
+      [id$="Nastaven_ fakturace"],
+      [id$="χρέωσης"],
+      [id$="_астройки за таксуване"],
+      [id$="_астройки выставления счетов"],
+      [id$="_алаштування оплати"],
+      [id$="_िलिंग सेटिंग्स"],
+      [id$="_ารตั้งค่าการเรียกเก็บเงิน"],
+      [id$="_单设置"],
+      [id$="_求設定"],
+      [id$="_單設定"],
+      [id$="_구 설정"]
+    )::before {
+    mask: var(--cmi-paymentsettings) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d:is(
+      [id$="App_Settings"],
+      [id$="App_indstillinger"],
+      [id$="App_Einstellungen"],
+      [id$="Ajustes_de aplicación"],
+      [id$="Ajustes_de la aplicación"],
+      [id$="Param_tres de l'appli"],
+      [id$="Postavke_aplikacije"],
+      [id$="Impostazioni_dell'app"],
+      [id$="Programos_Nustatymai"],
+      [id$="Alkalmaz_s beállítások"],
+      [id$="App_instellingen"],
+      [id$="Appinnstillinger"],
+      [id$="Ustawienia_aplikacji"],
+      [id$="Config_ do aplicativo"],
+      [id$="Set_ri aplicație"],
+      [id$="Sovellusasetukset"],
+      [id$="Appinst_llningar"],
+      [id$="C_i Đặt Ứng Dụng"],
+      [id$="Uygulama_Ayarları"],
+      [id$="Nastaven_ aplikace"],
+      [id$="εφαρμογής"],
+      [id$="_астройки на приложението"],
+      [id$="_астройки приложения"],
+      [id$="_алаштування програми"],
+      [id$="_प सेटिंग"],
+      [id$="_ารตั้งค่าแอป"],
+      [id$="APP_置"],
+      [id$="_プリの設定"],
+      [id$="_用程式設定"],
+      [id$="_ 설정"]
+    )::before {
+    mask: var(--cmi-settings) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d:is(
+      [id$="Activity_Settings"],
+      [id$="Indstillinger_for aktivitet"],
+      [id$="cog-Aktivit_tseinstellungen"],
+      [id$="Ajustes_de actividad"],
+      [id$="Param_tres des activités"],
+      [id$="Postavke_aktivnosti"],
+      [id$="Impostazioni_attività"],
+      [id$="Veiklos_nustatymai"],
+      [id$="Tev_kenységbeállítások"],
+      [id$="Activiteitsinstellingen"],
+      [id$="Innstillinger_for aktivitet"],
+      [id$="Ustawienia_aktywności"],
+      [id$="Config_ de atividade"],
+      [id$="Set_ri activitate"],
+      [id$="Toiminta_asetukset"],
+      [id$="Aktivitetsinst_llningar"],
+      [id$="C_i Đặt Hoạt Động"],
+      [id$="Etkinlik_Ayarları"],
+      [id$="Nastaven_ aktivity"],
+      [id$="δραστηριότητας"],
+      [id$="_астройки за дейност"],
+      [id$="_астройки активности"],
+      [id$="_алаштування активності"],
+      [id$="_क्टिविटी सेटिंग्स"],
+      [id$="_ารตั้งค่ากิจกรรม"],
+      [id$="_动设置"],
+      [id$="_クティビティ設定"],
+      [id$="_態設定"],
+      [id$="_동 설정"]
+    )::before {
+    mask: var(--cmi-activitysettings) center/contain no-repeat;
+  }
+
+  &
+    .item_d90b3d:is(
+      [id$="Other_options"],
+      [id$="Andre_valgmuligheder"],
+      [id$="Andere_Optionen"],
+      [id$="Otras_opciones"],
+      [id$="Autres_options"],
+      [id$="Druge_opcije"],
+      [id$="Altre_opzioni"],
+      [id$="Kitos_parinktys"],
+      [id$="Egy_b beállítások"],
+      [id$="Andere_opties"],
+      [id$="Andre_valg"],
+      [id$="Inne_opcje"],
+      [id$="Outras_opções"],
+      [id$="Alte_opțiuni"],
+      [id$="Muut_vaihtoehdot"],
+      [id$="Andra_alternativ"],
+      [id$="C_c tùy chọn khác"],
+      [id$="Di_er seçenekler"],
+      [id$="Dal_í možnosti"],
+      [id$="_λλες επιλογές"],
+      [id$="_руги опции"],
+      [id$="_ругие варианты"],
+      [id$="_нші параметри"],
+      [id$="_ूसरे ऑप्शन"],
+      [id$="_ัวเลือกอื่น"],
+      [id$="_它选项"],
+      [id$="_のオプション"],
+      [id$="_他選項"],
+      [id$="_타 옵션"]
+    )::before {
+    mask: var(--cmi-settingsnext) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="user-settings-cog-Vencord"]::before {
+    mask: url(https://vencord.dev/assets/favicon.png) center/contain no-repeat;
   }
 }
 

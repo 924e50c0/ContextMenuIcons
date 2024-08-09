@@ -20,16 +20,4 @@
     isn't set to english as the theme currently doesn't support other
     languages.
   */
-
-  --bettersettingsicons: show;                /* show/hide */
-  /*
-    Selectors in the BetterSettings also depend on you client's language.
-    Icons were set in a specific order and will only work properly if you
-    set your Vencord options at the bottom. If you do not want to, you can
-    set the property to hide the icons.
-
-    Alternatively, you can copy the css rules in the source code by
-    searching for '@container root style(--bettersettingsicons: show)'
-    and adjust them individually in your quick css to reorder the icons.
-  */
 }
