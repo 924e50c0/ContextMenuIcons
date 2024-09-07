@@ -184,7 +184,8 @@
   .item_d90b3d:not(
     [id$="hide-muted-channels"],
     [id$="reviews"],
-    [id*="devmode-copy-id"]
+    [id*="devmode-copy-id"],
+    [id*="reaction"]
   )
   .iconContainer_d90b3d:not(:has(.caret_d90b3d)),
 .menu_d90b3d
