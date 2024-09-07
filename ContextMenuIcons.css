@@ -51,6 +51,7 @@
   --cmi-createtextchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_text_channel.svg);
   --cmi-createthread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_thread.svg);
   --cmi-createvoicechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_voice_channel.svg);
+  --cmi-cut: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/cut.svg);
   --cmi-darkmode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/dark_mode.svg);
   --cmi-daterange: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_range.svg);
   --cmi-default: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/help.svg);
@@ -215,7 +216,8 @@
       ),
     [id="members-table-join-method-menu"]:has([id$="other-join-methods"]),
     [id="members-table-sort-menu"],
-    [id="progress-bar-context"]
+    [id="progress-bar-context"],
+    [id="member-list-settings-menu"]
   )
   .item_d90b3d::before,
 .menu_d90b3d[id="channel-attach"] .optionIcon_ec5137,
@@ -1422,6 +1424,14 @@
 
   & .item_d90b3d[id="textarea-context-languages"]::before {
     mask: var(--cmi-language) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="textarea-context-copy"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id="textarea-context-cut"]::before {
+    mask: var(--cmi-cut) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="textarea-context-paste"]::before {
