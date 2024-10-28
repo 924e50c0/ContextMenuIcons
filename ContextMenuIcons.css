@@ -1213,7 +1213,7 @@
   }
 
   & .item_d90b3d[id$="-copy-link"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-link) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="-tts"]::before {
