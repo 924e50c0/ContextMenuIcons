@@ -76,6 +76,7 @@
   --cmi-filter: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/filter.svg);
   --cmi-flag: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/flag.svg);
   --cmi-forever: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/all_inclusive.svg);
+  --cmi-forward: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/forward.svg);
   --cmi-googlecalendar: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/googlecalendar.svg);
   --cmi-hideimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_image.svg);
   --cmi-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
@@ -1185,6 +1186,10 @@
 
   & .item_d90b3d[id$="-reply"]::before {
     mask: var(--cmi-reply) center/contain no-repeat;
+  }
+  
+  & .item_d90b3d[id$="-forward"]::before {
+    mask: var(--cmi-forward) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="-thread"]::before {
