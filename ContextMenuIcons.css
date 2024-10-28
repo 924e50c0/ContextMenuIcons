@@ -2080,6 +2080,15 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
   }
 }
 
+.menu_d90b3d[id="application-directory-profile"] {
+  & .item_d90b3d[id="application-directory-profile-report"]::before {
+mask: var(--cmi-report) center/contain no-repeat;
+  }
+  & .item_d90b3d[id*="devmode-copy-id"]::before {
+mask: var(--cmi-id) center/contain no-repeat;
+  }
+}
+
 .menu_d90b3d[id="copy-id"] {
   & .item_d90b3d[id*="devmode-copy-id"]::before {
     mask: var(--cmi-id) center/contain no-repeat;
