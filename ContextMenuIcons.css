@@ -229,7 +229,11 @@
 .menu_d90b3d[id="channel-attach"] .optionIcon_ec5137,
 .item_d90b3d:is([id|="guild-moderation-roles"])::before,
 .submenu_d90b3d .item_d90b3d[id*="role"] ~ .layer_cd0de5 .item_d90b3d::before,
-.item_d90b3d:not([role="menuitemcheckbox"], [role="menuitemradio"], [id*="apps"])
+.item_d90b3d:not(
+    [role="menuitemcheckbox"],
+    [role="menuitemradio"],
+    [id*="apps"]
+  )
   .iconContainer_d90b3d:not(:has(.caret_d90b3d)):has(svg) {
   display: none;
 }
@@ -2073,6 +2077,22 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
     & .item_d90b3d[id*="role"]::before {
       mask: var(--cmi-flag) center/contain no-repeat;
     }
+  }
+}
+
+.menu_d90b3d[id="copy-id"] {
+  & .item_d90b3d[id*="devmode-copy-id"]::before {
+    mask: var(--cmi-id) center/contain no-repeat;
+  }
+}
+
+.menu_d90b3d[id="user-settings-change-avatar"] {
+  & .item_d90b3d[id="user-settings-change-avatar-change-avatar"]::before {
+    display: none;
+  }
+  &
+    .item_d90b3d[id="user-settings-change-avatar-change-avatar-decoration"]::before {
+    display: none;
   }
 }
 
