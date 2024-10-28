@@ -229,7 +229,7 @@
 .menu_d90b3d[id="channel-attach"] .optionIcon_ec5137,
 .item_d90b3d:is([id|="guild-moderation-roles"])::before,
 .submenu_d90b3d .item_d90b3d[id*="role"] ~ .layer_cd0de5 .item_d90b3d::before,
-.item_d90b3d:not([role="menuitemcheckbox"])
+.item_d90b3d:not([role="menuitemcheckbox"], [id*="apps"])
   .iconContainer_d90b3d:not(:has(.caret_d90b3d)):has(svg) {
   display: none;
 }
