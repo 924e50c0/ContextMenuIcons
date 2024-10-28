@@ -226,7 +226,9 @@
   .item_d90b3d::before,
 .menu_d90b3d[id="channel-attach"] .optionIcon_ec5137,
 .item_d90b3d:is([id|="guild-moderation-roles"])::before,
-.submenu_d90b3d .item_d90b3d[id*="role"] ~ .layer_cd0de5 .item_d90b3d::before {
+.submenu_d90b3d .item_d90b3d[id*="role"] ~ .layer_cd0de5 .item_d90b3d::before,
+.item_d90b3d:not([role="menuitemcheckbox"])
+  .iconContainer_d90b3d:not(:has(.caret_d90b3d)):has(svg) {
   display: none;
 }
 
@@ -472,7 +474,7 @@
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="view-icon"]::before {
@@ -502,7 +504,7 @@
   }
 
   & .item_d90b3d[id|="guild-settings-role-context-devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 
   & .item_d90b3d[id|="guild-settings-role-context-delete-role"] {
@@ -567,7 +569,7 @@
   }
 
   & .item_d90b3d[id="channel-context-channel-copy-link"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-link) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="channel-context-open-chat"]::before {
@@ -659,7 +661,7 @@
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 
   /* upload */
@@ -727,7 +729,7 @@
   }
 
   & .item_d90b3d[id="thread-context-channel-copy-link"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-link) center/contain no-repeat;
   }
 
   & .item_d90b3d[id|="thread-context-mute"]::before {
@@ -763,7 +765,7 @@
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 }
 
@@ -981,11 +983,11 @@
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 
   & .item_d90b3d[id*="user-context-vc-copy-user-url"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-link) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-context-view-avatar"]::before {
@@ -1070,17 +1072,17 @@
     }
 
     & .item_d90b3d[id="user-context-Copy Event Link"]::before {
-      mask: var(--cmi-copy) center/contain no-repeat;
+      mask: var(--cmi-link) center/contain no-repeat;
     }
 
     &
       .item_d90b3d[id="user-context-Copy Event Link--Copy Link for Only this Event"]::before {
-      mask: var(--cmi-copy) center/contain no-repeat;
+      mask: var(--cmi-link) center/contain no-repeat;
     }
 
     &
       .item_d90b3d[id="user-context-Copy Event Link--Copy Link for All Events"]::before {
-      mask: var(--cmi-copy) center/contain no-repeat;
+      mask: var(--cmi-link) center/contain no-repeat;
     }
 
     & .item_d90b3d[id="user-context-Mark as Interested"]::before {
@@ -1134,7 +1136,7 @@
   }
 
   & .item_d90b3d[id|="user-profile-overflow-menu-devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="user-profile-overflow-menu-vc-rdb-user-reviews"]::before {
@@ -1187,7 +1189,7 @@
   & .item_d90b3d[id$="-reply"]::before {
     mask: var(--cmi-reply) center/contain no-repeat;
   }
-  
+
   & .item_d90b3d[id$="-forward"]::before {
     mask: var(--cmi-forward) center/contain no-repeat;
   }
@@ -1263,7 +1265,7 @@
   }
 
   & .item_d90b3d[id$="-copy-native-link"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-link) center/contain no-repeat;
   }
 
   & .item_d90b3d[id$="-open-native-link"]::before {
@@ -1283,7 +1285,7 @@
   }
 
   & .item_d90b3d[id*="devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 }
 
@@ -1297,13 +1299,13 @@
   }
 
   & .item_d90b3d[id*="copy-native-link"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-link) center/contain no-repeat;
   }
 
   & .item_d90b3d[id*="open-native-link"]::before {
     mask: var(--cmi-openinnew) center/contain no-repeat;
   }
-  
+
   & .item_d90b3d[id*="image-context-search-image"]::before {
     mask: var(--cmi-magnifyingglass) center/contain no-repeat;
   }
@@ -1384,9 +1386,12 @@
     mask: var(--cmi-favoriteremove) center/contain no-repeat;
   }
 
-  & .item_d90b3d[id="expression-picker-copy"]::before,
-  .item_d90b3d[id|="expression-picker-devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+  & .item_d90b3d[id="expression-picker-copy"]::before {
+    mask: var(--cmi-id) center/contain no-repeat;
+  }
+
+  & .item_d90b3d[id|="expression-picker-devmode-copy-id"]::before {
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 
   & .item_d90b3d[id="expression-picker-vc-copy-emoji-markdown"] {
@@ -1626,7 +1631,7 @@
 
 .menu_d90b3d[id="activity-shelf-item-context"] {
   & .item_d90b3d[id|="activity-shelf-item-context-devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 }
 
@@ -1701,11 +1706,11 @@
 
 .menu_d90b3d:is([id="guild-discovery-context-menu"], [id="dev-context"]) {
   & .item_d90b3d[id|="guild-discovery-context-menu-devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 
   & .item_d90b3d[id|="dev-context-devmode-copy-id"]::before {
-    mask: var(--cmi-copy) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 
   & .item_d90b3d[id|="dev-context-vc-copy-role-color"]::before {
@@ -2070,7 +2075,7 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
 }
 
 .item_d90b3d[id*="raw"]::before {
-  mask: var(--cmi-view) center/contain no-repeat;
+  mask: var(--cmi-code) center/contain no-repeat;
 }
 
 .submenu_d90b3d:is(
