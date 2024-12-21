@@ -206,7 +206,8 @@
     [id="user-settings-cog-Experiments"],
     [id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"],
     [id="manage-streams-stream-settings"],
-    [id="image-context-search-image"]
+    [id="image-context-search-image"],
+    [id="message-search-image"]
   )
   ~ .layer_cd0de5
   .item_d90b3d::before,
@@ -224,7 +225,8 @@
     [id="member-list-settings-menu"],
     [id="switch-accounts-submenu"],
     [id="set-status-submenu"],
-    [id="content-inventory-context"]
+    [id="content-inventory-context"],
+    [id="image-context-commands-popout"]
   )
   .item_d90b3d::before,
 .menu_d90b3d[id="channel-attach"] .optionIcon_ec5137,
@@ -260,7 +262,8 @@
     [id$="image-context-vc-zoom"],
     [id$="image-context-vc-size"],
     [id$="image-context-vc-zoom-speed"],
-    [id$="stream-context-user-volume"]
+    [id$="stream-context-user-volume"],
+    [id$="stream-context-sidechain-parameters"]
   ) {
   flex-wrap: wrap;
   padding: 0px 8px;
@@ -278,7 +281,8 @@
     [id$="image-context-vc-zoom"],
     [id$="image-context-vc-size"],
     [id$="image-context-vc-zoom-speed"],
-    [id$="stream-context-user-volume"]
+    [id$="stream-context-user-volume"],
+    [id$="stream-context-sidechain-parameters"]
   )
   .labelContainer_d90b3d {
   padding: 0;
@@ -295,7 +299,8 @@
     [id$="image-context-vc-zoom"],
     [id$="image-context-vc-size"],
     [id$="image-context-vc-zoom-speed"],
-    [id$="stream-context-user-volume"]
+    [id$="stream-context-user-volume"],
+    [id$="stream-context-sidechain-parameters"]
   )
   .sliderContainer_e13f88 {
   width: 100%;
@@ -1224,7 +1229,11 @@
   & .item_d90b3d[id$="-copy-link"]::before {
     mask: var(--cmi-link) center/contain no-repeat;
   }
-
+  
+  & .item_d90b3d[id="message-search-image"]::before {
+    mask: var(--cmi-magnifyingglass) center/contain no-repeat;
+  }
+  
   & .item_d90b3d[id$="-tts"]::before {
     mask: var(--cmi-texttospeech) center/contain no-repeat;
   }

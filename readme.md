@@ -16,6 +16,7 @@ Adds icons to context menus for Vencord.
 - [ImageZoom](https://github.com/Vendicated/Vencord/tree/main/src/plugins/imageZoom)
 - [NewGuildSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/newGuildSettings)
 - [PermissionsViewer](https://github.com/Vendicated/Vencord/tree/main/src/plugins/permissionsViewer)
+- [ReverseImageSearch](https://github.com/Vendicated/Vencord/tree/main/src/plugins/reverseImageSearch)
 - [ReviewDB](https://github.com/Vendicated/Vencord/tree/main/src/plugins/reviewDB)
 - [ServerInfo](https://github.com/Vendicated/Vencord/tree/main/src/plugins/serverInfo)
 - [Translate](https://github.com/Vendicated/Vencord/tree/main/src/plugins/translate)
