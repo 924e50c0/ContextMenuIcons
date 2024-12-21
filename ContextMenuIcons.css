@@ -206,7 +206,8 @@
     [id="user-settings-cog-Experiments"],
     [id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"],
     [id="manage-streams-stream-settings"],
-    [id="image-context-search-image"]
+    [id="image-context-search-image"],
+    [id="message-search-image"]
   )
   ~ .layer_cd0de5
   .item_d90b3d::before,
@@ -1228,7 +1229,11 @@
   & .item_d90b3d[id$="-copy-link"]::before {
     mask: var(--cmi-link) center/contain no-repeat;
   }
-
+  
+  & .item_d90b3d[id="message-search-image"]::before {
+    mask: var(--cmi-magnifyingglass) center/contain no-repeat;
+  }
+  
   & .item_d90b3d[id$="-tts"]::before {
     mask: var(--cmi-texttospeech) center/contain no-repeat;
   }
