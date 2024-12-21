@@ -224,7 +224,8 @@
     [id="member-list-settings-menu"],
     [id="switch-accounts-submenu"],
     [id="set-status-submenu"],
-    [id="content-inventory-context"]
+    [id="content-inventory-context"],
+    [id="image-context-commands-popout"]
   )
   .item_d90b3d::before,
 .menu_d90b3d[id="channel-attach"] .optionIcon_ec5137,
