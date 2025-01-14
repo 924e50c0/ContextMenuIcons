@@ -372,6 +372,33 @@
   }
 }
 
+.menu_d90b3d:is([id="gdm-context"]) {
+  & .item_d90b3d[id$="channel-read"]::before {
+    mask: var(--cmi-markasread) center/contain no-repeat !important;
+  }
+  & .item_d90b3d[id$="change-icon"]::before {
+    mask: var(--cmi-image) center/contain no-repeat !important;
+  }
+  & .item_d90b3d[id$="remove-icon"]::before {
+    mask: var(--cmi-hideimage) center/contain no-repeat !important;
+  }
+  & .item_d90b3d[id$="invite-to-join"]::before {
+    mask: var(--cmi-send) center/contain no-repeat !important;
+  }
+  & .item_d90b3d[id$="mute-channel"]::before {
+    mask: var(--cmi-soundoff) center/contain no-repeat !important;
+  }
+  & .item_d90b3d[id$="leave-channel"]::before {
+    mask: var(--cmi-leave) center/contain no-repeat !important;
+  }
+  & .item_d90b3d[id$="channel-icon"]::before {
+    mask: var(--cmi-image) center/contain no-repeat !important;
+  }
+  & .item_d90b3d[id*="copy-id"]::before {
+    mask: var(--cmi-id) center/contain no-repeat !important;
+  }
+}
+
 .menu_d90b3d:is([id="guild-context"], [id="guild-header-popout"]) {
   & .item_d90b3d[id$="read"]::before {
     mask: var(--cmi-markasread) center/contain no-repeat !important;
@@ -885,6 +912,10 @@
     mask: var(--cmi-labeledit) center/contain no-repeat;
   }
 
+  & .item_d90b3d[id="user-context-invite-to-join"]::before {
+    mask: var(--cmi-send) center/contain no-repeat;
+  }
+
   & .item_d90b3d[id="user-context-close-dm"]::before {
     mask: var(--cmi-close) center/contain no-repeat;
   }
@@ -1229,11 +1260,11 @@
   & .item_d90b3d[id$="-copy-link"]::before {
     mask: var(--cmi-link) center/contain no-repeat;
   }
-  
+
   & .item_d90b3d[id="message-search-image"]::before {
     mask: var(--cmi-magnifyingglass) center/contain no-repeat;
   }
-  
+
   & .item_d90b3d[id$="-tts"]::before {
     mask: var(--cmi-texttospeech) center/contain no-repeat;
   }
@@ -2092,10 +2123,10 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
 
 .menu_d90b3d[id="application-directory-profile"] {
   & .item_d90b3d[id="application-directory-profile-report"]::before {
-mask: var(--cmi-report) center/contain no-repeat;
+    mask: var(--cmi-report) center/contain no-repeat;
   }
   & .item_d90b3d[id*="devmode-copy-id"]::before {
-mask: var(--cmi-id) center/contain no-repeat;
+    mask: var(--cmi-id) center/contain no-repeat;
   }
 }
 
