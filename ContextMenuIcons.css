@@ -229,7 +229,7 @@
     [id="image-context-commands-popout"]
   )
   .item_c1e9c4::before,
-.menu_c1e9c4[id="channel-attach"] .optionIcon_ec5137,
+.menu_c1e9c4[id="channel-attach"] .optionIcon__77820,
 .item_c1e9c4:is([id|="guild-moderation-roles"])::before,
 .submenu_c1e9c4 .item_c1e9c4[id*="role"] ~ .layer_da8173 .item_c1e9c4::before,
 .item_c1e9c4:not(
@@ -246,7 +246,7 @@
   align-items: center;
 }
 
-.menu_c1e9c4[id="channel-attach"] .optionName_ec5137 {
+.menu_c1e9c4[id="channel-attach"] .optionName__77820 {
   margin: 0;
 }
 
