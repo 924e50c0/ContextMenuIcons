@@ -968,6 +968,10 @@
     mask: var(--cmi-removefriend) center/contain no-repeat;
   }
 
+  & .item_c1e9c4[id="user-context-ignore"]::before {
+    mask: var(--cmi-viewoff) center/contain no-repeat;
+  }
+
   & .item_c1e9c4[id="user-context-block"]::before {
     mask: var(--cmi-block) center/contain no-repeat;
   }
