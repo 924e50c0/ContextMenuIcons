@@ -1700,33 +1700,6 @@
   }
 }
 
-.menu_c1e9c4[id="members-table-join-method-menu"] {
-  &
-    .item_c1e9c4[id$="members-table-join-method-menu-join-source-type-option-3"]::before {
-    mask: var(--cmi-discovery) center/contain no-repeat;
-  }
-
-  &
-    .item_c1e9c4[id$="members-table-join-method-menu-join-source-type-option-6"]::before {
-    mask: var(--cmi-link) center/contain no-repeat;
-  }
-
-  &
-    .item_c1e9c4[id$="members-table-join-method-menu-join-source-type-option-1"]::before {
-    mask: var(--cmi-bot) center/contain no-repeat;
-  }
-
-  &
-    .item_c1e9c4[id$="members-table-join-method-menu-join-source-type-option-4"]::before {
-    mask: var(--cmi-studenthubs) center/contain no-repeat;
-  }
-
-  &
-    .item_c1e9c4[id$="members-table-join-method-menu-join-source-type-option-7"]::before {
-    mask: var(--cmi-verifiedperson) center/contain no-repeat;
-  }
-}
-
 .menu_c1e9c4[id="vc-permviewer-role-context-menu"] {
   & .item_c1e9c4[id|="vc-permviewer-role-context-menu"]::before {
     mask: var(--cmi-copy) center/contain no-repeat;
