@@ -220,6 +220,7 @@
         [id$="member-account-age-custom-option}"]
       ),
     [id="members-table-join-method-menu"]:has([id$="other-join-methods"]),
+    [id="members-table-join-method-menu"],
     [id="members-table-sort-menu"],
     [id="progress-bar-context"],
     [id="member-list-settings-menu"],
