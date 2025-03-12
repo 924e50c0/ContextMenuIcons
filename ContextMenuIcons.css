@@ -233,6 +233,8 @@
 .menu_c1e9c4[id="channel-attach"] .optionIcon__77820,
 .item_c1e9c4:is([id|="guild-moderation-roles"])::before,
 .submenu_c1e9c4 .item_c1e9c4[id*="role"] ~ .layer_da8173 .item_c1e9c4::before,
+
+.submenu_c1e9c4[aria-activedescendant|="image-menu-media-viewer-details"]:not(:has([aria-activedescendant*="viewer-details"])) .item_c1e9c4::before,
 .submenu_c1e9c4[aria-activedescendant|="user-settings-cog-Vencord--VencordPlugins"]:not(:has([aria-activedescendant*="VencordPlugins"])) .item_c1e9c4::before,
 .item_c1e9c4:not(
     [role="menuitemcheckbox"],
@@ -1344,6 +1346,18 @@
   & .item_c1e9c4[id*="devmode-copy-id"]::before {
     mask: var(--cmi-id) center/contain no-repeat;
   }
+}
+
+.menu_c1e9c4[id="image-menu"] {
+    & [id="image-menu-media-viewer-copy-link"]::before {
+        mask: var(--cmi-link) center/contain no-repeat;
+    }
+    & [id="image-menu-media-viewer-details"]::before {
+        mask: var(--cmi-poll) center/contain no-repeat;
+    }
+    & [id*="image-menu-devmode-copy-id"]::before {
+        mask: var(--cmi-id) center/contain no-repeat;
+    }
 }
 
 .menu_c1e9c4[id="image-context"] {
