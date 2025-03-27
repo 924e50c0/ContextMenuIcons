@@ -12,7 +12,7 @@
   --cmi-size: 18px;
   --cmi-activity: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity.svg);
   --cmi-activitysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity_alt.svg);
-  --cmi-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_friend.svg);
+  --cmi-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/person_add.svg);
   --cmi-add: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add.svg);
   --cmi-addimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_image.svg);
   --cmi-addlabel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_add.svg);
@@ -152,7 +152,7 @@
   --cmi-settingsnext: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings_next.svg);
   --cmi-shield: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/privacy.svg);
   --cmi-soundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound.svg);
-  --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/no_sound.svg);
+  --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound_off.svg);
   --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
   --cmi-speed: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/speed.svg);
   --cmi-spellcheck: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spellcheck.svg);
@@ -173,8 +173,8 @@
   --cmi-view-compact: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view_compact.svg);
   --cmi-view-default: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view_default.svg);
   --cmi-view-cosy: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view_cosy.svg);
-  --cmi-view: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/visibility.svg);
-  --cmi-viewoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/visibility_off.svg);
+  --cmi-view: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view.svg);
+  --cmi-viewoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view_off.svg);
   --cmi-viewreviews: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reviews.svg);
   --cmi-voice: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/voice.svg);
   --cmi-voicesettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings_voice.svg);
