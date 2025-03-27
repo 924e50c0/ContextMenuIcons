@@ -112,10 +112,10 @@
   --cmi-nonvideoparticipants: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_mic.svg);
   --cmi-nonvideoparticipantsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_mic_off.svg);
   --cmi-sound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
-  --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_all.svg);
+  --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_active.svg);
   --cmi-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications.svg);
   --cmi-notificationslog: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_notifications_log.svg);
-  --cmi-notificationsmentions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_at.svg);
+  --cmi-notificationsmentions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_mention.svg);
   --cmi-notificationsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_off.svg);
   --cmi-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings.svg);
   --cmi-obsvirtualcamera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/obsstudio.svg);
