@@ -241,7 +241,8 @@
     [role="menuitemradio"],
     [id*="apps"]
   )
-  .iconContainer_c1e9c4:not(:has(.caret_c1e9c4)):has(svg) {
+  .iconContainer_c1e9c4:not(:has(.caret_c1e9c4)):has(svg),
+  .labelContainer_c1e9c4:not(:has(.caret_c1e9c4)):has(svg) svg {
   display: none;
 }
 
