@@ -168,6 +168,7 @@
   --cmi-usersettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/user_settings.svg);
   --cmi-verifiedperson: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/person_verified.svg);
   --cmi-video: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/video.svg);
+  --cmi-videooff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/videooff.svg);
   --cmi-view: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/visibility.svg);
   --cmi-viewoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/visibility_off.svg);
   --cmi-viewreviews: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reviews.svg);
@@ -884,6 +885,18 @@
 
   & .item_c1e9c4[id="user-context-deafen"][aria-checked="false"]::before {
     mask: var(--cmi-mediaoutput) center/contain no-repeat;
+  }
+  
+  & .item_c1e9c4[id="user-context-self-video-hide"][aria-checked="true"]::before {
+    mask: var(--cmi-video) center/contain no-repeat;
+  }
+
+  & .item_c1e9c4[id="user-context-self-video-hide"][aria-checked="false"]::before {
+    mask: var(--cmi-videooff) center/contain no-repeat;
+  }
+
+  & .item_c1e9c4[id="user-context-voice-and-video-settings"]::before {
+    mask: var(--cmi-settings) center/contain no-repeat;
   }
 
   &
