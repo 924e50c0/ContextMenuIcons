@@ -1055,6 +1055,46 @@
     mask: var(--cmi-id) center/contain no-repeat;
   }
 
+  & .item_c1e9c4[id="user-context-more-options"]::before {
+    mask: var(--cmi-more) center/contain no-repeat;
+  }
+
+& .submenu_c1e9c4[aria-activedescendant*="more-options"] {
+    & .item_c1e9c4[id*="ignore"]::before {
+      mask: var(--cmi-viewoff) center/contain no-repeat;
+    }
+    & .item_c1e9c4[id*="block"]::before {
+      mask: var(--cmi-block) center/contain no-repeat;
+    }
+    & .item_c1e9c4[id*="view"]::before {
+      mask: var(--cmi-modview) center/contain no-repeat;
+    }
+    & .item_c1e9c4[id*="mute"][aria-checked="false"]::before {
+      mask: var(--cmi-microphone) center/contain no-repeat;
+    }
+    & .item_c1e9c4[id*="mute"][aria-checked="true"]::before {
+      mask: var(--cmi-microphoneoff) center/contain no-repeat;
+    }
+    & .item_c1e9c4[id*="deafen"][aria-checked="false"]::before {
+      mask: var(--cmi-mediaoutput) center/contain no-repeat;
+    }
+    & .item_c1e9c4[id*="deafen"][aria-checked="true"]::before {
+      mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
+    }
+    & .item_c1e9c4[id*="disconnect"]::before {
+      mask: var(--cmi-calldisconnect) center/contain no-repeat;
+    }
+    & .item_c1e9c4[id*="timeout"]::before {
+      mask: var(--cmi-timeout) center/contain no-repeat;
+    }
+    & .item_c1e9c4[id*="kick"]::before {
+      mask: var(--cmi-removepeople) center/contain no-repeat;
+    }
+    & .item_c1e9c4[id*="ban"]::before {
+      mask: var(--cmi-ban) center/contain no-repeat;
+    }
+  }
+  
   & .item_c1e9c4[id*="user-context-vc-copy-user-url"]::before {
     mask: var(--cmi-link) center/contain no-repeat;
   }
