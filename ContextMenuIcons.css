@@ -2065,20 +2065,36 @@
 .menu_c1e9c4:is([id="user-settings-cog"]) .scroller_c1e9c4 div {
   .submenu_c1e9c4[aria-activedescendant*="--Appearance"],
   .submenu_c1e9c4[aria-activedescendant="user-settings-cog-Appearance"] {
+    & .item_c1e9c4[id$="light"]::before {
+      mask: var(--cmi-lightmode) center/contain no-repeat;
+    }
+
     & .item_c1e9c4[id$="dark"]::before {
+      mask: var(--cmi-ashmode) center/contain no-repeat;
+    }
+
+    & .item_c1e9c4[id$="darker"]::before {
       mask: var(--cmi-darkmode) center/contain no-repeat;
     }
 
-    & .item_c1e9c4[id$="light"]::before {
-      mask: var(--cmi-lightmode) center/contain no-repeat;
+    & .item_c1e9c4[id$="midnight"]::before {
+      mask: var(--cmi-darkermode) center/contain no-repeat;
     }
 
     & .item_c1e9c4[id$="system"]::before {
       mask: var(--cmi-syncdesktop) center/contain no-repeat;
     }
 
-    & .item_c1e9c4[id$="compact-mode"]::before {
-      mask: var(--cmi-cosymode) center/contain no-repeat;
+    & .item_c1e9c4[id*="compact"]::before {
+      mask: var(--cmi-view-compact) center/contain no-repeat;
+    }
+
+    & .item_c1e9c4[id*="default"]::before {
+      mask: var(--cmi-view-default) center/contain no-repeat;
+    }
+
+    & .item_c1e9c4[id*="cozy"]::before {
+      mask: var(--cmi-view-cosy) center/contain no-repeat;
     }
 
     /*& .item_c1e9c4[id$="cosy-mode"]::before {
