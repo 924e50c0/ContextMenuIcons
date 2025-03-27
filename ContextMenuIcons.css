@@ -1162,6 +1162,20 @@
   }
 }
 
+.menu_c1e9c4[id="friend-row"] {
+  & .item_c1e9c4[id="friend-row-start-video-call"]::before {
+    mask: var(--cmi-video) center/contain no-repeat;
+  }
+
+  .item_c1e9c4[id="friend-row-start-voice-call"]::before {
+    mask: var(--cmi-voice) center/contain no-repeat;
+  }
+
+  .item_c1e9c4[id="friend-row-remove-friend"]::before {
+    mask: var(--cmi-removefriend) center/contain no-repeat;
+  }
+}
+
 .menu_c1e9c4[id="user-profile-overflow-menu"] {
   & .item_c1e9c4[id="user-profile-overflow-menu-view-main-profile"]::before,
   .item_c1e9c4[id="user-profile-overflow-menu-view-server-profile"]::before,
