@@ -111,7 +111,7 @@
   --cmi-modview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person.svg);
   --cmi-nonvideoparticipants: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_mic.svg);
   --cmi-nonvideoparticipantsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_mic_off.svg);
-  --cmi-sound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
+  --cmi-sound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/volume.svg);
   --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_active.svg);
   --cmi-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications.svg);
   --cmi-notificationslog: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_notifications_log.svg);
@@ -153,7 +153,7 @@
   --cmi-shield: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/privacy.svg);
   --cmi-soundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound.svg);
   --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound_off.svg);
-  --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
+  --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/volume_off.svg);
   --cmi-speed: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/speed.svg);
   --cmi-spellcheck: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spellcheck.svg);
   --cmi-splitview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/splitview.svg);
