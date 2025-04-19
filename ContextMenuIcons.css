@@ -12,7 +12,7 @@
   --cmi-size: 18px;
   --cmi-activity: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity.svg);
   --cmi-activitysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity_alt.svg);
-  --cmi-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_friend.svg);
+  --cmi-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/person_add.svg);
   --cmi-add: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add.svg);
   --cmi-addimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_image.svg);
   --cmi-addlabel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/label_add.svg);
@@ -81,7 +81,7 @@
   --cmi-hideimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_image.svg);
   --cmi-hidenames: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hide_names.svg);
   --cmi-id: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/ID.svg);
-  --cmi-image: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/icon.svg);
+  --cmi-image: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/image.svg);
   --cmi-imagescale: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/image_scale.svg);
   --cmi-insight: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/insight.svg);
   --cmi-invitepeople: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_add.svg);
@@ -93,7 +93,7 @@
   --cmi-language: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/language.svg);
   --cmi-leave: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/leave.svg);
   --cmi-lightmode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/light_mode.svg);
-  --cmi-link: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/link_alt.svg);
+  --cmi-link: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/link.svg);
   --cmi-list: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/list.svg);
   --cmi-listenalong: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/listen.svg);
   --cmi-lock: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/lock.svg);
@@ -111,11 +111,11 @@
   --cmi-modview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person.svg);
   --cmi-nonvideoparticipants: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_mic.svg);
   --cmi-nonvideoparticipantsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/group_mic_off.svg);
-  --cmi-sound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/unmuted.svg);
-  --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_all.svg);
+  --cmi-sound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/volume.svg);
+  --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_active.svg);
   --cmi-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications.svg);
   --cmi-notificationslog: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_notifications_log.svg);
-  --cmi-notificationsmentions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_at.svg);
+  --cmi-notificationsmentions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_mention.svg);
   --cmi-notificationsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_off.svg);
   --cmi-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings.svg);
   --cmi-obsvirtualcamera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/obsstudio.svg);
@@ -152,8 +152,8 @@
   --cmi-settingsnext: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings_next.svg);
   --cmi-shield: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/privacy.svg);
   --cmi-soundboard: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound.svg);
-  --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/no_sound.svg);
-  --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/muted.svg);
+  --cmi-soundboardoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sound_off.svg);
+  --cmi-soundoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/volume_off.svg);
   --cmi-speed: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/speed.svg);
   --cmi-spellcheck: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spellcheck.svg);
   --cmi-splitview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/splitview.svg);
@@ -173,8 +173,8 @@
   --cmi-view-compact: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view_compact.svg);
   --cmi-view-default: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view_default.svg);
   --cmi-view-cosy: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view_cosy.svg);
-  --cmi-view: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/visibility.svg);
-  --cmi-viewoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/visibility_off.svg);
+  --cmi-view: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view.svg);
+  --cmi-viewoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/view_off.svg);
   --cmi-viewreviews: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reviews.svg);
   --cmi-voice: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/voice.svg);
   --cmi-voicesettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/settings_voice.svg);
@@ -183,71 +183,52 @@
   --cmi-yahoo: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/yahoo.svg);
 }
 
-.menu_c1e9c4:is(
-    [id="message"],
-    [id="message-actions"],
-    :has(.item_c1e9c4:is([id^="guild-header-popout"]))
-  )
-  .item_c1e9c4:not(
-    [id$="hide-muted-channels"],
-    [id$="reviews"],
-    [id*="devmode-copy-id"],
-    [id*="reaction"]
-  )
-  .iconContainer_c1e9c4:not(:has(.caret_c1e9c4)),
-.menu_c1e9c4
-  .item_c1e9c4:is(
-    [id="message-add-reaction"],
-    [id="message-actions-add-reaction"],
-    [id="message-apps"],
-    [id="message-actions-apps"],
-    [id="message-remove-emoji-reactions"],
-    [id="message-actions-remove-emoji-reactions"],
-    [id="user-context-apps"],
-    [id="user-context-roles"],
-    [id="status-status-picker"],
-    [id="account-switch-account"],
-    [id="user-settings-cog-Other_options--Experiments"],
-    [id="user-settings-cog-Experiments"],
-    [id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"],
-    [id="manage-streams-stream-settings"],
-    [id="image-context-search-image"],
-    [id="message-search-image"]
-  )
-  ~ .clickTrapContainer_da8173
-  .item_c1e9c4::before,
-.menu_c1e9c4:is(
-    [id="account"],
-    [id="status"],
-    [id="member-safety-flags"],
-    [id|="member-safety-guild-member"]:has(
-        [id$="member-joined-date-custom-option}"],
-        [id$="member-account-age-custom-option}"]
-      ),
-    [id="members-table-join-method-menu"]:has([id$="other-join-methods"]),
-    [id="members-table-join-method-menu"],
-    [id="members-table-sort-menu"],
-    [id="progress-bar-context"],
-    [id="member-list-settings-menu"],
-    [id="switch-accounts-submenu"],
-    [id="set-status-submenu"],
-    [id="content-inventory-context"],
-    [id="image-context-commands-popout"]
-  )
-  .item_c1e9c4::before,
+.menu_c1e9c4:is([id="message"],
+  [id="message-actions"],
+  :has(.item_c1e9c4:is([id^="guild-header-popout"]))) .item_c1e9c4:not([id$="hide-muted-channels"],
+  [id$="reviews"],
+  [id*="devmode-copy-id"],
+  [id*="reaction"]) .iconContainer_c1e9c4:not(:has(.caret_c1e9c4)),
+.menu_c1e9c4 .item_c1e9c4:is([id="message-add-reaction"],
+  [id="message-actions-add-reaction"],
+  [id="message-apps"],
+  [id="message-actions-apps"],
+  [id="message-remove-emoji-reactions"],
+  [id="message-actions-remove-emoji-reactions"],
+  [id="user-context-apps"],
+  [id="user-context-roles"],
+  [id="status-status-picker"],
+  [id="account-switch-account"],
+  [id="user-settings-cog-Other_options--Experiments"],
+  [id="user-settings-cog-Experiments"],
+  [id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"],
+  [id="manage-streams-stream-settings"],
+  [id="image-context-search-image"],
+  [id="message-search-image"])~.clickTrapContainer_da8173 .item_c1e9c4::before,
+.menu_c1e9c4:is([id="account"],
+  [id="status"],
+  [id="member-safety-flags"],
+  [id|="member-safety-guild-member"]:has([id$="member-joined-date-custom-option}"],
+    [id$="member-account-age-custom-option}"]),
+  [id="members-table-join-method-menu"]:has([id$="other-join-methods"]),
+  [id="members-table-join-method-menu"],
+  [id="members-table-sort-menu"],
+  [id="progress-bar-context"],
+  [id="member-list-settings-menu"],
+  [id="switch-accounts-submenu"],
+  [id="set-status-submenu"],
+  [id="content-inventory-context"],
+  [id="image-context-commands-popout"]) .item_c1e9c4::before,
 .menu_c1e9c4[id="channel-attach"] .optionIcon__77820,
 .item_c1e9c4:is([id|="guild-moderation-roles"])::before,
-.submenu_c1e9c4 .item_c1e9c4[id*="role"] ~ .layer_da8173 .item_c1e9c4::before,
+.submenu_c1e9c4 .item_c1e9c4[id*="role"]~.layer_da8173 .item_c1e9c4::before,
 
 .submenu_c1e9c4[aria-activedescendant|="image-menu-media-viewer-details"]:not(:has([aria-activedescendant*="viewer-details"])) .item_c1e9c4::before,
 .submenu_c1e9c4[aria-activedescendant|="user-settings-cog-Vencord--VencordPlugins"]:not(:has([aria-activedescendant*="VencordPlugins"])) .item_c1e9c4::before,
-.item_c1e9c4:not(
-    [role="menuitemcheckbox"],
-    [role="menuitemradio"],
-    [id*="apps"]
-  )
-  .iconContainer_c1e9c4:not(:has(.caret_c1e9c4)):has(svg),
-  .labelContainer_c1e9c4:not(:has(.caret_c1e9c4)):has(svg) > svg {
+.item_c1e9c4:not([role="menuitemcheckbox"],
+  [role="menuitemradio"],
+  [id*="apps"]) .iconContainer_c1e9c4:not(:has(.caret_c1e9c4)):has(svg),
+.labelContainer_c1e9c4:not(:has(.caret_c1e9c4)):has(svg)>svg {
   display: none;
 }
 
@@ -261,80 +242,62 @@
 }
 
 /* sliders */
-.menu_c1e9c4
-  .item_c1e9c4:is(
-    [id="user-context-user-volume"],
-    [id="audio-device-context-output"],
-    [id="rtc-channel-output"],
-    [id="audio-device-context-input"],
-    [id="rtc-channel-input"],
-    [id$="Accessibility--input"],
-    [id$="image-context-vc-zoom"],
-    [id$="image-context-vc-size"],
-    [id$="image-context-vc-zoom-speed"],
-    [id$="stream-context-user-volume"],
-    [id$="stream-context-sidechain-parameters"]
-  ) {
+.menu_c1e9c4 .item_c1e9c4:is([id="user-context-user-volume"],
+  [id="audio-device-context-output"],
+  [id="rtc-channel-output"],
+  [id="audio-device-context-input"],
+  [id="rtc-channel-input"],
+  [id$="Accessibility--input"],
+  [id$="image-context-vc-zoom"],
+  [id$="image-context-vc-size"],
+  [id$="image-context-vc-zoom-speed"],
+  [id$="stream-context-user-volume"],
+  [id$="stream-context-sidechain-parameters"]) {
   flex-wrap: wrap;
   padding: 0px 8px;
 }
 
-.menu_c1e9c4
-  .item_c1e9c4:is(
-    [id="user-context-user-volume"],
-    [id="audio-device-context-output"],
-    [id="rtc-channel-output"],
-    [id="audio-device-context-input"],
-    [id="rtc-channel-input"],
-    [id="gdm-context-change-icon"],
-    [id$="Accessibility--input"],
-    [id$="image-context-vc-zoom"],
-    [id$="image-context-vc-size"],
-    [id$="image-context-vc-zoom-speed"],
-    [id$="stream-context-user-volume"],
-    [id$="stream-context-sidechain-parameters"]
-  )
-  .labelContainer_c1e9c4 {
+.menu_c1e9c4 .item_c1e9c4:is([id="user-context-user-volume"],
+  [id="audio-device-context-output"],
+  [id="rtc-channel-output"],
+  [id="audio-device-context-input"],
+  [id="rtc-channel-input"],
+  [id="gdm-context-change-icon"],
+  [id$="Accessibility--input"],
+  [id$="image-context-vc-zoom"],
+  [id$="image-context-vc-size"],
+  [id$="image-context-vc-zoom-speed"],
+  [id$="stream-context-user-volume"],
+  [id$="stream-context-sidechain-parameters"]) .labelContainer_c1e9c4 {
   padding: 0;
 }
 
-.menu_c1e9c4
-  .item_c1e9c4:is(
-    [id="user-context-user-volume"],
-    [id="audio-device-context-output"],
-    [id="rtc-channel-output"],
-    [id="audio-device-context-input"],
-    [id="rtc-channel-input"],
-    [id$="Accessibility--input"],
-    [id$="image-context-vc-zoom"],
-    [id$="image-context-vc-size"],
-    [id$="image-context-vc-zoom-speed"],
-    [id$="stream-context-user-volume"],
-    [id$="stream-context-sidechain-parameters"]
-  )
-  .sliderContainer__65039 {
+.menu_c1e9c4 .item_c1e9c4:is([id="user-context-user-volume"],
+  [id="audio-device-context-output"],
+  [id="rtc-channel-output"],
+  [id="audio-device-context-input"],
+  [id="rtc-channel-input"],
+  [id$="Accessibility--input"],
+  [id$="image-context-vc-zoom"],
+  [id$="image-context-vc-size"],
+  [id$="image-context-vc-zoom-speed"],
+  [id$="stream-context-user-volume"],
+  [id$="stream-context-sidechain-parameters"]) .sliderContainer__65039 {
   width: 100%;
   padding: 0;
 }
 
-.submenu_c1e9c4
-  .item_c1e9c4:is(
-    [id$="-Voice___Video--input"],
-    [id$="-Voice___Video--output"]
-  ) {
+.submenu_c1e9c4 .item_c1e9c4:is([id$="-Voice___Video--input"],
+  [id$="-Voice___Video--output"]) {
   flex-wrap: wrap;
   padding: 0px 8px;
 }
 
-.submenu_c1e9c4
-  .item_c1e9c4:is([id$="-Voice___Video--input"], [id$="-Voice___Video--output"])
-  .labelContainer_c1e9c4 {
+.submenu_c1e9c4 .item_c1e9c4:is([id$="-Voice___Video--input"], [id$="-Voice___Video--output"]) .labelContainer_c1e9c4 {
   padding: 0;
 }
 
-.submenu_c1e9c4
-  .item_c1e9c4:is([id$="-Voice___Video--input"], [id$="-Voice___Video--output"])
-  .sliderContainer__65039 {
+.submenu_c1e9c4 .item_c1e9c4:is([id$="-Voice___Video--input"], [id$="-Voice___Video--output"]) .sliderContainer__65039 {
   width: 100%;
   padding: 0;
 }
@@ -363,13 +326,11 @@
     mask: var(--cmi-notificationslog) center/contain no-repeat !important;
   }
 
-  &
-    .item_c1e9c4[id="vc-toolbox-vc-toolbox-quickcss-toggle"][aria-checked="true"]::before {
+  & .item_c1e9c4[id="vc-toolbox-vc-toolbox-quickcss-toggle"][aria-checked="true"]::before {
     mask: var(--cmi-code) center/contain no-repeat !important;
   }
 
-  &
-    .item_c1e9c4[id="vc-toolbox-vc-toolbox-quickcss-toggle"][aria-checked="false"]::before {
+  & .item_c1e9c4[id="vc-toolbox-vc-toolbox-quickcss-toggle"][aria-checked="false"]::before {
     mask: var(--cmi-codeoff) center/contain no-repeat !important;
   }
 
@@ -386,24 +347,31 @@
   & .item_c1e9c4[id$="channel-read"]::before {
     mask: var(--cmi-markasread) center/contain no-repeat !important;
   }
+
   & .item_c1e9c4[id$="change-icon"]::before {
     mask: var(--cmi-image) center/contain no-repeat !important;
   }
+
   & .item_c1e9c4[id$="remove-icon"]::before {
     mask: var(--cmi-hideimage) center/contain no-repeat !important;
   }
+
   & .item_c1e9c4[id$="invite-to-join"]::before {
     mask: var(--cmi-send) center/contain no-repeat !important;
   }
+
   & .item_c1e9c4[id$="mute-channel"]::before {
     mask: var(--cmi-soundoff) center/contain no-repeat !important;
   }
+
   & .item_c1e9c4[id$="leave-channel"]::before {
     mask: var(--cmi-leave) center/contain no-repeat !important;
   }
+
   & .item_c1e9c4[id$="channel-icon"]::before {
     mask: var(--cmi-image) center/contain no-repeat !important;
   }
+
   & .item_c1e9c4[id*="copy-id"]::before {
     mask: var(--cmi-id) center/contain no-repeat !important;
   }
@@ -568,18 +536,15 @@
 }
 
 .menu_c1e9c4:is([id="guild-browse-channels-context-menu"]) {
-  &
-    .item_c1e9c4[id="guild-browse-channels-context-menu-go-to-settings"]::before {
+  & .item_c1e9c4[id="guild-browse-channels-context-menu-go-to-settings"]::before {
     mask: var(--cmi-onboarding) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="guild-browse-channels-context-menu-opt-in"][aria-checked="true"]::before {
+  & .item_c1e9c4[id="guild-browse-channels-context-menu-opt-in"][aria-checked="true"]::before {
     mask: var(--cmi-view) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="guild-browse-channels-context-menu-opt-in"][aria-checked="false"]::before {
+  & .item_c1e9c4[id="guild-browse-channels-context-menu-opt-in"][aria-checked="false"]::before {
     mask: var(--cmi-viewoff) center/contain no-repeat;
   }
 }
@@ -847,10 +812,7 @@
     mask: var(--cmi-sound) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="user-context-user-volume"]:has(
-      .slider_e13f88[aria-valuenow="0"]
-    )::before {
+  & .item_c1e9c4[id="user-context-user-volume"]:has(.slider_e13f88[aria-valuenow="0"])::before {
     mask: var(--cmi-soundoff) center/contain no-repeat !important;
   }
 
@@ -858,12 +820,7 @@
     mask: var(--cmi-settings) center/contain no-repeat;
   }
 
-  &
-    div[role="group"]:has(
-      ~ div[role="group"]
-        .item_c1e9c4[id="user-context-mute"][aria-checked="true"]
-    )
-    .item_c1e9c4[id="user-context-user-volume"]::before {
+  & div[role="group"]:has(~ div[role="group"] .item_c1e9c4[id="user-context-mute"][aria-checked="true"]) .item_c1e9c4[id="user-context-user-volume"]::before {
     mask: var(--cmi-soundoff) center/contain no-repeat;
   }
 
@@ -890,7 +847,7 @@
   & .item_c1e9c4[id="user-context-deafen"][aria-checked="false"]::before {
     mask: var(--cmi-mediaoutput) center/contain no-repeat;
   }
-  
+
   & .item_c1e9c4[id="user-context-self-video-hide"][aria-checked="true"]::before {
     mask: var(--cmi-video) center/contain no-repeat;
   }
@@ -903,13 +860,11 @@
     mask: var(--cmi-settings) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="user-context-soundboard-sound-mute"][aria-checked="true"]::before {
+  & .item_c1e9c4[id="user-context-soundboard-sound-mute"][aria-checked="true"]::before {
     mask: var(--cmi-soundboardoff) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="user-context-soundboard-sound-mute"][aria-checked="false"]::before {
+  & .item_c1e9c4[id="user-context-soundboard-sound-mute"][aria-checked="false"]::before {
     mask: var(--cmi-soundboard) center/contain no-repeat;
   }
 
@@ -917,8 +872,7 @@
     mask: var(--cmi-disablevideo) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="user-context-disable-video"][aria-checked="false"]::before {
+  & .item_c1e9c4[id="user-context-disable-video"][aria-checked="false"]::before {
     mask: var(--cmi-video) center/contain no-repeat;
   }
 
@@ -1046,8 +1000,7 @@
     mask: var(--cmi-nonvideoparticipants) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="user-context-no-video-hide"][aria-checked="false"]::before {
+  & .item_c1e9c4[id="user-context-no-video-hide"][aria-checked="false"]::before {
     mask: var(--cmi-nonvideoparticipantsoff) center/contain no-repeat;
   }
 
@@ -1059,42 +1012,52 @@
     mask: var(--cmi-more) center/contain no-repeat;
   }
 
-& .submenu_c1e9c4[aria-activedescendant*="more-options"] {
+  & .submenu_c1e9c4[aria-activedescendant*="more-options"] {
     & .item_c1e9c4[id*="ignore"]::before {
       mask: var(--cmi-viewoff) center/contain no-repeat;
     }
+
     & .item_c1e9c4[id*="block"]::before {
       mask: var(--cmi-block) center/contain no-repeat;
     }
+
     & .item_c1e9c4[id*="view"]::before {
       mask: var(--cmi-modview) center/contain no-repeat;
     }
+
     & .item_c1e9c4[id*="mute"][aria-checked="false"]::before {
       mask: var(--cmi-microphone) center/contain no-repeat;
     }
+
     & .item_c1e9c4[id*="mute"][aria-checked="true"]::before {
       mask: var(--cmi-microphoneoff) center/contain no-repeat;
     }
+
     & .item_c1e9c4[id*="deafen"][aria-checked="false"]::before {
       mask: var(--cmi-mediaoutput) center/contain no-repeat;
     }
+
     & .item_c1e9c4[id*="deafen"][aria-checked="true"]::before {
       mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
     }
+
     & .item_c1e9c4[id*="disconnect"]::before {
       mask: var(--cmi-calldisconnect) center/contain no-repeat;
     }
+
     & .item_c1e9c4[id*="timeout"]::before {
       mask: var(--cmi-timeout) center/contain no-repeat;
     }
+
     & .item_c1e9c4[id*="kick"]::before {
       mask: var(--cmi-removepeople) center/contain no-repeat;
     }
+
     & .item_c1e9c4[id*="ban"]::before {
       mask: var(--cmi-ban) center/contain no-repeat;
     }
   }
-  
+
   & .item_c1e9c4[id*="user-context-vc-copy-user-url"]::before {
     mask: var(--cmi-link) center/contain no-repeat;
   }
@@ -1132,13 +1095,11 @@
       mask: var(--cmi-createevent) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id="user-context-Add to Calendar--Add to Google Calendar"]::before {
+    & .item_c1e9c4[id="user-context-Add to Calendar--Add to Google Calendar"]::before {
       mask: var(--cmi-googlecalendar) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id="user-context-Add to Calendar--Download ICS file"]::before {
+    & .item_c1e9c4[id="user-context-Add to Calendar--Download ICS file"]::before {
       mask: var(--cmi-savefile) center/contain no-repeat;
     }
 
@@ -1162,8 +1123,7 @@
       mask: var(--cmi-edit) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id="user-context-Edit Event--Edit all Events in this Series"]::before {
+    & .item_c1e9c4[id="user-context-Edit Event--Edit all Events in this Series"]::before {
       mask: var(--cmi-eventedit) center/contain no-repeat;
     }
 
@@ -1175,8 +1135,7 @@
       mask: var(--cmi-close) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id="user-context-Cancel Event--Cancel all Events in this Series"]::before {
+    & .item_c1e9c4[id="user-context-Cancel Event--Cancel all Events in this Series"]::before {
       mask: var(--cmi-eventoff) center/contain no-repeat;
     }
 
@@ -1184,13 +1143,11 @@
       mask: var(--cmi-link) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id="user-context-Copy Event Link--Copy Link for Only this Event"]::before {
+    & .item_c1e9c4[id="user-context-Copy Event Link--Copy Link for Only this Event"]::before {
       mask: var(--cmi-link) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id="user-context-Copy Event Link--Copy Link for All Events"]::before {
+    & .item_c1e9c4[id="user-context-Copy Event Link--Copy Link for All Events"]::before {
       mask: var(--cmi-link) center/contain no-repeat;
     }
 
@@ -1198,22 +1155,18 @@
       mask: var(--cmi-eventavailable) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id="user-context-Mark as Interested--Only this event"]::before {
+    & .item_c1e9c4[id="user-context-Mark as Interested--Only this event"]::before {
       mask: var(--cmi-check) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id="user-context-Mark as Interested--All events in this series"]::before {
+    & .item_c1e9c4[id="user-context-Mark as Interested--All events in this series"]::before {
       mask: var(--cmi-eventavailable) center/contain no-repeat;
     }
   }
 }
 
 @container root style(--language-is-english: no) {
-  .menu_c1e9c4[id="user-context"]:has(
-      .item_c1e9c4[id="user-context-report-event"]
-    ) {
+  .menu_c1e9c4[id="user-context"]:has(.item_c1e9c4[id="user-context-report-event"]) {
     .item_c1e9c4::before {
       display: none;
     }
@@ -1235,6 +1188,7 @@
 }
 
 .menu_c1e9c4[id="user-profile-overflow-menu"] {
+
   & .item_c1e9c4[id="user-profile-overflow-menu-view-main-profile"]::before,
   .item_c1e9c4[id="user-profile-overflow-menu-view-server-profile"]::before,
   .item_c1e9c4[id="user-profile-overflow-menu-view-profile"]::before {
@@ -1361,17 +1315,11 @@
     mask: var(--cmi-remove) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id$="-unsuppress-embeds"]:has(
-      path[d="m21 18.15-2-2V5H7.85l-2-2H19q.825 0 1.413.587Q21 4.175 21 5Zm-1.2 4.45L18.2 21H5q-.825 0-1.413-.587Q3 19.825 3 19V5.8L1.4 4.2l1.4-1.4 18.4 18.4ZM6 17l3-4 2.25 3 .825-1.1L5 7.825V19h11.175l-2-2Zm7.425-6.425ZM10.6 13.4Z"]
-    )::before {
+  & .item_c1e9c4[id$="-unsuppress-embeds"]:has(path[d="m21 18.15-2-2V5H7.85l-2-2H19q.825 0 1.413.587Q21 4.175 21 5Zm-1.2 4.45L18.2 21H5q-.825 0-1.413-.587Q3 19.825 3 19V5.8L1.4 4.2l1.4-1.4 18.4 18.4ZM6 17l3-4 2.25 3 .825-1.1L5 7.825V19h11.175l-2-2Zm7.425-6.425ZM10.6 13.4Z"])::before {
     mask: var(--cmi-hideimage) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id$="-unsuppress-embeds"]:has(
-      path[d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h14q.825 0 1.413.587Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14Zm1-2h12l-3.75-5-3 4L9 13Zm-1 2V5v14Z"]
-    )::before {
+  & .item_c1e9c4[id$="-unsuppress-embeds"]:has(path[d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h14q.825 0 1.413.587Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14Zm1-2h12l-3.75-5-3 4L9 13Zm-1 2V5v14Z"])::before {
     mask: var(--cmi-image) center/contain no-repeat;
   }
 
@@ -1408,10 +1356,8 @@
       mask: var(--cmi-filter) center/contain no-repeat;
     }
 
-    ~ .layer_cd0de5
-      .item_c1e9c4[id="message-guild-automod-add-selection--add-first-rule"]::before {
-      mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildautomod.svg)
-        center/contain no-repeat;
+    ~.layer_cd0de5 .item_c1e9c4[id="message-guild-automod-add-selection--add-first-rule"]::before {
+      mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildautomod.svg) center/contain no-repeat;
     }
   }
 
@@ -1421,15 +1367,17 @@
 }
 
 .menu_c1e9c4[id="image-menu"] {
-    & [id="image-menu-media-viewer-copy-link"]::before {
-        mask: var(--cmi-link) center/contain no-repeat;
-    }
-    & [id="image-menu-media-viewer-details"]::before {
-        mask: var(--cmi-poll) center/contain no-repeat;
-    }
-    & [id*="image-menu-devmode-copy-id"]::before {
-        mask: var(--cmi-id) center/contain no-repeat;
-    }
+  & [id="image-menu-media-viewer-copy-link"]::before {
+    mask: var(--cmi-link) center/contain no-repeat;
+  }
+
+  & [id="image-menu-media-viewer-details"]::before {
+    mask: var(--cmi-poll) center/contain no-repeat;
+  }
+
+  & [id*="image-menu-devmode-copy-id"]::before {
+    mask: var(--cmi-id) center/contain no-repeat;
+  }
 }
 
 .menu_c1e9c4[id="image-context"] {
@@ -1567,13 +1515,11 @@
     mask: var(--cmi-send) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="textarea-context-vc-silent-typing"][aria-checked="false"]::before {
+  & .item_c1e9c4[id="textarea-context-vc-silent-typing"][aria-checked="false"]::before {
     mask: var(--cmi-keyboard) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="textarea-context-vc-silent-typing"][aria-checked="true"]::before {
+  & .item_c1e9c4[id="textarea-context-vc-silent-typing"][aria-checked="true"]::before {
     mask: var(--cmi-keyboardoff) center/contain no-repeat;
   }
 
@@ -1607,27 +1553,21 @@
   }
 
   & .submenu_c1e9c4[aria-activedescendant|="textarea-context-suggestions"] {
-    &
-      .item_c1e9c4[id="textarea-context-suggestions--sticker-suggestions"]::before {
-      mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/stickers.svg)
-        center/contain no-repeat;
+    & .item_c1e9c4[id="textarea-context-suggestions--sticker-suggestions"]::before {
+      mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/stickers.svg) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id="textarea-context-suggestions--command-suggestions"]::before {
+    & .item_c1e9c4[id="textarea-context-suggestions--command-suggestions"]::before {
       mask: var(--cmi-widgets) center/contain no-repeat;
     }
   }
 
-  &
-    .submenu_c1e9c4[aria-activedescendant|="textarea-context-vcd-spellcheck-settings"] {
-    &
-      .item_c1e9c4[id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-enabled"]::before {
+  & .submenu_c1e9c4[aria-activedescendant|="textarea-context-vcd-spellcheck-settings"] {
+    & .item_c1e9c4[id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-enabled"]::before {
       mask: var(--cmi-spellcheck) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"]::before {
+    & .item_c1e9c4[id="textarea-context-vcd-spellcheck-settings--vcd-spellcheck-languages"]::before {
       mask: var(--cmi-language) center/contain no-repeat;
     }
   }
@@ -1650,23 +1590,19 @@
     mask: var(--cmi-sound) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="stream-context-no-video-hide"][aria-checked="false"]::before {
+  & .item_c1e9c4[id="stream-context-no-video-hide"][aria-checked="false"]::before {
     mask: var(--cmi-nonvideoparticipantsoff) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="stream-context-no-video-hide"][aria-checked="true"]::before {
+  & .item_c1e9c4[id="stream-context-no-video-hide"][aria-checked="true"]::before {
     mask: var(--cmi-nonvideoparticipants) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="stream-context-self-stream-hide"][aria-checked="false"]::before {
+  & .item_c1e9c4[id="stream-context-self-stream-hide"][aria-checked="false"]::before {
     mask: var(--cmi-viewoff) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="stream-context-self-stream-hide"][aria-checked="true"]::before {
+  & .item_c1e9c4[id="stream-context-self-stream-hide"][aria-checked="true"]::before {
     mask: var(--cmi-view) center/contain no-repeat;
   }
 
@@ -1710,23 +1646,19 @@
 }
 
 .menu_c1e9c4[id="channel-call-overflow-popout"] {
-  &
-    .item_c1e9c4[id="channel-call-overflow-popout-no-video-hide"][aria-checked="true"]::before {
+  & .item_c1e9c4[id="channel-call-overflow-popout-no-video-hide"][aria-checked="true"]::before {
     mask: var(--cmi-nonvideoparticipants) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="channel-call-overflow-popout-no-video-hide"][aria-checked="false"]::before {
+  & .item_c1e9c4[id="channel-call-overflow-popout-no-video-hide"][aria-checked="false"]::before {
     mask: var(--cmi-nonvideoparticipantsoff) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="channel-call-overflow-popout-show-call-chat-toasts"][aria-checked="true"]::before {
+  & .item_c1e9c4[id="channel-call-overflow-popout-show-call-chat-toasts"][aria-checked="true"]::before {
     mask: var(--cmi-view) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="channel-call-overflow-popout-show-call-chat-toasts"][aria-checked="false"]::before {
+  & .item_c1e9c4[id="channel-call-overflow-popout-show-call-chat-toasts"][aria-checked="false"]::before {
     mask: var(--cmi-viewoff) center/contain no-repeat;
   }
 }
@@ -1736,8 +1668,7 @@
     mask: var(--cmi-integratedcamera) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4[id="video-device-context-video-device-OBS Virtual Camera"]::before {
+  & .item_c1e9c4[id="video-device-context-video-device-OBS Virtual Camera"]::before {
     mask: var(--cmi-obsvirtualcamera) center/contain no-repeat;
   }
 
@@ -1920,180 +1851,166 @@
 }
 
 .menu_c1e9c4:is([id="user-settings-cog"]) .scroller_c1e9c4 div {
-  &
-    .item_c1e9c4:is(
-      [id$="User_Settings"],
-      [id$="Brugerindstillinger"],
-      [id$="Benutzereinstellungen"],
-      [id$="Ajustes_de usuario"],
-      [id$="Param_tres utilisateur"],
-      [id$="Korisni_ke postavke"],
-      [id$="Impostazioni_utente"],
-      [id$="Naudotojo_Nustatymai"],
-      [id$="Felhaszn_lói beállítások"],
-      [id$="Gebruikersinstellingen"],
-      [id$="Brukerinnstillinger"],
-      [id$="Ustawienia_użytkownika"],
-      [id$="Configura_ões de usuário"],
-      [id$="Set_ri utilizator"],
-      [id$="K_yttäjäasetukset"],
-      [id$="Anv_ndarinställningar"],
-      [id$="C_i đặt người dùng"],
-      [id$="Kullan_cı Ayarları"],
-      [id$="U_ivatelská nastavení"],
-      [id$="χρήστη"],
-      [id$="_отребителски настройки"],
-      [id$="_астройки пользователя"],
-      [id$="_ористувацькі налаштування"],
-      [id$="_ूज़र सेटिंग"],
-      [id$="_ั้งค่าผู้ใช้"],
-      [id$="_户设置"],
-      [id$="_ーザー設定"],
-      [id$="_用者設定"],
-      [id$="_용자 설정"]
-    )::before {
+
+  & .item_c1e9c4:is([id$="User_Settings"],
+    [id$="Brugerindstillinger"],
+    [id$="Benutzereinstellungen"],
+    [id$="Ajustes_de usuario"],
+    [id$="Param_tres utilisateur"],
+    [id$="Korisni_ke postavke"],
+    [id$="Impostazioni_utente"],
+    [id$="Naudotojo_Nustatymai"],
+    [id$="Felhaszn_lói beállítások"],
+    [id$="Gebruikersinstellingen"],
+    [id$="Brukerinnstillinger"],
+    [id$="Ustawienia_użytkownika"],
+    [id$="Configura_ões de usuário"],
+    [id$="Set_ri utilizator"],
+    [id$="K_yttäjäasetukset"],
+    [id$="Anv_ndarinställningar"],
+    [id$="C_i đặt người dùng"],
+    [id$="Kullan_cı Ayarları"],
+    [id$="U_ivatelská nastavení"],
+    [id$="χρήστη"],
+    [id$="_отребителски настройки"],
+    [id$="_астройки пользователя"],
+    [id$="_ористувацькі налаштування"],
+    [id$="_ूज़र सेटिंग"],
+    [id$="_ั้งค่าผู้ใช้"],
+    [id$="_户设置"],
+    [id$="_ーザー設定"],
+    [id$="_用者設定"],
+    [id$="_용자 설정"])::before {
     mask: var(--cmi-usersettings) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4:is(
-      [id$="Payment_Settings"],
-      [id$="Billing_Settings"],
-      [id$="Faktureringsindstillinger"],
-      [id$="Rechnungseinstellungen"],
-      [id$="Ajustes_de facturación"],
-      [id$="Param_tres de facturation"],
-      [id$="Postavke_naplate"],
-      [id$="Impostazioni_di fatturazione"],
-      [id$="Atsiskaitymo_nustatymai"],
-      [id$="Sz_mlázási beállítások"],
-      [id$="Factuurinstellingen"],
-      [id$="Faktureringsinnstillinger"],
-      [id$="Ustawienia_rozliczeń"],
-      [id$="Configura_ões de cobrança"],
-      [id$="Set_ri facturare"],
-      [id$="Laskutusasetukset"],
-      [id$="Faktureringsinst_llningar"],
-      [id$="C_i Đặt Thanh Toán"],
-      [id$="Faturaland_rma Ayarları"],
-      [id$="Nastaven_ fakturace"],
-      [id$="χρέωσης"],
-      [id$="_астройки за таксуване"],
-      [id$="_астройки выставления счетов"],
-      [id$="_алаштування оплати"],
-      [id$="_िलिंग सेटिंग्स"],
-      [id$="_ารตั้งค่าการเรียกเก็บเงิน"],
-      [id$="_单设置"],
-      [id$="_求設定"],
-      [id$="_單設定"],
-      [id$="_구 설정"]
-    )::before {
+  & .item_c1e9c4:is([id$="Payment_Settings"],
+    [id$="Billing_Settings"],
+    [id$="Faktureringsindstillinger"],
+    [id$="Rechnungseinstellungen"],
+    [id$="Ajustes_de facturación"],
+    [id$="Param_tres de facturation"],
+    [id$="Postavke_naplate"],
+    [id$="Impostazioni_di fatturazione"],
+    [id$="Atsiskaitymo_nustatymai"],
+    [id$="Sz_mlázási beállítások"],
+    [id$="Factuurinstellingen"],
+    [id$="Faktureringsinnstillinger"],
+    [id$="Ustawienia_rozliczeń"],
+    [id$="Configura_ões de cobrança"],
+    [id$="Set_ri facturare"],
+    [id$="Laskutusasetukset"],
+    [id$="Faktureringsinst_llningar"],
+    [id$="C_i Đặt Thanh Toán"],
+    [id$="Faturaland_rma Ayarları"],
+    [id$="Nastaven_ fakturace"],
+    [id$="χρέωσης"],
+    [id$="_астройки за таксуване"],
+    [id$="_астройки выставления счетов"],
+    [id$="_алаштування оплати"],
+    [id$="_िलिंग सेटिंग्स"],
+    [id$="_ารตั้งค่าการเรียกเก็บเงิน"],
+    [id$="_单设置"],
+    [id$="_求設定"],
+    [id$="_單設定"],
+    [id$="_구 설정"])::before {
     mask: var(--cmi-paymentsettings) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4:is(
-      [id$="App_Settings"],
-      [id$="App_indstillinger"],
-      [id$="App_Einstellungen"],
-      [id$="Ajustes_de aplicación"],
-      [id$="Ajustes_de la aplicación"],
-      [id$="Param_tres de l'appli"],
-      [id$="Postavke_aplikacije"],
-      [id$="Impostazioni_dell'app"],
-      [id$="Programos_Nustatymai"],
-      [id$="Alkalmaz_s beállítások"],
-      [id$="App_instellingen"],
-      [id$="Appinnstillinger"],
-      [id$="Ustawienia_aplikacji"],
-      [id$="Config_ do aplicativo"],
-      [id$="Set_ri aplicație"],
-      [id$="Sovellusasetukset"],
-      [id$="Appinst_llningar"],
-      [id$="C_i Đặt Ứng Dụng"],
-      [id$="Uygulama_Ayarları"],
-      [id$="Nastaven_ aplikace"],
-      [id$="εφαρμογής"],
-      [id$="_астройки на приложението"],
-      [id$="_астройки приложения"],
-      [id$="_алаштування програми"],
-      [id$="_प सेटिंग"],
-      [id$="_ารตั้งค่าแอป"],
-      [id$="APP_置"],
-      [id$="_プリの設定"],
-      [id$="_用程式設定"],
-      [id$="_ 설정"]
-    )::before {
+  & .item_c1e9c4:is([id$="App_Settings"],
+    [id$="App_indstillinger"],
+    [id$="App_Einstellungen"],
+    [id$="Ajustes_de aplicación"],
+    [id$="Ajustes_de la aplicación"],
+    [id$="Param_tres de l'appli"],
+    [id$="Postavke_aplikacije"],
+    [id$="Impostazioni_dell'app"],
+    [id$="Programos_Nustatymai"],
+    [id$="Alkalmaz_s beállítások"],
+    [id$="App_instellingen"],
+    [id$="Appinnstillinger"],
+    [id$="Ustawienia_aplikacji"],
+    [id$="Config_ do aplicativo"],
+    [id$="Set_ri aplicație"],
+    [id$="Sovellusasetukset"],
+    [id$="Appinst_llningar"],
+    [id$="C_i Đặt Ứng Dụng"],
+    [id$="Uygulama_Ayarları"],
+    [id$="Nastaven_ aplikace"],
+    [id$="εφαρμογής"],
+    [id$="_астройки на приложението"],
+    [id$="_астройки приложения"],
+    [id$="_алаштування програми"],
+    [id$="_प सेटिंग"],
+    [id$="_ารตั้งค่าแอป"],
+    [id$="APP_置"],
+    [id$="_プリの設定"],
+    [id$="_用程式設定"],
+    [id$="_ 설정"])::before {
     mask: var(--cmi-settings) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4:is(
-      [id$="Activity_Settings"],
-      [id$="Indstillinger_for aktivitet"],
-      [id$="cog-Aktivit_tseinstellungen"],
-      [id$="Ajustes_de actividad"],
-      [id$="Param_tres des activités"],
-      [id$="Postavke_aktivnosti"],
-      [id$="Impostazioni_attività"],
-      [id$="Veiklos_nustatymai"],
-      [id$="Tev_kenységbeállítások"],
-      [id$="Activiteitsinstellingen"],
-      [id$="Innstillinger_for aktivitet"],
-      [id$="Ustawienia_aktywności"],
-      [id$="Config_ de atividade"],
-      [id$="Set_ri activitate"],
-      [id$="Toiminta_asetukset"],
-      [id$="Aktivitetsinst_llningar"],
-      [id$="C_i Đặt Hoạt Động"],
-      [id$="Etkinlik_Ayarları"],
-      [id$="Nastaven_ aktivity"],
-      [id$="δραστηριότητας"],
-      [id$="_астройки за дейност"],
-      [id$="_астройки активности"],
-      [id$="_алаштування активності"],
-      [id$="_क्टिविटी सेटिंग्स"],
-      [id$="_ารตั้งค่ากิจกรรม"],
-      [id$="_动设置"],
-      [id$="_クティビティ設定"],
-      [id$="_態設定"],
-      [id$="_동 설정"]
-    )::before {
+  & .item_c1e9c4:is([id$="Activity_Settings"],
+    [id$="Indstillinger_for aktivitet"],
+    [id$="cog-Aktivit_tseinstellungen"],
+    [id$="Ajustes_de actividad"],
+    [id$="Param_tres des activités"],
+    [id$="Postavke_aktivnosti"],
+    [id$="Impostazioni_attività"],
+    [id$="Veiklos_nustatymai"],
+    [id$="Tev_kenységbeállítások"],
+    [id$="Activiteitsinstellingen"],
+    [id$="Innstillinger_for aktivitet"],
+    [id$="Ustawienia_aktywności"],
+    [id$="Config_ de atividade"],
+    [id$="Set_ri activitate"],
+    [id$="Toiminta_asetukset"],
+    [id$="Aktivitetsinst_llningar"],
+    [id$="C_i Đặt Hoạt Động"],
+    [id$="Etkinlik_Ayarları"],
+    [id$="Nastaven_ aktivity"],
+    [id$="δραστηριότητας"],
+    [id$="_астройки за дейност"],
+    [id$="_астройки активности"],
+    [id$="_алаштування активності"],
+    [id$="_क्टिविटी सेटिंग्स"],
+    [id$="_ารตั้งค่ากิจกรรม"],
+    [id$="_动设置"],
+    [id$="_クティビティ設定"],
+    [id$="_態設定"],
+    [id$="_동 설정"])::before {
     mask: var(--cmi-activitysettings) center/contain no-repeat;
   }
 
-  &
-    .item_c1e9c4:is(
-      [id$="Other_options"],
-      [id$="Andre_valgmuligheder"],
-      [id$="Andere_Optionen"],
-      [id$="Otras_opciones"],
-      [id$="Autres_options"],
-      [id$="Druge_opcije"],
-      [id$="Altre_opzioni"],
-      [id$="Kitos_parinktys"],
-      [id$="Egy_b beállítások"],
-      [id$="Andere_opties"],
-      [id$="Andre_valg"],
-      [id$="Inne_opcje"],
-      [id$="Outras_opções"],
-      [id$="Alte_opțiuni"],
-      [id$="Muut_vaihtoehdot"],
-      [id$="Andra_alternativ"],
-      [id$="C_c tùy chọn khác"],
-      [id$="Di_er seçenekler"],
-      [id$="Dal_í možnosti"],
-      [id$="_λλες επιλογές"],
-      [id$="_руги опции"],
-      [id$="_ругие варианты"],
-      [id$="_нші параметри"],
-      [id$="_ूसरे ऑप्शन"],
-      [id$="_ัวเลือกอื่น"],
-      [id$="_它选项"],
-      [id$="_のオプション"],
-      [id$="_他選項"],
-      [id$="_타 옵션"]
-    )::before {
+  & .item_c1e9c4:is([id$="Other_options"],
+    [id$="Andre_valgmuligheder"],
+    [id$="Andere_Optionen"],
+    [id$="Otras_opciones"],
+    [id$="Autres_options"],
+    [id$="Druge_opcije"],
+    [id$="Altre_opzioni"],
+    [id$="Kitos_parinktys"],
+    [id$="Egy_b beállítások"],
+    [id$="Andere_opties"],
+    [id$="Andre_valg"],
+    [id$="Inne_opcje"],
+    [id$="Outras_opções"],
+    [id$="Alte_opțiuni"],
+    [id$="Muut_vaihtoehdot"],
+    [id$="Andra_alternativ"],
+    [id$="C_c tùy chọn khác"],
+    [id$="Di_er seçenekler"],
+    [id$="Dal_í možnosti"],
+    [id$="_λλες επιλογές"],
+    [id$="_руги опции"],
+    [id$="_ругие варианты"],
+    [id$="_нші параметри"],
+    [id$="_ूसरे ऑप्शन"],
+    [id$="_ัวเลือกอื่น"],
+    [id$="_它选项"],
+    [id$="_のオプション"],
+    [id$="_他選項"],
+    [id$="_타 옵션"])::before {
     mask: var(--cmi-settingsnext) center/contain no-repeat;
   }
 
@@ -2103,6 +2020,7 @@
 }
 
 .menu_c1e9c4:is([id="user-settings-cog"]) .scroller_c1e9c4 div {
+
   .submenu_c1e9c4[aria-activedescendant*="--Appearance"],
   .submenu_c1e9c4[aria-activedescendant="user-settings-cog-Appearance"] {
     & .item_c1e9c4[id$="light"]::before {
@@ -2152,8 +2070,7 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
   .submenu_c1e9c4[aria-activedescendant*="--Streamer_Mode"],
   .submenu_c1e9c4[aria-activedescendant|="user-settings-cog-Streamer_Mode"] {
     & .item_c1e9c4[id$="--streamer-mode-toggle"]::before {
-      mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/streamermode.svg)
-        center/contain no-repeat;
+      mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/streamermode.svg) center/contain no-repeat;
     }
   }
 
@@ -2171,10 +2088,7 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
       mask: var(--cmi-microphone) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id*="--input"]:has(
-        .slider_e13f88[aria-valuenow="0"]
-      )::before {
+    & .item_c1e9c4[id*="--input"]:has(.slider_e13f88[aria-valuenow="0"])::before {
       mask: var(--cmi-microphoneoff) center/contain no-repeat;
     }
 
@@ -2182,10 +2096,7 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
       mask: var(--cmi-mediaoutput) center/contain no-repeat;
     }
 
-    &
-      .item_c1e9c4[id$="--output"]:has(
-        .slider_e13f88[aria-valuenow="0"]
-      )::before {
+    & .item_c1e9c4[id$="--output"]:has(.slider_e13f88[aria-valuenow="0"])::before {
       mask: var(--cmi-mediaoutputoff) center/contain no-repeat;
     }
   }
@@ -2210,6 +2121,7 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
   & .item_c1e9c4[id="application-directory-profile-report"]::before {
     mask: var(--cmi-report) center/contain no-repeat;
   }
+
   & .item_c1e9c4[id*="devmode-copy-id"]::before {
     mask: var(--cmi-id) center/contain no-repeat;
   }
@@ -2225,8 +2137,8 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
   & .item_c1e9c4[id="user-settings-change-avatar-change-avatar"]::before {
     display: none;
   }
-  &
-    .item_c1e9c4[id="user-settings-change-avatar-change-avatar-decoration"]::before {
+
+  & .item_c1e9c4[id="user-settings-change-avatar-change-avatar-decoration"]::before {
     display: none;
   }
 }
@@ -2235,351 +2147,283 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
   mask: var(--cmi-code) center/contain no-repeat;
 }
 
-.submenu_c1e9c4:is(
-    [aria-activedescendant|="guild-context-guild-settings"],
-    [aria-activedescendant|="user-settings-cog"],
+.submenu_c1e9c4:is([aria-activedescendant|="guild-context-guild-settings"],
+  [aria-activedescendant|="user-settings-cog"],
 
-  ),
+),
 .menu_c1e9c4:is([id="user-settings-cog"]) {
+
   /*https://github.com/MiniDiscordThemes/SettingsIcons*/
   & .item_c1e9c4[id$="OVERVIEW"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/overview.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/overview.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--ROLES"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/roles.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/roles.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--EMOJI"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/emoji.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/emoji.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--STICKERS"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/stickers.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/stickers.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--SOUNDBOARD"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/soundboard.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/soundboard.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--WIDGET"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/widget.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/widget.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--GUILD_TEMPLATES"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildtemplates.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildtemplates.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--VANITY_URL"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vanityurl.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vanityurl.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--INTEGRATIONS"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/integrations.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/integrations.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--APP_DIRECTORY"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/appdirectory.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/appdirectory.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--SAFETY"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/safety.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/safety.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--MODERATION"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/moderation.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/moderation.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--GUILD_AUTOMOD"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildautomod.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildautomod.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--AUDIT_LOG"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/auditlog.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/auditlog.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--BANS"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/bans.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/bans.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--COMMUNITY"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/community.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/community.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--ONBOARDING"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/onboarding.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/onboarding.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--ANALYTICS"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/analytics.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/analytics.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--DISCOVERY"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/discovery.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/discovery.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--ROLE_SUBSCRIPTIONS"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/rolesubscriptions.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/rolesubscriptions.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4:is([id$="--GUILD_PREMIUM"])::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildpremium.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildpremium.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--MEMBERS"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/members.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/members.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="--INSTANT_INVITES"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/instantinvites.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/instantinvites.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-My_Account"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/myaccount.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/myaccount.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Profile_Customization"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/profilecustomization.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/profilecustomization.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Privacy___Safety"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/privacysafety.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/privacysafety.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Family_Center"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/familycenter.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/familycenter.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Authorized_Apps"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/authorizedapps.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/authorizedapps.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Sessions"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/sessions.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/sessions.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Connections"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/connections.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/connections.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Settings_Clips"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/settingsclips.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/settingsclips.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Friend_Requests"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/friendrequests.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/friendrequests.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Discord_Nitro"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/discordnitro.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/discordnitro.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Nitro_Server_Boost"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/nitroserverboost.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/nitroserverboost.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Subscriptions"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/subscriptions.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/subscriptions.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Library_Inventory"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/libraryinventory.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/libraryinventory.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Billing"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/billing.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/billing.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Appearance"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/appearance.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/appearance.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Accessibility"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/accessibility.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/accessibility.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Voice___Video"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/voicevideo.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/voicevideo.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Text___Images"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textimages.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textimages.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Notifications"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/notifications.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/notifications.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Keybinds"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/keybinds.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/keybinds.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Language"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/language.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/language.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Windows"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/windows.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/windows.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Streamer_Mode"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/streamermode.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/streamermode.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Advanced"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/advanced.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/advanced.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-VencordSettings"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordsettings.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordsettings.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-VencordPlugins"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordplugins.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordplugins.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-VencordThemes"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordthemes.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordthemes.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-VencordUpdater"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordupdater.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordupdater.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-VencordCloud"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordcloud.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordcloud.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-VencordSettingsSync"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordsettingssync.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordsettingssync.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Vesktop"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vesktop.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vesktop.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Activity_Privacy"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/activityprivacy.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/activityprivacy.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Game_Activity"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/gameactivity.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/gameactivity.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Overlay"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/overlay.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/overlay.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-changelog"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/changelog.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/changelog.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-merchandise"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/merchandise.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/merchandise.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Hypesquad_Online"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/hypesquadonline.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/hypesquadonline.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Experiments"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/experiments.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/experiments.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Developer_Options"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/developeroptions.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/developeroptions.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Hotspot_Options"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/hotspotoptions.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/hotspotoptions.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Dismissible_Content_Options"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/dismissiblecontentoptions.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/dismissiblecontentoptions.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Payment_Flow_Modals"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/paymentflowmodals.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/paymentflowmodals.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Design_System"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/designsystem.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/designsystem.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Text_Playground"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textplayground.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textplayground.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Text_Component"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textcomponent.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textcomponent.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-Intl_Testing"]::before {
@@ -2587,12 +2431,10 @@ mask: var(--cmi-cosymode) center/contain no-repeat;
   }
 
   & .item_c1e9c4[id$="-Profile_Effects_Preview_Tool"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/profileeffectspreviewtool.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/profileeffectspreviewtool.svg) center/contain no-repeat !important;
   }
 
   & .item_c1e9c4[id$="-StartupTimings"]::before {
-    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/startuptimings.svg)
-      center/contain no-repeat !important;
+    mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/startuptimings.svg) center/contain no-repeat !important;
   }
 }
