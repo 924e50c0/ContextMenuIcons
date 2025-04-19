@@ -123,6 +123,7 @@
   --cmi-openchat: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_chat.svg);
   --cmi-openinnew: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/open_in_new.svg);
   --cmi-outlook: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/outlook.svg);
+  --cmi-overview: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/overview.svg);
   --cmi-owner: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/shield_person_alt.svg);
   --cmi-paste: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/paste.svg);
   --cmi-paymentsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/credit_card_gear.svg);
@@ -161,6 +162,8 @@
   --cmi-suggestion: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/lightbulb.svg);
   --cmi-spotify: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/spotify.svg);
   --cmi-syncdesktop: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/sync_desktop.svg);
+  --cmi-tag: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/tag.svg);
+  --cmi-tags: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/tags.svg);
   --cmi-texttospeech: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/text_to_speech.svg);
   --cmi-thread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/thread.svg);
   --cmi-timeout: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/hourglass_disabled.svg);
@@ -1363,6 +1366,37 @@
 
   & .item_c1e9c4[id*="devmode-copy-id"]::before {
     mask: var(--cmi-id) center/contain no-repeat;
+  }
+}
+
+.menu_c1e9c4[id="forum-tag"] {
+& .item_c1e9c4[id*="copy-id"]::before {
+    mask: var(--cmi-copy) center/contain no-repeat;
+  }
+}
+
+.menu_c1e9c4[id="sort-and-view"] {
+  & .item_c1e9c4[id="sort-and-view-sort-by-recent-activity"]::before {
+    mask: var(--cmi-overview) center/contain no-repeat;
+  }
+  & .item_c1e9c4[id="sort-and-view-sort-by-date-posted"]::before {
+    mask: var(--cmi-event) center/contain no-repeat;
+  }
+  & .item_c1e9c4[id="sort-and-view-view-as-list"]::before {
+    mask: var(--cmi-list) center/contain no-repeat;
+  }
+  & .item_c1e9c4[id="sort-and-view-view-as-grid"]::before {
+    mask: var(--cmi-view-compact) center/contain no-repeat;
+  }
+  & .item_c1e9c4[id="sort-and-view-match-some"]::before {
+    mask: var(--cmi-tag) center/contain no-repeat;
+  }
+  & .item_c1e9c4[id="sort-and-view-match-all"]::before {
+    mask: var(--cmi-tags) center/contain no-repeat;
+  }
+
+  & .item_c1e9c4[id="sort-and-view-reset-all"]::before {
+    mask: var(--cmi-refresh) center/contain no-repeat;
   }
 }
 
