@@ -224,8 +224,8 @@
   [id="image-context-commands-popout"]) .item_c1e9c4::before,
 .menu_c1e9c4[id="channel-attach"] .optionIcon__77820,
 .item_c1e9c4:is([id|="guild-moderation-roles"])::before,
+.item_c1e9c4[id*="spellcheck-suggestion"]::before,
 .submenu_c1e9c4 .item_c1e9c4[id*="role"]~.layer_da8173 .item_c1e9c4::before,
-
 .submenu_c1e9c4[aria-activedescendant|="image-menu-media-viewer-details"]:not(:has([aria-activedescendant*="viewer-details"])) .item_c1e9c4::before,
 .submenu_c1e9c4[aria-activedescendant|="user-settings-cog-Vencord--VencordPlugins"]:not(:has([aria-activedescendant*="VencordPlugins"])) .item_c1e9c4::before,
 .item_c1e9c4:not([role="menuitemcheckbox"],
@@ -1561,7 +1561,7 @@
     display: none;
   }
 
-  & .item_c1e9c4[id="textarea-context-add-to-dictionary"]::before {
+  & .item_c1e9c4[id="textarea-context-vcd-spellcheck-learn"]::before {
     mask: var(--cmi-dictionary) center/contain no-repeat;
   }
 
