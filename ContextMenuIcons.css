@@ -47,9 +47,9 @@
     --cmi-createchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_square.svg);
     --cmi-createevent: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_add.svg);
     --cmi-createserver: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add_diamond.svg);
-    --cmi-createtextchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_text_channel.svg);
+    --cmi-createtextchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/chat_add.svg);
     --cmi-createthread: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_thread.svg);
-    --cmi-createvoicechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/create_voice_channel.svg);
+    --cmi-createvoicechannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/call_add.svg);
     --cmi-cut: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/cut.svg);
     --cmi-darkmode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mode_dark.svg);
     --cmi-darkermode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mode_onyx.svg);
@@ -129,7 +129,7 @@
     --cmi-paymentsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/credit_card_gear.svg);
     --cmi-permissions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/permissions.svg);
     --cmi-pin: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pin.svg);
-    --cmi-pinoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pinoff.svg);
+    --cmi-pinoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/pin_off.svg);
     --cmi-phone: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/phone.svg);
     --cmi-poll: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/poll.svg);
     --cmi-previewcamera: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/camera_preview.svg);
