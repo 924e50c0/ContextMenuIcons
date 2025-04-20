@@ -2059,7 +2059,7 @@
     }
 
     & .item_c1e9c4:is([id*="Developer_Only"])::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/developeroptions.svg) center/contain no-repeat !important;
+        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/developeroptions.svg) center/contain no-repeat;
     }
 }
 
