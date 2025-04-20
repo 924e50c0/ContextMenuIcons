@@ -11,7 +11,7 @@
 :root {
     --cmi-size: 18px;
     --cmi-activity: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity.svg);
-    --cmi-activitysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity_alt.svg);
+    --cmi-activitysettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/activity.svg);
     --cmi-addfriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/person_add.svg);
     --cmi-add: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/add.svg);
     --cmi-addimage: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/image_add.svg);
