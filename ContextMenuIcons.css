@@ -69,10 +69,10 @@
     --cmi-eventedit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_edit_fill.svg);
     --cmi-eventoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_off_fill.svg);
     --cmi-eventstart: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_arrow_fill.svg);
-    --cmi-favorite: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_fill.svg);
-    --cmi-favorited: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_filled_fill.svg);
-    --cmi-favoriteadd: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_plus_fill.svg);
-    --cmi-favoriteremove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_broken_fill.svg);
+    --cmi-favorite: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart.svg);
+    --cmi-favorited: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_filled.svg);
+    --cmi-favoriteadd: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_plus.svg);
+    --cmi-favoriteremove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/heart_broken.svg);
     --cmi-filter: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/filter_fill.svg);
     --cmi-flag: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/flag_fill.svg);
     --cmi-forever: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/all_inclusive.svg);
@@ -94,7 +94,7 @@
     --cmi-leave: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/leave.svg);
     --cmi-lightmode: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/mode_light_fill.svg);
     --cmi-link: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/link.svg);
-    --cmi-list: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/list_fill.svg);
+    --cmi-list: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/list.svg);
     --cmi-listenalong: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/headphones_fill.svg);
     --cmi-lock: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/lock_fill.svg);
     --cmi-magnifyingglass: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/search.svg);
@@ -136,8 +136,8 @@
     --cmi-profile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/person_fill.svg);
     --cmi-pushtotalk: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/select_to_speak_fill.svg);
     --cmi-reaction: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/reaction_fill.svg);
-    --cmi-refresh: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/refresh_fill.svg);
-    --cmi-remove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/remove_fill.svg);
+    --cmi-refresh: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/refresh.svg);
+    --cmi-remove: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/remove.svg);
     --cmi-removefriend: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/person_remove_fill.svg);
     --cmi-reply: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/Solar%20Icons/Reply.svg);
     --cmi-report: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/report_fill.svg);
