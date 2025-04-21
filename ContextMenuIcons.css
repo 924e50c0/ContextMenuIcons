@@ -63,7 +63,7 @@
     --cmi-edit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_fill.svg);
     --cmi-editchannel: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/edit_square_fill.svg);
     --cmi-editprofile: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/person_edit_fill.svg);
-    --cmi-editquickcss: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_edit_quickcss_fill.svg);
+    --cmi-editquickcss: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_edit_quickcss.svg);
     --cmi-event: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_fill.svg);
     --cmi-eventavailable: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_check_fill.svg);
     --cmi-eventedit: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/calendar_edit_fill.svg);
@@ -114,7 +114,7 @@
     --cmi-sound: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/volume_fill.svg);
     --cmi-notificationsall: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_active_fill.svg);
     --cmi-notificationsdefault: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_fill.svg);
-    --cmi-notificationslog: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_notifications_log_fill.svg);
+    --cmi-notificationslog: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/vencord_notifications_log.svg);
     --cmi-notificationsmentions: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_mention_fill.svg);
     --cmi-notificationsoff: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_off_fill.svg);
     --cmi-notificationsettings: url(https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/svg/notifications_settings_fill.svg);
