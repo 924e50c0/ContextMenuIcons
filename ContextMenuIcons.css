@@ -2191,6 +2191,7 @@
     mask: var(--cmi-code) center/contain no-repeat !important;
 }
 
+
 .submenu_c1e9c4:is([aria-activedescendant|="guild-context-guild-settings"],
     [aria-activedescendant|="user-settings-cog"],
 
@@ -2203,19 +2204,39 @@
     }
 
     & .item_c1e9c4[id$="--ROLES"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/roles.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/flag.svg") center/contain no-repeat !important;
+    }
+
+    & .item_c1e9c4[id$="--PROFILE"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/profile.svg") center/contain no-repeat !important;
+    }
+
+    & .item_c1e9c4[id$="--ENGAGEMENT"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/chart.svg") center/contain no-repeat !important;
+    }
+
+    & .item_c1e9c4[id$="--BOOST_PERKS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/boost.svg") center/contain no-repeat !important;
+    }
+
+    & .item_c1e9c4[id$="--INVITES"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/letter.svg") center/contain no-repeat !important;
+    }
+
+    & .item_c1e9c4[id$="--ACCESS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/access.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--EMOJI"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/emoji.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/emoji.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--STICKERS"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/stickers.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/sticker.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--SOUNDBOARD"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/soundboard.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/sound.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--WIDGET"]::before {
@@ -2223,7 +2244,7 @@
     }
 
     & .item_c1e9c4[id$="--GUILD_TEMPLATES"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildtemplates.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/wireframe.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--VANITY_URL"]::before {
@@ -2231,11 +2252,11 @@
     }
 
     & .item_c1e9c4[id$="--INTEGRATIONS"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/integrations.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/connections.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--APP_DIRECTORY"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/appdirectory.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/explore.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--SAFETY"]::before {
@@ -2243,23 +2264,23 @@
     }
 
     & .item_c1e9c4[id$="--MODERATION"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/moderation.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/shield.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--GUILD_AUTOMOD"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/guildautomod.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/broom.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--AUDIT_LOG"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/auditlog.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/notebook.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--BANS"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/bans.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/hammer.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--COMMUNITY"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/community.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/community.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--ONBOARDING"]::before {
@@ -2283,7 +2304,7 @@
     }
 
     & .item_c1e9c4[id$="--MEMBERS"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/members.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/members.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="--INSTANT_INVITES"]::before {
@@ -2291,35 +2312,39 @@
     }
 
     & .item_c1e9c4[id$="-My_Account"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/myaccount.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/account.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Profile_Customization"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/profilecustomization.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/profile.svg") center/contain no-repeat !important;
     }
 
-    & .item_c1e9c4[id$="-Privacy___Safety"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/privacysafety.svg) center/contain no-repeat !important;
+    & .item_c1e9c4[id$="-Content___Social"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/social.svg") center/contain no-repeat !important;
+    }
+
+    & .item_c1e9c4[id$="-Data___Privacy"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/privacy.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Family_Center"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/familycenter.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/family.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Authorized_Apps"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/authorizedapps.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/permissions.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Sessions"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/sessions.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/devices.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Connections"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/connections.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/connections.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Settings_Clips"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/settingsclips.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/clips.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Friend_Requests"]::before {
@@ -2331,47 +2356,47 @@
     }
 
     & .item_c1e9c4[id$="-Nitro_Server_Boost"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/nitroserverboost.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/boost.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Subscriptions"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/subscriptions.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/subscriptions.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Library_Inventory"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/libraryinventory.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/gift.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Billing"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/billing.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/billing.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Appearance"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/appearance.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/appearance.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Accessibility"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/accessibility.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/accessibility.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Voice___Video"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/voicevideo.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/microphone.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Text___Images"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textimages.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/chat.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Notifications"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/notifications.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/notifications.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Keybinds"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/keybinds.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/keyboard.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Language"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/language.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/language.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Windows"]::before {
@@ -2379,11 +2404,11 @@
     }
 
     & .item_c1e9c4[id$="-Streamer_Mode"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/streamermode.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/stream.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Advanced"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/advanced.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/advanced.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-VencordSettings"]::before {
@@ -2391,23 +2416,23 @@
     }
 
     & .item_c1e9c4[id$="-VencordPlugins"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordplugins.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/plugins.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-VencordThemes"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordthemes.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/theme.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-VencordUpdater"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordupdater.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/update.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-VencordCloud"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordcloud.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/cloud.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-VencordSettingsSync"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/vencordsettingssync.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/backup.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Vesktop"]::before {
@@ -2427,58 +2452,70 @@
     }
 
     & .item_c1e9c4[id$="-changelog"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/changelog.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/notebook.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-merchandise"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/merchandise.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/merch.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Hypesquad_Online"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/hypesquadonline.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/hypesquad.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Experiments"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/experiments.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/experiments.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Developer_Options"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/developeroptions.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/developer.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Hotspot_Options"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/hotspotoptions.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/hotspot.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Dismissible_Content_Options"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/dismissiblecontentoptions.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/dismiss.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Payment_Flow_Modals"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/paymentflowmodals.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/money.svg") center/contain no-repeat !important;
+    }
+
+    & .item_c1e9c4[id$="-Revenue_Storybook"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/wallet.svg") center/contain no-repeat !important;
+    }
+
+    & .item_c1e9c4[id$="-Virtual_Currency_Configuration"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/currency.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Design_System"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/designsystem.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/design.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Text_Playground"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textplayground.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/text_edit.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Text_Component"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/textcomponent.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/text.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Intl_Testing"]::before {
-        mask: var(--cmi-default) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/intl.svg") center/contain no-repeat !important;
     }
 
     & .item_c1e9c4[id$="-Profile_Effects_Preview_Tool"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/profileeffectspreviewtool.svg) center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/stars.svg") center/contain no-repeat !important;
     }
 
-    & .item_c1e9c4[id$="-StartupTimings"]::before {
-        mask: url(https://minidiscordthemes.github.io/SettingsIcons/svg/startuptimings.svg) center/contain no-repeat !important;
+    & .item_c1e9c4[id$="Nameplates_Preview_Tool"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/plate.svg") center/contain no-repeat !important;
+    }
+
+    & .item_c1e9c4[id$="Web_Setting_Tree_Tool"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/web.svg") center/contain no-repeat !important;
     }
 }
