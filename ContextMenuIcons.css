@@ -437,6 +437,10 @@ div[id="audio-device-context-input-device-meter"] {
     mask-image: var(--cmiEDIT) !important;
 }
 
+.c1e9c47c23f12ca3-item[id*="deafen"]::before {
+    mask-image: var(--cmiHEADPHONES) !important;
+}
+
 #content-inventory-context-user-profile::before {
     mask-image: var(--cmiACTIVITY) !important;
 }
