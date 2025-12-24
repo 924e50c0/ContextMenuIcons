@@ -1,66 +1,26 @@
 # Context Menu Icons
-
 Adds icons to context menus for Vencord.
-
 | ![alt text](preview/user_actions.png) | ![alt text](preview/server_actions.png) | ![alt text](preview/channel_actions.png) | ![alt text](preview/message_actions.png) |
 | ------------------------------------- | --------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | User actions                          | Server actions                          | Channel actions                          | Message actions                          |
-
-## Plugin support
-
-- [BetterRoleContext](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterRoleContext)
-- [BetterSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/betterSettings)
-- [CopyEmojiMarkdown](https://github.com/Vendicated/Vencord/tree/main/src/plugins/copyEmojiMarkdown)
-- [CopyUserURLs](https://github.com/Vendicated/Vencord/tree/main/src/plugins/copyUserURLs)
-- [EmoteCloner](https://github.com/Vendicated/Vencord/tree/main/src/plugins/emoteCloner)
-- [ImageZoom](https://github.com/Vendicated/Vencord/tree/main/src/plugins/imageZoom)
-- [NewGuildSettings](https://github.com/Vendicated/Vencord/tree/main/src/plugins/newGuildSettings)
-- [PermissionsViewer](https://github.com/Vendicated/Vencord/tree/main/src/plugins/permissionsViewer)
-- [ReverseImageSearch](https://github.com/Vendicated/Vencord/tree/main/src/plugins/reverseImageSearch)
-- [ReviewDB](https://github.com/Vendicated/Vencord/tree/main/src/plugins/reviewDB)
-- [ServerInfo](https://github.com/Vendicated/Vencord/tree/main/src/plugins/serverInfo)
-- [Translate](https://github.com/Vendicated/Vencord/tree/main/src/plugins/translate)
-- [UnsuppressEmbeds](https://github.com/Vendicated/Vencord/tree/main/src/plugins/unsuppressEmbeds)
-- [VencordToolbox](https://github.com/Vendicated/Vencord/tree/main/src/plugins/vencordToolbox)
-- [ViewIcons](https://github.com/Vendicated/Vencord/tree/main/src/plugins/viewIcons)
-- [ViewRaw](https://github.com/Vendicated/Vencord/tree/main/src/plugins/viewRaw)
-- [VoiceMessages](https://github.com/Vendicated/Vencord/tree/main/src/plugins/voiceMessages)
-
-
 ## Installation
-
 ### Local
-
 1. Download `ContextMenuIcons.theme.css`:
-
    - [GitHub](https://github.com/924e50c0/ContextMenuIcons/releases/download/v1.0.2/ContextMenuIcons.theme.css)
-
 2. Place the file in the themes folder:
-
    - `Settings` > `Vencord` > `Themes` > `Local Themes` > `Open Themes Folder`
-
 3. Click `Load missing Themes` and toggle on the theme card.
-
 ### Online
-
 1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
    - `https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/ContextMenuIcons.theme.css`
-
+## Changelog
+[2025-12-24](https://github.com/924e50c0/ContextMenuIcons/commit/c6c0fe862dfa87d3fcf82535474ff5637680e1ab) - complete rewrite with new icons & more readable code. as a result many icons are reused, some are missing & plugin support has been deprecated for the time being
+## To-do list
+- Add plugin support
+- Add missing icon
+- Add missing menus (Events, settings submenus)
+- Remove any missed unplanned or undone menu
 ## Credits
-
-- [SettingsIcon](https://github.com/MiniDiscordThemes/SettingsIcons) by [Saltssaumure](https://github.com/Saltssaumure)
-  - Server settings submenu
-  - User panel settings submenu
-
 - Discord
-  - [Thread icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/thread.svg)
-  - [Create thread icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/create_thread.svg)
-  - [Poll icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/poll.svg)
-  - [Edit icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/edit_alt.svg)
-
 - [Vencord](https://github.com/Vendicated/Vencord) by [Vendicated](https://github.com/Vendicated)
-  - [Notification log icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/vencord_notifications_log.svg)
-  - [Edit quick css icon](https://github.com/924e50c0/ContextMenuIcons/blob/main/svg/vencord_edit_quickcss.svg)
-
 - [Material Symbols](https://github.com/google/material-design-icons) by [Google](https://github.com/google)
-  - Everything else
