@@ -6,7 +6,7 @@ Adds icons to context menus for Vencord.
 ## Installation
 ### Local
 1. Download `ContextMenuIcons.theme.css`:
-   - [GitHub](https://github.com/924e50c0/ContextMenuIcons/releases/download/v1.0.2/ContextMenuIcons.theme.css)
+   - [GitHub](https://github.com/924e50c0/ContextMenuIcons/releases/download/v1.1.0/ContextMenuIcons.theme.css)
 2. Place the file in the themes folder:
    - `Settings` > `Vencord` > `Themes` > `Local Themes` > `Open Themes Folder`
 3. Click `Load missing Themes` and toggle on the theme card.
