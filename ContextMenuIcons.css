@@ -409,7 +409,7 @@ div[id="audio-device-context-input-device-meter"] {
     mask-image: var(--cmiID) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="move"]::before {
+.c1e9c47c23f12ca3-item[id*="voice"][id*="move"]::before {
     mask-image: var(--cmiCOMPASS) !important;
 }
 
