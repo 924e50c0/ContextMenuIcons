@@ -377,6 +377,10 @@ div[id="audio-device-context-input-device-meter"] {
     mask-image: var(--cmiTIMEOUT) !important;
 }
 
+.c1e9c47c23f12ca3-item[id*="remove"]::before {
+    mask-image: var(--cmiREMOVEUSER) !important;
+}
+
 .c1e9c47c23f12ca3-item[id*="kick"]::before {
     mask-image: var(--cmiREMOVEUSER) !important;
 }
