@@ -8,6 +8,23 @@ Adds icons to context menus for Vencord.
 
 ## Installation
 
+### QuickCSS
+
+1. Paste the following at the top of your QuickCss code :
+
+   ```css
+   @import url("https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/refs/heads/main/ContextMenuIcons.theme.css");
+   ```
+
+2. Edit with the following properties :
+
+   ```css
+   :root {
+   --cmiSIZE: 18px;               /* icon size */
+   --cmiGAPx: 2;                  /* gap multiplier between icon & text*/
+   }
+   ```
+
 ### Local
 
 1. Download `ContextMenuIcons.theme.css`:
@@ -28,7 +45,7 @@ Adds icons to context menus for Vencord.
 ## To-do list
 
 - Add plugin support
-- Add missing icon
+- Add missing icons
 - Add missing menus (Events, settings submenus)
 - Remove any missed unplanned or undone menu
 
