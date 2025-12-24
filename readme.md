@@ -10,13 +10,13 @@ Adds icons to context menus for Vencord.
 
 ### QuickCSS
 
-1. Paste the following at the top of your QuickCss code :
+1. Paste the following code at the top of your QuickCSS file:
 
    ```css
    @import url("https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/refs/heads/main/ContextMenuIcons.theme.css");
    ```
 
-2. Edit with the following properties :
+2. Variables:
 
    ```css
    :root {
