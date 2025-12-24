@@ -2,7 +2,7 @@
  * @name ContextMenuIcons
  * @description Adds icons to context menus.
  * @author 924e50c0
- * @version 1.0.0
+ * @version 1.1.0
  * @authorLink https://github.com/924e50c0
  * @website https://github.com/924e50c0/ContextMenuIcons
  * @source https://github.com/924e50c0/ContextMenuIcons/blob/main/ContextMenuIcons.theme.css
@@ -11,13 +11,6 @@
 @import url("https://raw.githubusercontent.com/924e50c0/ContextMenuIcons/main/ContextMenuIcons.css");
 
 :root {
-  --cmi-size: 18px;                           /* icon size */
-
-  --language-is-english: yes;                 /* yes/no */
-  /*
-    Selectors for event menu actions depend on your client's language.
-    You can hide the event menu icons by selecting 'no' if your client
-    isn't set to english as the theme currently doesn't support other
-    languages.
-  */
+  --cmiSIZE: 18px;               /* icon size */
+  --cmiGAPx: 2;                  /* gap multiplier between icon & text*/
 }
