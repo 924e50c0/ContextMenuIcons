@@ -1,8 +1,8 @@
 # Context Menu Icons
 Adds icons to context menus for Vencord.
-| ![alt text](preview/user_actions.png) | ![alt text](preview/server_actions.png) | ![alt text](preview/channel_actions.png) | ![alt text](preview/message_actions.png) |
-| ------------------------------------- | --------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| User actions                          | Server actions                          | Channel actions                          | Message actions                          |
+| ![user preview](preview/preview_voice.png) | ![voice menu preview](preview/preview_user.png)| ![message preview](preview/preview_message.png) |
+| ------------------------------------------ | ---------------------------------------------- | ----------------------------------------------- |
+| Voice chat                                 | User menu                                      | Message                                         |
 ## Installation
 ### Local
 1. Download `ContextMenuIcons.theme.css`:
