@@ -87,21 +87,21 @@
     --cmiPEOPLE: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIGFyaWEtaGlkZGVuPSJ0cnVlIiBjbGFzcz0iaWNvbl9hZmQ1OTMiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwMCIgZD0iTTE0LjUgOGEzIDMgMCAxIDAtMi43LTQuM2MtLjIuNC4wNi44Ni40NCAxLjEyYTUgNSAwIDAgMSAyLjE0IDMuMDhjLjAxLjA2LjA2LjEuMTIuMW0zLjk0IDkuMjdjLjE1LjQzLjU0LjczIDEgLjczaDEuMDZjLjgzIDAgMS41LS42NyAxLjUtMS41YTcuNSA3LjUgMCAwIDAtNi41LTcuNDNjLS41NS0uMDgtLjk5LjM4LTEuMS45Mi0uMDYuMy0uMTUuNi0uMjYuODctLjIzLjU4LS4wNSAxLjMuNDcgMS42M2E5LjUzIDkuNTMgMCAwIDEgMy44MyA0Ljc4TTEyLjUgOWEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDBNMiAyMC41YTcuNSA3LjUgMCAwIDEgMTUgMGMwIC44My0uNjcgMS41LTEuNSAxLjVhLjIuMiAwIDAgMS0uMi0uMTZjLS4yLS45Ni0uNTYtMS44Ny0uODgtMi41NC0uMS0uMjMtLjQyLS4xNS0uNDIuMXYyLjFhLjUuNSAwIDAgMS0uNS41aC04YS41LjUgMCAwIDEtLjUtLjV2LTIuMWMwLS4yNS0uMzEtLjMzLS40Mi0uMS0uMzIuNjctLjY3IDEuNTgtLjg4IDIuNTRhLjIuMiAwIDAgMS0uMi4xNkExLjUgMS41IDAgMCAxIDIgMjAuNSIvPjwvc3ZnPg==");
 }
 
-.c1e9c47c23f12ca3-iconContainer:not(:has(svg.c1e9c47c23f12ca3-caret, div._09aca73e6d4b214b-checkbox, img:is([class*="emoji"]))) {
+.iconContainer_c1e9c4:not(:has(svg.caret_c1e9c4, div.checkboxOption__714a9, img:is([class*="emoji"]))) {
     /* remove default icons */
     display: none;
 }
 
-.c1e9c47c23f12ca3-submenu:is([aria-activedescendant*="message-apps"], [aria-activedescendant*="user-context-apps"], [aria-activedescendant*="message-add-reaction"]) {
+.submenu_c1e9c4:is([aria-activedescendant*="message-apps"], [aria-activedescendant*="user-context-apps"], [aria-activedescendant*="message-add-reaction"]) {
 
     /* restore default icons */
-    & .c1e9c47c23f12ca3-iconContainer {
+    & .iconContainer_c1e9c4 {
         display: initial !important;
     }
 }
 
-.c1e9c47c23f12ca3-item:not(.c1e9c47c23f12ca3-submenu .c1e9c47c23f12ca3-item),
-.c1e9c47c23f12ca3-item:is([id|="guild-context-guild-settings"]) {
+.item_c1e9c4:not(.submenu_c1e9c4 .item_c1e9c4),
+.item_c1e9c4:is([id|="guild-context-guild-settings"]) {
     /* default blank icons. excludes submenus by default.   */
     display: flex;
     gap: calc(var(--cmiSIZE) - var(--cmiSIZE)/var(--cmiGAPx));
@@ -122,7 +122,7 @@ div[id="user-settings-cog"],
 div[id="set-status-submenu"],
 div[id="hang-status-picker"],
 div[id="switch-accounts-submenu"] {
-    & .c1e9c47c23f12ca3-item::before {
+    & .item_c1e9c4::before {
         /* remove unplanned & undone menus */
         display: none;
     }
@@ -137,7 +137,7 @@ div[id="switch-accounts-submenu"] {
 }
 
 
-.c1e9c47c23f12ca3-item:has(._650391965b2d6ee2-sliderContainer) {
+.item_c1e9c4:has(.sliderContainer__65039) {
     /* sliders */
     flex-wrap: wrap;
     align-items: center;
@@ -147,12 +147,12 @@ div[id="switch-accounts-submenu"] {
         margin-left: 8px;
     }
 
-    .c1e9c47c23f12ca3-labelContainer {
+    .labelContainer_c1e9c4 {
         padding: 0;
         margin-left: calc(var(--cmiSIZE) - var(--cmiSIZE)/var(--cmiGAPx));
     }
 
-    ._650391965b2d6ee2-sliderContainer {
+    .sliderContainer__65039 {
         width: 100%;
     }
 }
@@ -170,303 +170,303 @@ div[id="audio-device-context-input-device-meter"] {
     }
 }
 
-.c1e9c47c23f12ca3-item[id*="apps"]::before {
+.item_c1e9c4[id*="apps"]::before {
     mask-image: var(--cmiAPPS) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="application"]::before {
+.item_c1e9c4[id*="application"]::before {
     mask-image: var(--cmiAPPS) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="message"][id*="user"]::before {
+.item_c1e9c4[id*="message"][id*="user"]::before {
     mask-image: var(--cmiMESSAGE);
 }
 
-.c1e9c47c23f12ca3-item[id*="mark"][id*="read"]::before {
+.item_c1e9c4[id*="mark"][id*="read"]::before {
     mask-image: var(--cmiREAD);
 }
 
-.c1e9c47c23f12ca3-item[id*="mark"][id*="unread"]::before {
+.item_c1e9c4[id*="mark"][id*="unread"]::before {
     mask-image: var(--cmiUNREAD);
 }
 
-.c1e9c47c23f12ca3-item[id*="call"]::before {
+.item_c1e9c4[id*="call"]::before {
     mask-image: var(--cmiCALL) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="note"]::before {
+.item_c1e9c4[id*="note"]::before {
     mask-image: var(--cmiNOTE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="delete"]::before {
+.item_c1e9c4[id*="delete"]::before {
     mask-image: var(--cmiDELETE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="reply"]::before {
+.item_c1e9c4[id*="reply"]::before {
     mask-image: var(--cmiREPLY) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="forward"]::before {
+.item_c1e9c4[id*="forward"]::before {
     mask-image: var(--cmiFORWARD) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild"][id*="thread"]::before {
+.item_c1e9c4[id*="guild"][id*="thread"]::before {
     mask-image: var(--cmiTHREAD) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="message"][id*="thread"]::before {
+.item_c1e9c4[id*="message"][id*="thread"]::before {
     mask-image: var(--cmiCREATETHREAD) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="pin"]::before {
+.item_c1e9c4[id*="pin"]::before {
     mask-image: var(--cmiPIN) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="reaction"]::before {
+.item_c1e9c4[id*="reaction"]::before {
     mask-image: var(--cmiREACTION) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="profile"]::before {
+.item_c1e9c4[id*="profile"]::before {
     mask-image: var(--cmiPROFILE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="tts"]::before {
+.item_c1e9c4[id*="tts"]::before {
     mask-image: var(--cmiTTS) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="nickname"]::before {
+.item_c1e9c4[id*="nickname"]::before {
     mask-image: var(--cmiEDITUSER) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="close"]::before {
+.item_c1e9c4[id*="close"]::before {
     mask-image: var(--cmiCLOSE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="mention"]::before {
+.item_c1e9c4[id*="mention"]::before {
     mask-image: var(--cmiMENTION) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="invite"]::before {
+.item_c1e9c4[id*="invite"]::before {
     mask-image: var(--cmiINVITE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="notification"]::before {
+.item_c1e9c4[id*="notification"]::before {
     mask-image: var(--cmiNOTIFICATION) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="notification"][id*="delete"]::before {
+.item_c1e9c4[id*="notification"][id*="delete"]::before {
     mask-image: var(--cmiDELETE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="mute"]::before {
+.item_c1e9c4[id*="mute"]::before {
     mask-image: var(--cmiVOLUME) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="privacy"]::before {
+.item_c1e9c4[id*="privacy"]::before {
     mask-image: var(--cmiPRIVACY) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="volume"]::before {
+.item_c1e9c4[id*="volume"]::before {
     mask-image: var(--cmiVOLUME) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="user"][id*="mute"]::before {
+.item_c1e9c4[id*="user"][id*="mute"]::before {
     mask-image: var(--cmiMIC) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="user"][id*="mute"][id*="channel"]::before {
+.item_c1e9c4[id*="user"][id*="mute"][id*="channel"]::before {
     mask-image: var(--cmiNOTIFICATION) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="soundboard"][id*="mute"]::before {
+.item_c1e9c4[id*="soundboard"][id*="mute"]::before {
     mask-image: var(--cmiSOUNDBOARD) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="hide"]::before {
+.item_c1e9c4[id*="hide"]::before {
     mask-image: var(--cmiHIDE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="user"][id*="deafen"]::before {
+.item_c1e9c4[id*="user"][id*="deafen"]::before {
     mask-image: var(--cmiHEADPHONES) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="video"]::before {
+.item_c1e9c4[id*="video"]::before {
     mask-image: var(--cmiVIDEO) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="category"]::before {
+.item_c1e9c4[id*="category"]::before {
     mask-image: var(--cmiFOLDER) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="opt-into"]::before {
+.item_c1e9c4[id*="opt-into"]::before {
     mask-image: var(--cmiADD) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="create"]::before {
+.item_c1e9c4[id*="create"]::before {
     mask-image: var(--cmiADD) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="create"][id*="event"]::before {
+.item_c1e9c4[id*="create"][id*="event"]::before {
     mask-image: var(--cmiEVENT) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="categories"]::before {
+.item_c1e9c4[id*="categories"]::before {
     mask-image: var(--cmiFOLDERS) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="favorite"]::before {
+.item_c1e9c4[id*="favorite"]::before {
     mask-image: var(--cmiFAVORITE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="add"][id*="friend"]::before {
+.item_c1e9c4[id*="add"][id*="friend"]::before {
     mask-image: var(--cmiADDUSER) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="add"][id*="friend"][id*="nickname"]::before {
+.item_c1e9c4[id*="add"][id*="friend"][id*="nickname"]::before {
     mask-image: var(--cmiEDIT) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="remove"][id*="friend"]::before {
+.item_c1e9c4[id*="remove"][id*="friend"]::before {
     mask-image: var(--cmiREMOVEUSER) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="ignore"][id*="user"]::before {
+.item_c1e9c4[id*="ignore"][id*="user"]::before {
     mask-image: var(--cmiIGNOREUSER) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="block"][id*="user"]::before {
+.item_c1e9c4[id*="block"][id*="user"]::before {
     mask-image: var(--cmiBLOCKUSER) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="role"]::before {
+.item_c1e9c4[id*="role"]::before {
     mask-image: var(--cmiFLAG) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="spotify"]::before {
+.item_c1e9c4[id*="spotify"]::before {
     mask-image: var(--cmiSPOTIFY) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="spotify"][id*="sync"]::before {
+.item_c1e9c4[id*="spotify"][id*="sync"]::before {
     mask-image: var(--cmiHEADPHONES) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="paste"]::before {
+.item_c1e9c4[id*="paste"]::before {
     mask-image: var(--cmiPASTE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="edit"]::before {
+.item_c1e9c4[id*="edit"]::before {
     mask-image: var(--cmiEDIT) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="archive"]::before {
+.item_c1e9c4[id*="archive"]::before {
     mask-image: var(--cmiCLOSE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="lock"]::before {
+.item_c1e9c4[id*="lock"]::before {
     mask-image: var(--cmiLOCK) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="leave"]::before {
+.item_c1e9c4[id*="leave"]::before {
     mask-image: var(--cmiLEAVE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="clone"]::before {
+.item_c1e9c4[id*="clone"]::before {
     mask-image: var(--cmiDUPLICATE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="settings"]::before {
+.item_c1e9c4[id*="settings"]::before {
     mask-image: var(--cmiSETTINGS) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="spell"]::before {
+.item_c1e9c4[id*="spell"]::before {
     mask-image: var(--cmiKEYBOARD) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild"][id*="premium"]::before {
+.item_c1e9c4[id*="guild"][id*="premium"]::before {
     mask-image: var(--cmiBOOST) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="mod-view"]::before {
+.item_c1e9c4[id*="mod-view"]::before {
     mask-image: var(--cmiMODVIEW) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="disconnect"]::before {
+.item_c1e9c4[id*="disconnect"]::before {
     mask-image: var(--cmiENDCALL) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="timeout"]::before {
+.item_c1e9c4[id*="timeout"]::before {
     mask-image: var(--cmiTIMEOUT) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="remove"]::before {
+.item_c1e9c4[id*="remove"]::before {
     mask-image: var(--cmiREMOVEUSER) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="kick"]::before {
+.item_c1e9c4[id*="kick"]::before {
     mask-image: var(--cmiREMOVEUSER) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="ban"]::before {
+.item_c1e9c4[id*="ban"]::before {
     mask-image: var(--cmiBAN) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="report"]::before {
+.item_c1e9c4[id*="report"]::before {
     mask-image: var(--cmiREPORT) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="automod"][id*="add"][id*="selection"]::before {
+.item_c1e9c4[id*="automod"][id*="add"][id*="selection"]::before {
     mask-image: var(--cmiFILTER) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="copy"]::before {
+.item_c1e9c4[id*="copy"]::before {
     mask-image: var(--cmiCOPY) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="copy"][id*="link"]::before {
+.item_c1e9c4[id*="copy"][id*="link"]::before {
     mask-image: var(--cmiLINK) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="copy"][id*="devmode"]::before {
+.item_c1e9c4[id*="copy"][id*="devmode"]::before {
     mask-image: var(--cmiID) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="voice"][id*="move"]::before {
+.item_c1e9c4[id*="voice"][id*="move"]::before {
     mask-image: var(--cmiCOMPASS) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="submit"]::before {
+.item_c1e9c4[id*="submit"]::before {
     mask-image: var(--cmiSEND) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="open"]::before {
+.item_c1e9c4[id*="open"]::before {
     mask-image: var(--cmiOPEN) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="avatar"]::before {
+.item_c1e9c4[id*="avatar"]::before {
     mask-image: var(--cmiIMAGE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="icon"]::before {
+.item_c1e9c4[id*="icon"]::before {
     mask-image: var(--cmiIMAGE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="banner"]::before {
+.item_c1e9c4[id*="banner"]::before {
     mask-image: var(--cmiIMAGE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="zoom"]::before {
+.item_c1e9c4[id*="zoom"]::before {
     mask-image: var(--cmiZOOM) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="search"]::before {
+.item_c1e9c4[id*="search"]::before {
     mask-image: var(--cmiSEARCH) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="status"]::before {
+.item_c1e9c4[id*="status"]::before {
     mask-image: var(--cmiEDIT) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="deafen"]::before {
+.item_c1e9c4[id*="deafen"]::before {
     mask-image: var(--cmiHEADPHONES) !important;
 }
 
@@ -474,192 +474,192 @@ div[id="audio-device-context-input-device-meter"] {
     mask-image: var(--cmiACTIVITY) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="input"][id*="device"]::before {
+.item_c1e9c4[id*="input"][id*="device"]::before {
     mask-image: var(--cmiVOLUME) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="input"][id*="profile"]::before {
+.item_c1e9c4[id*="input"][id*="profile"]::before {
     mask-image: var(--cmiPROFILE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="input"][id*="devices"]::before {
+.item_c1e9c4[id*="input"][id*="devices"]::before {
     mask-image: var(--cmiMIC) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="output"][id*="device"]::before {
+.item_c1e9c4[id*="output"][id*="device"]::before {
     mask-image: var(--cmiVOLUME) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="output"][id*="devices"]::before {
+.item_c1e9c4[id*="output"][id*="devices"]::before {
     mask-image: var(--cmiHEADPHONES) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="invite"][id*="friends"]::before {
+.item_c1e9c4[id*="invite"][id*="friends"]::before {
     mask-image: var(--cmiINVITE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="video"][id*="hide"]::before {
+.item_c1e9c4[id*="video"][id*="hide"]::before {
     mask-image: var(--cmiVIDEO) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="call"][id*="chat"]::before {
+.item_c1e9c4[id*="call"][id*="chat"]::before {
     mask-image: var(--cmiCHAT) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="open"][id*="chat"]::before {
+.item_c1e9c4[id*="open"][id*="chat"]::before {
     mask-image: var(--cmiCHAT) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="hide"][id*="names"]::before {
+.item_c1e9c4[id*="hide"][id*="names"]::before {
     mask-image: var(--cmiNAME);
 }
 
-.c1e9c47c23f12ca3-item[id*="vc"][id*="notifications"]::before {
+.item_c1e9c4[id*="vc"][id*="notifications"]::before {
     mask-image: var(--cmiLOG) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="vc"][id*="themes"]::before {
+.item_c1e9c4[id*="vc"][id*="themes"]::before {
     mask-image: var(--cmiTHEMES);
 }
 
-.c1e9c47c23f12ca3-item[id*="vc"][id*="plugins"]::before {
+.item_c1e9c4[id*="vc"][id*="plugins"]::before {
     mask-image: var(--cmiPLUGINS);
 }
 
-.c1e9c47c23f12ca3-item[id*="vc"][id*="BadgeAPI"]::before {
+.item_c1e9c4[id*="vc"][id*="BadgeAPI"]::before {
     mask-image: var(--cmiREFRESH);
 }
 
-.c1e9c47c23f12ca3-item[id*="help"]::before {
+.item_c1e9c4[id*="help"]::before {
     mask-image: var(--cmiHELP) !important;
 }
 
 /* Devtools */
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Experiments"]::before {
+.item_c1e9c4[id*="devtools"][id*="Experiments"]::before {
     mask-image: var(--cmiEXPERIMENTS);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Dismissible Content"]::before {
+.item_c1e9c4[id*="devtools"][id*="Dismissible Content"]::before {
     mask-image: var(--cmiCLOSE);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Events"]::before {
+.item_c1e9c4[id*="devtools"][id*="Events"]::before {
     mask-image: var(--cmiEVENT);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Premium"]::before {
+.item_c1e9c4[id*="devtools"][id*="Premium"]::before {
     mask-image: var(--cmiNITRO);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Quests"]::before {
+.item_c1e9c4[id*="devtools"][id*="Quests"]::before {
     mask-image: var(--cmiQUEST);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Billing"]::before {
+.item_c1e9c4[id*="devtools"][id*="Billing"]::before {
     mask-image: var(--cmiBILLING);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Users"]::before {
+.item_c1e9c4[id*="devtools"][id*="Users"]::before {
     mask-image: var(--cmiPROFILE);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="UI"]::before {
+.item_c1e9c4[id*="devtools"][id*="UI"]::before {
     mask-image: var(--cmiUI);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Games"]::before {
+.item_c1e9c4[id*="devtools"][id*="Games"]::before {
     mask-image: var(--cmiGAME);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Boosting"]::before {
+.item_c1e9c4[id*="devtools"][id*="Boosting"]::before {
     mask-image: var(--cmiBOOST);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Audio"]::before {
+.item_c1e9c4[id*="devtools"][id*="Audio"]::before {
     mask-image: var(--cmiMIC);
 }
 
-.c1e9c47c23f12ca3-item[id*="devtools"][id*="Development"]::before {
+.item_c1e9c4[id*="devtools"][id*="Development"]::before {
     mask-image: var(--cmiDEV);
 }
 
 /* guild settings */
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="PROFILE"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="PROFILE"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/profile.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="TAG"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="TAG"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/tag.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="ENGAGEMENT"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="ENGAGEMENT"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/chart.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="BOOST"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="BOOST"]::before {
     mask-image: var(--cmiBOOST) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="EMOJI"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="EMOJI"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/emoji.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="STICKERS"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="STICKERS"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/sticker.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="SOUNDBOARD"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="SOUNDBOARD"]::before {
     mask-image: var(--cmiSOUNDBOARD) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="MEMBERS"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="MEMBERS"]::before {
     mask-image: var(--cmiPEOPLE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="ROLES"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="ROLES"]::before {
     mask-image: var(--cmiREPORT) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="INVITES"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="INVITES"]::before {
     mask-image: var(--cmiINVITE) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="ACCESS"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="ACCESS"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/access.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="INTEGRATION"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="INTEGRATION"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/connections.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="APP_DIRECTORY"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="APP_DIRECTORY"]::before {
     mask-image: var(--cmiAPPS) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="MODERATION"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="MODERATION"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/shield.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="AUDIT_LOG"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="AUDIT_LOG"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/notebook.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="BANS"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="BANS"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/hammer.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="AUTOMOD"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="AUTOMOD"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/broom.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="COMMUNITY"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="COMMUNITY"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/community.svg") !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="GUILD_PREMIUM"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="GUILD_PREMIUM"]::before {
     mask-image: var(--cmiBOOST) !important;
 }
 
-.c1e9c47c23f12ca3-item[id*="guild-settings"][id*="GUILD_TEMPLATES"]::before {
+.item_c1e9c4[id*="guild-settings"][id*="GUILD_TEMPLATES"]::before {
     mask-image: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/wireframe.svg") !important;
 }
